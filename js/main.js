@@ -220,16 +220,17 @@ function mostrarInfo(opcion) {
 	console.log(opcion);
 	var texto = document.getElementById(opcion)
 	var valor2 = texto.childNodes[0].textContent;
-if (opcion == "opcion0_0") {
-	document.getElementById("contenedor").innerHTML = "<div class='text-center'><h3>"+valor2+"</h3><br><iframe width='560' height='315' src='https://www.youtube.com/embed/gn_SVvY68lE' frameborder='0' allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture' allowfullscreen></iframe></div>";
-} else {
-	if (opcion=="opcion2_0") {
+	switch (opcion) {
+		case "opcion0_0": 
+			document.getElementById("contenedor").innerHTML = "<div class='text-center'><h3>"+valor2+"</h3><br><iframe width='560' height='315' src='https://www.youtube.com/embed/gn_SVvY68lE' frameborder='0' allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture' allowfullscreen></iframe></div>";
+		break;
+		case "opcion2_0": 
 		document.getElementById("contenedor").innerHTML = "<div class='text-center'><video width='100%' height='100%' controls><source src='manuales/videos/video_educatico.mp4' type='video/mp4'>	Your browser does not support the video tag.</video></div>";
-	} else {
-		document.getElementById("contenedor").innerHTML = "<h3>Dió clic a " + opcion+" ("+valor2+")</h3>";	
-	}			
-	
-}	
+		break;
+		default:
+			document.getElementById("contenedor").innerHTML = "<h3>Dió clic a " + opcion+" ("+valor2+")</h3>";
+			break;
+	}	
 }
 
 function abre(cual,im,car){
