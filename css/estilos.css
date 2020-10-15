@@ -1,5 +1,17 @@
+#texto_ayuda{
+	font-family: 'Oswald', sans-serif;
+	font-size: 24px;
+	color:#3172A1;
+	margin-right: 10%;	
+}
+
+a{
+	font-family: 'Oswald', sans-serif;
+	font-size: 18px;
+}
+
 a.enls:link, a.enls:visited{
-color: #3366CC;
+color:#3172A1;
 text-decoration: none;
 }
 a.enls:hover{
@@ -44,14 +56,17 @@ background-color: #eeeeee;
 }
 /* Atenci�n, evitar alterar la clase .subMe */
 body {
-	background-color: #EDDBC9;
+	background-color: rgb(238, 243, 250);
 	font-family: verdana, tahoma, arial, sans serif;
 	font-size: 12px;
 }
 
+.container{
+	background-color: rgb(234, 234, 234);
+}
 div.inset {
-	border-style: inset;
-	background-color: #eccfb1;
+	/* border-style: inset; */
+	background-color: white;
 	height: 400px;
 	left: -6%;
 }
@@ -61,4 +76,8 @@ div.inset {
     border-left-style: none;
     border-right-style: none;
     border-bottom-style: none;
+}
+
+#contenedor{
+	background-color: white;
 }
