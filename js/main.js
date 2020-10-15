@@ -225,12 +225,60 @@ function mostrarInfo(opcion) {
 			document.getElementById("contenedor").innerHTML = "<div class='text-center'><h3>"+valor2+"</h3><br><iframe width='560' height='315' src='https://www.youtube.com/embed/gn_SVvY68lE' frameborder='0' allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture' allowfullscreen></iframe></div>";
 		break;
 		case "opcion2_0": 
-		document.getElementById("contenedor").innerHTML = "<div class='text-center'><video width='100%' height='100%' controls><source src='manuales/videos/video_educatico.mp4' type='video/mp4'>	Your browser does not support the video tag.</video></div>";
+		document.getElementById("contenedor").innerHTML = "<div class='text-center'><video width='90%' height='90%' controls><source src='manuales/videos/video_educatico.mp4' type='video/mp4'>	Your browser does not support the video tag.</video></div>";
+		break;
+		case "opcion2_1": 
+		document.getElementById("contenedor").innerHTML = "<div class='text-center'><video width='90%' height='90%' controls><source src='manuales/videos/video_coleccion.mp4' type='video/mp4'>	Your browser does not support the video tag.</video></div>";
+		break; 
+		case "opcion2_2": 
+			mostrarManuales();
 		break;
 		default:
 			document.getElementById("contenedor").innerHTML = "<h3>Dió clic a " + opcion+" ("+valor2+")</h3>";
 			break;
 	}	
+}
+
+function mostrarManuales() {
+  let manuales = ["<a href='manuales/software/Manual-AtubeCatcher.pdf' target='_blank'>Atube Catcher</a>", "<a href='manuales/software/Manual-Kahoot.pdf' target='_blank'>Kahoot</a>","<a href='manuales/software/Manual-Plickers.pdf' target='_blank'>Plickers</a>", "<a href='manuales/software/microsoft-teams-estudiantes.pdf' target='_blank'>Microsoft Teams</a>","<a href=''>Manual 5</a>", "<a href=''>Manual 6</a>","<a href=''>Manual 7</a>", "<a href=''>Manual 8</a>","<a href=''>Manual 9</a>", "<a href=''>Manual 10</a>","<a href=''>Manual 11</a>", "<a href=''>Manual 12</a>"];
+  console.log("Mostrar manuales");
+  var encabezado = "<div class='text-center'><h4>Manuales uso del software instalado en este equipo</h4></div>"
+  document.getElementById("contenedor").innerHTML=encabezado;
+  // Obtenemos la referencia del elemento body
+var body = document.getElementsByTagName("body")[0];
+// Creamos un elemento <table> y un elemento <tbody>
+var tabla = document.createElement("table");
+tabla.setAttribute('class', 'table borderless');
+var tblBody = document.createElement("tbody");
+// Creamos las celdas
+contador=0;
+for (var i = 0; i < 4; i++) {
+  // Creamos las hileras de la tabla
+  var fila = document.createElement("tr");
+  for (var j = 0; j < 3; j++) {
+    // Crea un elemento <td> y un nodo de texto, hace que el nodo de
+    // texto sea el contenido de <td>, ubica el elemento <td> al final
+    // de la hilera de la tabla
+	var celda = document.createElement("td");
+	var textoCelda = manuales[contador];
+	contador++;
+	console.log(textoCelda);
+    celda.innerHTML=textoCelda;
+    fila.appendChild(celda);
+  }
+// agregamos la hilera al final de la tabla (al final del elemento tblbody)
+tblBody.appendChild(fila);
+}
+// posicionamos el <tbody> debajo del elemento <table>
+tabla.appendChild(tblBody);
+// appends <table> into <body>
+body.appendChild(tabla);
+// modifica el atributo "border" de la tabla y lo fija a "2";
+tabla.setAttribute("border", 0);
+tabla.setAttribute("id", "tabla");
+var result = document.getElementById("contenedor");
+result.appendChild(tabla);
+  	
 }
 
 function abre(cual,im,car){
