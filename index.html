@@ -5,37 +5,111 @@
     <meta charset="UTF-8">
     <title>Ayuda del equipo - Estudiantes</title>
     <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
-        integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
     <link rel="stylesheet" href="css/estilos.css">
     <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@500&display=swap" rel="stylesheet">
-    <script src="js/main.js"></script>
+
 </head>
 
 <body>
     <div class="container">
-    <div class="text-center">
-        <img id="banner" src="assets/cabecera_menu_ayuda-03.jpg" alt="">
-    </div>
-    <div class="row">
-        <div class="col-5">
-           
+        <div class="text-center">
+            <img id="banner" src="assets/cabecera_menu_ayuda-03.jpg" alt="">
         </div>
-        <div class="col-7 text-right">
-            <h3 id="texto_ayuda">¿Acerca de que desea ayuda?</h3>
+        <div class="row">
+            <div class="col-5">
+
+            </div>
+            <div class="col-7 text-right">
+                <h3 id="texto_ayuda">¿Acerca de que desea ayuda?</h3>
+            </div>
         </div>
-    </div>
-    <div class="row">
-        <div class="col-4" id="tunMe"></div>
-        <div class="col-1"></div>
-        <div class="col-7 inset shadow p-3 mb-5 bg-white rounded" id="contenedor">
+        <div class="row">
+            <div class="col-4" id="tunMe">
+                <p id="titulo_columna">Manual del estudiante</p>
+
+                <div id="accordion">
+                    <div class="card">
+                      <div class="card-header">
+                        <a class="card-link" data-toggle="collapse" href="#collapseOne">
+                            <img style="margin-right: 5px; vertical-align: middle;"
+                            src="imasmenu/carpetas_img_menu_ayuda.png"> Ayuda técnica
+                        </a>
+                      </div>
+                      <div id="collapseOne" class="collapse" data-parent="#accordion">
+                        <div class="card-body">
+                            <div style="position: relative; padding-left: 0px;" class="botones" id="op_1">
+                                <div class="subMe" style="position: relative; display: block;">
+                                    <div class="botones conBorde" id="op_1_0"><a class="enls" id="opcion0_0"
+                                            style="cursor: pointer;">Problemas técnicos habituales y cómo atenderlos</a></div>
+                                    <div class="botones conBorde" id="op_1_1"><a class="enls" id="opcion0_1"
+                                            style="cursor: pointer;">Cuentas de usuario</a></div>
+                                    <div class="botones" id="op_1_2"><a class="enls" id="opcion0_2"
+                                            style="cursor: pointer;">Servicio técnico</a></div>
+                                </div>
+                            </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="card">
+                      <div class="card-header">
+                        <a class="collapsed card-link" data-toggle="collapse" href="#collapseTwo">
+                            <img style="margin-right: 5px; vertical-align: middle;"
+                            src="imasmenu/carpetas_img_menu_ayuda.png">Mantenimiento preventivo
+                      </a>
+                      </div>
+                      <div id="collapseTwo" class="collapse" data-parent="#accordion">
+                        <div class="card-body">
+                            <div class="subMe" style="position: relative; display: block;">
+                                <div class="botones conBorde" id="op_2_0"><a class="enls" id="opcion1_0"
+                                        style="cursor: pointer;">Actualización de antivirus</a></div>
+                                <div class="botones conBorde" id="op_2_1"><a class="enls" id="opcion1_1"
+                                        style="cursor: pointer;">Optimización de rendimiento</a></div>
+                                <div class="botones conBorde" id="op_2_2"><a class="enls" id="opcion1_2"
+                                        style="cursor: pointer;">Cuidados preventivos</a></div>
+                                <div class="botones" id="op_2_3"><a class="enls" id="opcion1_3"
+                                        style="cursor: pointer;">Actualizaciones generales</a></div>
+                            </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="card">
+                      <div class="card-header">
+                        <a class="collapsed card-link" data-toggle="collapse" href="#collapseThree">
+                            <img style="margin-right: 5px; vertical-align: middle;"
+                            src="imasmenu/carpetas_img_menu_ayuda.png"> Cómo aprovechar este equipo para estudiar y
+                            aprender
+                        </a>
+                      </div>
+                      <div id="collapseThree" class="collapse" data-parent="#accordion">
+                        <div class="card-body">
+                            <div class="subMe" style="position: relative; display: block;">
+                                <div class="botones conBorde" id="op_3_0"><a class="enls" id="opcion2_0"
+                                        style="cursor: pointer;">Educatico</a></div>
+                                <div class="botones conBorde" id="op_3_1"><a class="enls" id="opcion2_1"
+                                        style="cursor: pointer;">Colección de recursos</a></div>
+                                <div class="botones" id="op_3_2"><a class="enls" id="opcion2_2"
+                                        style="cursor: pointer;">Software instalado en el equipo</a></div>
+                            </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+            </div>
+            <div class="col-1"></div>
+            <div class="col-7 inset shadow p-3 mb-5 bg-white rounded" id="contenedor">
+            </div>
         </div>
+        <footer class="text-center">
+            <br>
+            <span id="texto-mep">- Ministerio de Educación Pública</span>
+            <br>
+        </footer>
     </div>
-    <footer>
-        <br>
-        <img id="pie" src="assets/pie_menu_principal.jpg" alt="">
-    </footer>        
-</div>
+    <script src="js/main.js"></script>
 </body>
 
 </html>
