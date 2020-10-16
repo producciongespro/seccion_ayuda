@@ -172,5 +172,12 @@ footer{
 }
 
 #texto-mep{
+	font-family: 'Oswald', sans-serif;
 	color: snow;
+	font-size: 2.5vh;
+	font-weight: lighter;
+}
+
+footer{
+	padding: 1%;
 }
