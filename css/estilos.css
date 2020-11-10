@@ -116,7 +116,7 @@ a.secac:hover{
 
 #titulo_columna{
 	font-family: 'Oswald', sans-serif;
-	font-size: 18px;
+	font-size: 22px;
 	color:#3172A1;
 	margin-left: 10%;
 }
@@ -181,4 +181,14 @@ footer{
 
 footer{
 	padding: 1%;
+}
+
+.card-link
+{
+	font-size: 20px;	
+}
+
+.enls
+{
+	font-size: 18px;	
 }
