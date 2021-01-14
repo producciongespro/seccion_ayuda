@@ -39,7 +39,7 @@ var divs = document.getElementsByClassName("enls");
 			document.getElementById("contenedor").innerHTML = "<div class='text-center'><video width='90%' height='90%' controls><source src='manuales/videos/video_coleccion.mp4' type='video/mp4'>	Your browser does not support the video tag.</video></div>";
 			break; 
 			case "opcion2_2": 
-				mostrarManuales();
+				renderManualesApps();
 			break;
 			default:
 				document.getElementById("contenedor").innerHTML = "<h3>Dió clic a " + opcion+" ("+valor2+")</h3>";
@@ -87,4 +87,16 @@ var divs = document.getElementsByClassName("enls");
 	var result = document.getElementById("contenedor");
 	result.appendChild(tabla);
 		  
+	}
+
+
+	const renderManualesApps=()=> {
+		const contenedor= document.getElementById("contenedor");
+		console.log("contenedor", contenedor);
+		console.log("manuales",aplicativos);
+		var tarjetas;
+		tarjetas=  tarjeta("Prueba 1") +"<br>"+ tarjeta("Prueba 2");
+		
+		contenedor.innerHTML= tarjetas;
+
 	}
