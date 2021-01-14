@@ -91,11 +91,17 @@ var divs = document.getElementsByClassName("enls");
 
 
 	const renderManualesApps=()=> {
-		const contenedor= document.getElementById("contenedor");
+		const limite= 5;
+		const contenedor= document.getElementById("contenedor");		
 		console.log("contenedor", contenedor);
 		console.log("manuales",aplicativos);
-		var tarjetas;
-		tarjetas=  tarjeta("Prueba 1") +"<br>"+ tarjeta("Prueba 2");
+		var alertas;
+		alertas=  alerta1("Prueba 1") +"<br>"+ alerta1("Prueba 2") + alerta1("Prueba 3");
+
+		for (let index = 0; index < limite; index++) {
+			
+			
+		}
 		
 		contenedor.innerHTML= tarjetas;
 
