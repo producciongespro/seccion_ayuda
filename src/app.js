@@ -16,7 +16,7 @@ function App() {
   //efecto seleccion
   useEffect(()=>{
     seleccion && (
-      setVisor(  <OpcionesSoftware seleccion={seleccion} />  )
+      setVisor(  <OpcionesSoftware seleccion={seleccion} handleSeleccionarManual={handleSeleccionarManual} />  )
     ) 
   },[seleccion])
 
@@ -49,6 +49,13 @@ function App() {
     console.log(tmpData);
     setSelecion(tmpData);
     
+  }
+
+  const handleSeleccionarManual=(e)=> {
+    let item= e.target;
+    let url= e.target.dataset.url;
+    let formato= e.target.dataset.formato;
+    console.log(url, "----------", formato);
   }
 
   return (

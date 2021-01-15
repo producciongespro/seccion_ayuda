@@ -5,12 +5,12 @@
             {
                 "formato": "pdf",
                 "nombre": "Introduccion",
-                "url": "intro-atubecatcher"
+                "url": "atubecatcher/atubecatcherintro-atubecatcher.pdf"
             },
             {
                 "formato": "pdf",
                 "nombre": "Ejemplos",
-                "url": "ejemplos-atubecatcher"
+                "url": "atubecatcher/ejemplos-atubecatcher.pdf"
             }
         ]
     },
@@ -20,7 +20,12 @@
             {
                 "formato": "pdf",
                 "nombre": "¿Qué es plickers?",
-                "url": "intro-plickers"
+                "url": "plikers/intro-plickers.pdf"
+            },
+            {
+                "formato": "mp4",
+                "nombre": "Ideas con Plickers",
+                "url": "ideas-plickers.mp4"
             }
           
         ]
