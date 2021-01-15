@@ -183,12 +183,27 @@ footer{
 	padding: 1%;
 }
 
-.card-link
+.card-link-1
 {
-	font-size: 20px;	
+	font-family: 'Oswald', sans-serif;
+	font-size: 20px;
+	font-weight: 100;
+	color: #3172a8;	
+}
+
+.card-link-2
+{
+	font-family: 'Oswald', sans-serif;
+	font-size: 14px;
+	font-weight: 60;
+	color: #3172a8;	
 }
 
 .enls
 {
 	font-size: 18px;	
+}
+
+.text-2 {
+	font-size: 1.5em;
 }
