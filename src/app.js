@@ -64,8 +64,11 @@ function App() {
     setIsSoftware(false);
   }
 
+ 
+
+
   return (
-    <div className="contenido">
+    <div className="contenido">  
       <Encabezado />
       <div className="row">
         <div className="col-4">
