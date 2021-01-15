@@ -1,7 +1,20 @@
+import React from 'react';
 export default function TarjetasSoftware (props) {
 
     console.log(props.array);
     return (
+        
+<React.Fragment>
+    <div className="row">
+        <div className="col-12 text-center">
+        <span         
+            onClick={props.handleInicio}
+            role="button"
+            >Volver a inicio
+        </span>
+        </div>
+    </div>
+    <hr/>
         <div className="row">
             {  
             props.array.map((item,i)=>(
@@ -18,5 +31,6 @@ export default function TarjetasSoftware (props) {
             ))
             }
         </div>
+    </React.Fragment>
     )     
 }

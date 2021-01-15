@@ -3,6 +3,7 @@ import Encabezado from './componentes/Encabezado';
 import Menu from './componentes/Menu';
 import TarjetasSoftware from './componentes/TarjetasSoftware';
 import OpcionesSoftware from './componentes/OpcionesSoftware';
+import ContenedorDeManual from './componentes/ContenedorDeManual';
 
 import manuales from './data/manuales.json';
 
@@ -56,6 +57,11 @@ function App() {
     let url= e.target.dataset.url;
     let formato= e.target.dataset.formato;
     console.log(url, "----------", formato);
+    setVisor( <ContenedorDeManual formato={formato} url={url} />  )
+  }
+
+  const handleInicio=(e)=> {
+    setIsSoftware(false);
   }
 
   return (
@@ -67,7 +73,7 @@ function App() {
             !isSoftware ?
               <Menu handleMostrarGeneral={handleMostrarGeneral} />
             :
-              <TarjetasSoftware handleMostrarSoftware={handleMostrarSoftware} array={manuales} />
+              <TarjetasSoftware handleMostrarSoftware={handleMostrarSoftware} array={manuales} handleInicio={handleInicio} />
           }          
         </div>
         <div className="col-8">            
