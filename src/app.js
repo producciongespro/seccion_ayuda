@@ -1,9 +1,12 @@
-const doble=(num)=> {
-    return num * 2;
+import React from 'react';
+import Encabezado from './componentes/Encabezado';
+
+function App() {
+  return (
+    <React.Fragment>
+        <Encabezado />
+    </React.Fragment>
+  );
 }
 
-const mitad=(num)=> {
-    return num / 2;
-}
-
-module.exports= {doble, mitad }
+export default App;

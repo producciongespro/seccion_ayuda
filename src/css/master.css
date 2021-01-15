@@ -1,0 +1,194 @@
+#accordion {
+margin-left: 9%;
+  }
+ .collapse, .collapsing{
+	background-color: #e9e9e9;
+	border: none;
+	padding-left: 4vh;
+ }
+
+.opciones1{
+color:#3172A1;
+text-decoration: none;	
+font-family: 'Oswald', sans-serif;
+font-size: 18px;
+font-weight: 500; 
+color:#3172A1;
+}
+
+.card{
+	background-color: rgb(219, 219, 219);
+	border: none;
+}
+  
+  .active, .accordion:hover {
+	background-color: #ccc;
+  }
+  
+  .panel {
+	padding: 0 18px;
+	/* background-color: white; */
+	max-height: 0;
+	overflow: hidden;
+	transition: max-height 0.2s ease-out;
+  }
+
+  .conBorde{
+	  border-bottom-style: dotted;
+	  border-bottom-width: thin;
+	  border-bottom-color: #3172A1;
+  }
+
+#texto_ayuda{
+	font-family: 'Oswald', sans-serif;
+	font-size: 26px;
+	color:#3172A1;
+	margin-right: 10%;	
+}
+
+a{
+	font-family: 'Oswald', sans-serif;
+	font-size: 16px;
+	font-weight: 100; 
+	color: #3172a8;
+}
+
+a.enls:link, a.enls:visited{
+text-decoration: none;
+
+}
+
+.enls{
+	color:#3172A1;
+/* margin-left: 3vw; */
+}
+
+.enls2{
+	font-size: 14px;
+	/* border-bottom-style: dotted;
+	border-bottom: thin;
+	border-color: #3172A1; */
+	text-decoration: none;
+	margin-left: 3vw;
+	}
+
+a.enls:hover{
+color: #CC0000;
+/* background-color: #eeeeee; */
+}
+a.secac2{
+	color: #B87070;
+	text-decoration: none;
+}
+a.secac{
+	color: #FFFFFF;
+	text-decoration: none;
+	background-color: #CC0000;
+}
+a.secac:hover{
+	color: #B87070;
+	text-decoration: none;
+	background-color: #ffffff;
+}
+.botones2 {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 22px;
+	font-weight: bold;
+	color: #3366CC;
+	margin: 0;
+	padding-left: 18px;
+	text-decoration: none;
+	text-align: left;
+}
+.col-10{
+	padding-right: 0px;
+	padding-left: 0px;
+}
+
+.medio{
+	margin-top: 5%;
+}
+
+#contenido{
+	background-color: #eaeaea;
+
+}
+
+#titulo_columna{
+	font-family: 'Oswald', sans-serif;
+	font-size: 26px;
+	color:#3172A1;
+	margin-left: 10%;
+}
+.contenedores{
+	background-color: rgba(255, 255, 255, 0.5);
+}
+.botonesHover {
+text-decoration: none;
+color: #CC0000;
+background-color: #eeeeee;
+}
+/* Atenci�n, evitar alterar la clase .subMe */
+.subMe{
+	display: none;
+	margin: 0;
+	/* background-image: url(../imasmenu/puntosvt.gif); */
+	background-repeat:  repeat-y;
+}
+/* Atenci�n, evitar alterar la clase .subMe */
+body {
+	background-color: rgb(238, 243, 250);
+	font-family: verdana, tahoma, arial, sans serif;
+	font-size: 12px;
+}
+
+.container{
+	background-color: rgb(234, 234, 234);
+}
+div.inset {
+	/* border-style: inset; */
+	background-color: white;
+	height: 400px;
+	left: -6%;
+}
+
+.borderless table {
+    border-top-style: none;
+    border-left-style: none;
+    border-right-style: none;
+    border-bottom-style: none;
+}
+
+#contenedor{
+	background-color: white;
+}
+
+#banner, #pie{
+ width: 100%;
+}
+
+footer{
+	background-image: url("./bg/pie_menu_principal.jpg");
+}
+
+#texto-mep{
+	font-family: 'Oswald', sans-serif;
+	color: snow;
+	font-size: 2.5vh;
+	font-weight: lighter; 
+
+}
+
+footer{
+	padding: 1%;
+}
+
+.card-link
+{
+	font-size: 20px;	
+}
+
+.enls
+{
+	font-size: 18px;	
+}
