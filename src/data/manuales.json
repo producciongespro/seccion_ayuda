@@ -11,6 +11,11 @@
                 "formato": "pdf",
                 "nombre": "Ejemplos",
                 "url": "atubecatcher/ejemplos-atubecatcher.pdf"
+            },
+            {
+                "formato": "mp4",
+                "nombre": "Video test",
+                "url": "atubecatcher/video-test.mp4"
             }
         ]
     },

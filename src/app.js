@@ -52,12 +52,12 @@ function App() {
     
   }
 
-  const handleSeleccionarManual=(e)=> {
-    let item= e.target;
+  const handleSeleccionarManual=(e)=> {    
     let url= e.target.dataset.url;
     let formato= e.target.dataset.formato;
-    console.log(url, "----------", formato);
-    setVisor( <ContenedorDeManual formato={formato} url={url} nombre={seleccion.nombre}  handleVolverOpcionesSoftware={handleVolverOpcionesSoftware} />  )
+    let nombreManual= e.target.dataset.nombre;
+    console.log(nombreManual);
+    setVisor( <ContenedorDeManual formato={formato} url={url} nombreSoftwre={seleccion.nombre} nombreManual={nombreManual} handleVolverOpcionesSoftware={handleVolverOpcionesSoftware} />  )
   }
 
 

@@ -41,6 +41,7 @@ console.log(props.seleccion);
                                     role="button"
                                     data-formato={item.formato}
                                     data-url={item.url}
+                                    data-nombre={item.nombre} 
                                     onClick={props.handleSeleccionarManual}
                                     > 
                                         {iconoFormato(item.formato)} {item.nombre} 
