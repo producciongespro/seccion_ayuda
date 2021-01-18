@@ -5,7 +5,7 @@
             {
                 "formato": "pdf",
                 "nombre": "Introduccion",
-                "url": "atubecatcher/atubecatcherintro-atubecatcher.pdf"
+                "url": "atubecatcher/intro-atubecatcher.pdf"
             },
             {
                 "formato": "pdf",
@@ -24,13 +24,13 @@
         "manuales": [
             {
                 "formato": "pdf",
-                "nombre": "¿Qué es plickers?",
-                "url": "plikers/intro-plickers.pdf"
+                "nombre": "Manual de Plikers",
+                "url": "plikers/manual-plikers.pdf"
             },
             {
                 "formato": "mp4",
                 "nombre": "Ideas con Plickers",
-                "url": "ideas-plickers.mp4"
+                "url": "plikers/ejemplo.mp4"
             }
           
         ]

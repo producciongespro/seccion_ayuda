@@ -3,17 +3,26 @@ export default function ContenedorDeManual(props) {
 
 
     const renderManual=(formato, url)=> {
-        let tmpHtml;
+        let tmpHtml;        
+        const urlRecurso="./manuales/aplicativos/" + url;
+        //console.log("urlRecurso",urlRecurso);
 
         switch (formato) {
             case "pdf":
                 tmpHtml= (
-                <span> pdf </span>
+                    <iframe 
+                        className="control-2"
+                        src={urlRecurso} />
                 )
             break;
             case "mp4":
                 tmpHtml= (
-                        <video src={"./manuales/aplicativos/" + url} controls autoPlay ></video>
+                        <video 
+                        className="control-1"
+                         src={urlRecurso} 
+                         controls={true} 
+                         autoPlay={true} >                             
+                         </video>
                 )
             break;
         

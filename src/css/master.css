@@ -216,3 +216,13 @@ footer{
 	height: 1.5em;
 	width: auto;
 }
+
+.control-1 {	
+	width: 100%;
+	height: auto;
+}
+
+.control-2 {	
+	width: 100%;
+	height: 40em;
+}
