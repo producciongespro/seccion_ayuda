@@ -10,7 +10,10 @@ export default function TarjetasSoftware (props) {
         <span         
             onClick={props.handleInicio}
             role="button"
-            >Volver a inicio
+            >  <img 
+                className="ico-1" 
+                src="./assets/png/home.png" 
+                alt="home" />  Volver a inicio
         </span>
         </div>
     </div>
