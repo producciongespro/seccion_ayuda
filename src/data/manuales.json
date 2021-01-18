@@ -19,6 +19,7 @@
             }
         ]
     },
+
     {        
         "nombre": "Plikers",
         "manuales": [
@@ -34,5 +35,18 @@
             }
           
         ]
+    },
+
+    {        
+        "nombre": "Kahoot",
+        "manuales": [
+            {
+                "formato": "pdf",
+                "nombre": "Manual de Kahoot",
+                "url": "kahoot/manual-kahoot.pdf"
+            }          
+        ]
     }
+
+
 ]
