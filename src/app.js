@@ -47,7 +47,7 @@ function App() {
     let indice = parseInt(e.target.id);
     console.log("opcion sub",indice);
     let tmpData = manuales[indice];
-    console.log(tmpData);
+    console.log("Seleccion --->",tmpData);
     setSelecion(tmpData);
     
   }
@@ -57,7 +57,14 @@ function App() {
     let url= e.target.dataset.url;
     let formato= e.target.dataset.formato;
     console.log(url, "----------", formato);
-    setVisor( <ContenedorDeManual formato={formato} url={url} />  )
+    setVisor( <ContenedorDeManual formato={formato} url={url} nombre={seleccion.nombre}  handleVolverOpcionesSoftware={handleVolverOpcionesSoftware} />  )
+  }
+
+
+  const handleVolverOpcionesSoftware=()=> {
+    seleccion && (
+      setVisor(  <OpcionesSoftware seleccion={seleccion} handleSeleccionarManual={handleSeleccionarManual} />  )
+    )
   }
 
   const handleInicio=(e)=> {
