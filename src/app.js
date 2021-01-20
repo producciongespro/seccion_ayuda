@@ -35,8 +35,8 @@ function App() {
         tmpVisor= <h1>Problemas técnicos</h1>        
       break;
       case "software":
-       // setIsSoftware(true); 
-       tmpVisor= <Tarjetas handleMostrarSoftware={handleMostrarSoftware} array={manuales} handleInicio={handleInicio} />       
+        setIsSoftware(true); 
+        //tmpVisor= <Tarjetas handleMostrarSoftware={handleMostrarSoftware} array={manuales} handleInicio={handleInicio} />       
       break;
     
       default:
