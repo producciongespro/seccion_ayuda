@@ -24,11 +24,14 @@ export default function Tarjetas(props) {
                         <div className="col-6" key={"tarjeta" + i} >                         
 
                             <div 
-                                className="card mb-2">
-                                <img src="./assets/previas/previa.jpg" className="card-img-top" alt="previa" />
+                                className="card mb-3">
+                                <img
+                                    className="card-img-top" 
+                                    src={ "./manuales/aplicativos/" + item.urlImagen}  
+                                    alt={"imagen previa de" + item.nombre} />
                                 <div className="card-body ">
                                     <h5 className="card-title">{item.nombre}</h5>
-                                    <p className="card-text">Esta es una pequeña descripción.</p>
+                                    <p className="card-text"> {item.descripcion} </p>
                                         <span
                                             className="btn btn-outline-info btn-block"
                                             id={i}

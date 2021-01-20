@@ -1,8 +1,8 @@
 [
     {        
         "nombre": "aTubeCatcher",
-		"descripcion": "",
-		"urlImagen": " " 
+		"descripcion": "Entra al mundo de los videos: captura la pantalla para tutoriales y descarga videos de Youtube",
+		"urlImagen": "atubecatcher/previa-atube.jpg", 
         "manuales": [
             {
                 "formato": "pdf",
@@ -29,6 +29,8 @@
 
     {        
         "nombre": "Plikers",
+        "descripcion": "Dinamiza los Qr de forma entretenida para crear compoetencias.",
+		"urlImagen": "plikers/previa-plikers.png", 
         "manuales": [
             {
                 "formato": "pdf",
@@ -46,6 +48,8 @@
 
     {        
         "nombre": "Kahoot",
+        "descripcion": "Crea campeonatos de conocimiento con solo usar tu celular",
+		"urlImagen": "kahoot/previa-kahoot.png", 
         "manuales": [
             {
                 "formato": "pdf",
@@ -57,6 +61,8 @@
 	
 	{        
         "nombre": "Geogebra",
+        "descripcion": "Accede al mundo de la matemática de forma práctica y entretenida.",
+		"urlImagen": "geogebra/previa-generica.jpg", 
         "manuales": [
             {
                 "formato": "pdf",
