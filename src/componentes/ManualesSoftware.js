@@ -1,6 +1,6 @@
 import React from 'react';
 
-export default function OpcionesSoftware (props) {
+export default function ManualesSoftware (props) {
 
 
     const iconoFormato=(tipo)=> {
@@ -26,6 +26,16 @@ console.log(props.seleccion);
     return (
         <React.Fragment>
             <div className="row">
+                <div className="col-12">
+                    <span
+                        onClick={props.handleMostrarTarjetasSoftware}
+                        role="button">
+                             <img className="ico-1" src="./assets/png/volver.png" alt="Volver" /> &nbsp;
+                             <span   className="badge badge-info text-1 " > Volver a galería de software </span>
+                    </span>
+                </div>
+            </div>
+            <div className="row">
             <div className="col-12">
                 <h2>{  props.seleccion.nombre } </h2>
             </div>
@@ -41,7 +51,7 @@ console.log(props.seleccion);
                                     role="button"
                                     data-formato={item.formato}
                                     data-url={item.url}
-                                    data-nombre={item.nombre} 
+                                    data-nombremanual={item.nombre} 
                                     onClick={props.handleSeleccionarManual}
                                     > 
                                         {iconoFormato(item.formato)} {item.nombre} 

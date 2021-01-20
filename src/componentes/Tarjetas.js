@@ -6,15 +6,8 @@ export default function Tarjetas(props) {
 
         <React.Fragment>
             <div className="row">
-                <div className="col-12 text-center">
-                    <span
-                        onClick={props.handleInicio}
-                        role="button"
-                    >  <img
-                            className="ico-1"
-                            src="./assets/png/home.png"
-                            alt="home" />  Volver a inicio TARJETAS
-        </span>
+                <div className="col-12 text-center">                    
+                    <h4>Galería Software</h4>
                 </div>
             </div>
             <hr />
@@ -35,7 +28,7 @@ export default function Tarjetas(props) {
                                         <span
                                             className="btn btn-outline-info btn-block"
                                             id={i}
-                                            onClick={props.handleMostrarSoftware}
+                                            onClick={props.handleMostrarListaManuales}
                                             role="button"
                                         >
                                             Ver detalles <img className="ico-1" src="./assets/svg/ojo.svg" alt="ver" />

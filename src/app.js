@@ -1,94 +1,75 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState } from 'react';
 import Encabezado from './componentes/Encabezado';
 import Menu from './componentes/Menu';
-import TarjetasSoftware from './componentes/TarjetasSoftware';
-import OpcionesSoftware from './componentes/OpcionesSoftware';
+import ManualesSoftware from './componentes/ManualesSoftware';
 import ContenedorDeManual from './componentes/ContenedorDeManual';
 import Tarjetas from './componentes/Tarjetas';
 
 import manuales from './data/manuales.json';
 
+//Objeto con la información de la seleccion del usuario
+var seleccion=null;
+
 function App() {
   //Alamacena el componente seleccionado por el usuario y lo renderiza en el contenedor principal
   const [visor, setVisor]= useState(null);
-  //Objeto con la información de la seleccion del usuario
-  const [seleccion, setSelecion]=useState(null);
-  const [isSoftware, setIsSoftware]=useState(false);
-
   
-  
-  //efecto seleccion
-  useEffect(()=>{
-    seleccion && (
-      setVisor(  <OpcionesSoftware seleccion={seleccion} handleSeleccionarManual={handleSeleccionarManual} />  )
-    ) 
-  },[seleccion])
-
 
   const handleMostrarGeneral=(e)=> {
-    let opcion= e.target.dataset.tar;
-    let tmpVisor=null;
+    let opcion= e.target.dataset.tar;    
     console.log("opcion",opcion);
 
     switch (opcion) {
       case "problemas":
-        tmpVisor= <h1>Problemas técnicos</h1>        
+       console.log("Problemas técnicos");     
       break;
-      case "software":
-        //setIsSoftware(true); 
-        tmpVisor= <Tarjetas handleMostrarSoftware={handleMostrarSoftware} array={manuales} handleInicio={handleInicio} />       
+      case "software":        
+        handleMostrarTarjetasSoftware();
       break;
     
       default:
-        tmpVisor= <h1>Fuera de rango</h1>     
+        console.log("Opcion fuera de rango");
         break;
     }
 
-    setVisor(tmpVisor);
-  }
-
-  const handleMostrarSoftware=(e)=> {
-    let indice = parseInt(e.target.id);
-    console.log("opcion sub",indice);
-    let tmpData = manuales[indice];
-    console.log("Seleccion --->",tmpData);
-    setSelecion(tmpData);
     
   }
 
+  const handleMostrarTarjetasSoftware=()=> {
+    setVisor ( <Tarjetas handleMostrarListaManuales={handleMostrarListaManuales} array={manuales}  />  )
+  }
+  
+  
+  const handleMostrarListaManuales=(e)=> { 
+     let item= e.currentTarget.id;
+     if (item) {
+       //si item es válido es poruqe se selecciona de la tarjeta
+       //y se genera una nueva seleccion
+      let indice = parseInt(e.currentTarget.id);
+      console.log("opcion sub",indice);
+      seleccion = manuales[indice];
+      console.log("Seleccion --->",seleccion);
+     }
+     //Caso contrario es porque el handler viene del contenedor manual y se mantiene la sescción actual   
+    setVisor(  <ManualesSoftware seleccion={seleccion} handleSeleccionarManual={handleSeleccionarManual} handleMostrarTarjetasSoftware={handleMostrarTarjetasSoftware} />  )   
+  }
+
   const handleSeleccionarManual=(e)=> {    
-    let url= e.target.dataset.url;
-    let formato= e.target.dataset.formato;
-    let nombreManual= e.target.dataset.nombre;
-    console.log(nombreManual);
-    setVisor( <ContenedorDeManual formato={formato} url={url} nombreSoftwre={seleccion.nombre} nombreManual={nombreManual} handleVolverOpcionesSoftware={handleVolverOpcionesSoftware} />  )
+    let item= e.target;
+    let url= item.dataset.url;
+    let formato= item.dataset.formato;
+    let nombreManual= item.dataset.nombremanual;
+    //console.log(nombreManual);    
+    setVisor( <ContenedorDeManual formato={formato} url={url} nombreSoftwre={seleccion.nombre} nombreManual={nombreManual} handleMostrarListaManuales={handleMostrarListaManuales} />  )
   }
-
-
-  const handleVolverOpcionesSoftware=()=> {
-    seleccion && (
-      setVisor(  <OpcionesSoftware seleccion={seleccion} handleSeleccionarManual={handleSeleccionarManual} />  )
-    )
-  }
-
-  const handleInicio=(e)=> {
-    setIsSoftware(false);
-  }
-
- 
 
 
   return (
     <div className="contenido">  
       <Encabezado />
       <div className="row">
-        <div className="col-4">
-          {
-            !isSoftware ?
+        <div className="col-4">         
               <Menu handleMostrarGeneral={handleMostrarGeneral} />
-            :
-              <TarjetasSoftware handleMostrarSoftware={handleMostrarSoftware} array={manuales} handleInicio={handleInicio} />
-          }          
         </div>
         <div className="col-8">            
               {

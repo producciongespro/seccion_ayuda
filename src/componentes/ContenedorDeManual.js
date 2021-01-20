@@ -37,7 +37,7 @@ export default function ContenedorDeManual(props) {
             <div className="row">
                 <div
                     className="col-12"
-                    onClick={props.handleVolverOpcionesSoftware}
+                    onClick={props.handleMostrarListaManuales}
                     role="button"                  
                 >
                     <img className="ico-1" src="./assets/png/volver.png" alt="Volver" /> &nbsp;
