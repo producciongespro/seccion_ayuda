@@ -4,11 +4,14 @@ import Menu from './componentes/Menu';
 import TarjetasSoftware from './componentes/TarjetasSoftware';
 import OpcionesSoftware from './componentes/OpcionesSoftware';
 import ContenedorDeManual from './componentes/ContenedorDeManual';
+import Tarjetas from './componentes/Tarjetas';
 
 import manuales from './data/manuales.json';
 
 function App() {
+  //Alamacena el componente seleccionado por el usuario y lo renderiza en el contenedor principal
   const [visor, setVisor]= useState(null);
+  //Objeto con la información de la seleccion del usuario
   const [seleccion, setSelecion]=useState(null);
   const [isSoftware, setIsSoftware]=useState(false);
 
@@ -32,7 +35,8 @@ function App() {
         tmpVisor= <h1>Problemas técnicos</h1>        
       break;
       case "software":
-        setIsSoftware(true);        
+       // setIsSoftware(true); 
+       tmpVisor= <Tarjetas handleMostrarSoftware={handleMostrarSoftware} array={manuales} handleInicio={handleInicio} />       
       break;
     
       default:
