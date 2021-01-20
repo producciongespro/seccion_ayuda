@@ -1,6 +1,8 @@
 [
     {        
         "nombre": "aTubeCatcher",
+		"descripcion": "",
+		"urlImagen": " " 
         "manuales": [
             {
                 "formato": "pdf",
@@ -9,13 +11,18 @@
             },
             {
                 "formato": "pdf",
-                "nombre": "Ejemplos",
+                "nombre": "Ejemplos bonitos para atubecatcher",
                 "url": "atubecatcher/ejemplos-atubecatcher.pdf"
             },
             {
                 "formato": "mp4",
-                "nombre": "Video test",
+                "nombre": "Ideas creativas para atube",
                 "url": "atubecatcher/video-test.mp4"
+            },
+			 {
+                "formato": "pdf",
+                "nombre": "Fechas de activación de la herramienta",
+                "url": "atubecatcher/calendario-1.pdf"
             }
         ]
     },
@@ -44,6 +51,17 @@
                 "formato": "pdf",
                 "nombre": "Manual de Kahoot",
                 "url": "kahoot/manual-kahoot.pdf"
+            }          
+        ]
+    },
+	
+	{        
+        "nombre": "Geogebra",
+        "manuales": [
+            {
+                "formato": "pdf",
+                "nombre": "Introducción a Geogebra",
+                "url": "geogebra/intro.pdf"
             }          
         ]
     }
