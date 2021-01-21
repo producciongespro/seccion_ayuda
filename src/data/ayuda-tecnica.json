@@ -1,0 +1,38 @@
+[
+    {
+        "clave": "problemas",
+        "nombre": "Problemas técnicos habituales y cómo atenderlos",
+        "descripcion": "Para que no le de por mandar el tarro al carajo",
+        "manuales": [
+            {
+                "formato": "pdf",
+                "nombre": "Este tarro no enciende",                                   
+                "url": "ayuda-tecnica/lorem.pdf"                
+            }
+        ]
+    },
+    {
+        "clave": "cuentas",
+        "nombre": "Cuentas de usuario",
+        "descripcion": "Pa que pueda entrar",
+        "manuales": [
+            {
+                "formato": "pdf",
+                "nombre": "Los diferentes usuarios de la compu",                                   
+                "url": "ayuda-tecnica/lorem.pdf"                                
+            }
+        ]
+    },
+    {
+        "clave": "servicio",
+        "nombre": "Servicio Técnico",
+        "descripcion": "A ver si los de soporte le ayudan",
+        "manuales": [
+            {
+                "formato": "pdf",
+                "nombre": "Boleta para llamar",                                   
+                "url": "ayuda-tecnica/lorem.pdf"                             
+            }
+        ]
+    }
+]

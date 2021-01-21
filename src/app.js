@@ -9,6 +9,7 @@ import filtrarKey from './_complementos/filtrar-key';
 
 import manuales from './data/manuales.json';
 import preventivo from './data/preventivo.json';
+import ayudaTecnica from './data/ayuda-tecnica.json';
 
 //Objeto con la información de la seleccion del usuario
 var seleccion=null;
@@ -24,12 +25,15 @@ function App() {
 
     switch (opcion) {
       case "problemas":
-       console.log("Problemas técnicos");     
+      case "cuentas":
+      case "servicio":      
+       console.log(">>> categoria: Ayuda técncia");    
+       mostrarManualesGenericos("ayudaTecnica", opcion)   
       break;
       case "rendimiento":
       case "antivirus":
       case "preventivos":   
-       console.log("RAP");  
+       console.log(">>> categoria: preventivo");  
        mostrarManualesGenericos("preventivo", opcion)   
       break;
 
@@ -51,8 +55,9 @@ function App() {
     if (categoria=== "preventivo") {
       tmpArray= preventivo;
     }
-    if (categoria=== "ayuda") {
-      console.log("ayuda");
+    if (categoria=== "ayudaTecnica") {
+      console.log("ayudaTecnica");
+      tmpArray= ayudaTecnica;
     }
     seleccion = filtrarKey(tmpArray, "clave", opcion, "mostrarManualesGenericos")[0];
     console.log("seleccion",seleccion);
