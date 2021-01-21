@@ -7,7 +7,7 @@ import Tarjetas from './componentes/Tarjetas';
 
 import filtrarKey from './_complementos/filtrar-key';
 
-import manuales from './data/manuales.json';
+import aplicativos from './data/aplicativos.json';
 import preventivo from './data/preventivo.json';
 import ayudaTecnica from './data/ayuda-tecnica.json';
 
@@ -70,7 +70,7 @@ function App() {
 
 
   const handleMostrarTarjetasSoftware=()=> {
-    setVisor ( <Tarjetas handleMostrarListaManuales={handleMostrarListaManuales} array={manuales}  />  )
+    setVisor ( <Tarjetas handleMostrarListaManuales={handleMostrarListaManuales} array={aplicativos}  />  )
   }
 
    
@@ -82,7 +82,7 @@ function App() {
        //y se genera una nueva seleccion
       let indice = parseInt(e.currentTarget.id);
       console.log("opcion sub",indice);
-      seleccion = manuales[indice];
+      seleccion = aplicativos[indice];
       console.log("Seleccion --->",seleccion);
      }
      //Caso contrario es porque el handler viene del contenedor manual y se mantiene la sescción actual   

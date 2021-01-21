@@ -20,7 +20,7 @@ export default function Tarjetas(props) {
                                 className="card mb-3">
                                 <img
                                     className="card-img-top" 
-                                    src={ "./manuales/aplicativos/" + item.urlImagen}  
+                                    src={ "./manuales/" + item.urlImagen}  
                                     alt={"imagen previa de" + item.nombre} />
                                 <div className="card-body ">
                                     <h5 className="card-title">{item.nombre}</h5>

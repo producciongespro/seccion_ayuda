@@ -2,27 +2,27 @@
     {        
         "nombre": "aTubeCatcher",
 		"descripcion": "Entra al mundo de los videos: captura la pantalla para tutoriales y descarga videos de Youtube",
-		"urlImagen": "atubecatcher/previa-atube.jpg", 
+		"urlImagen": "aplicativos/atubecatcher/previa-atube.jpg", 
         "manuales": [
             {
                 "formato": "pdf",
                 "nombre": "Introduccion",
-                "url": "atubecatcher/intro-atubecatcher.pdf"
+                "url": "aplicativos/atubecatcher/intro-atubecatcher.pdf"
             },
             {
                 "formato": "pdf",
                 "nombre": "Ejemplos bonitos para atubecatcher",
-                "url": "atubecatcher/ejemplos-atubecatcher.pdf"
+                "url": "aplicativos/atubecatcher/ejemplos-atubecatcher.pdf"
             },
             {
                 "formato": "mp4",
                 "nombre": "Ideas creativas para atube",
-                "url": "atubecatcher/video-test.mp4"
+                "url": "aplicativos/atubecatcher/video-test.mp4"
             },
 			 {
                 "formato": "pdf",
                 "nombre": "Fechas de activación de la herramienta",
-                "url": "atubecatcher/calendario-1.pdf"
+                "url": "aplicativos/atubecatcher/calendario-1.pdf"
             }
         ]
     },
@@ -30,17 +30,17 @@
     {        
         "nombre": "Plikers",
         "descripcion": "Dinamiza los Qr de forma entretenida para crear compoetencias.",
-		"urlImagen": "plikers/previa-plikers.png", 
+		"urlImagen": "aplicativos/plikers/previa-plikers.png", 
         "manuales": [
             {
                 "formato": "pdf",
                 "nombre": "Manual de Plikers",
-                "url": "plikers/manual-plikers.pdf"
+                "url": "aplicativos/plikers/manual-plikers.pdf"
             },
             {
                 "formato": "mp4",
                 "nombre": "Ideas con Plickers",
-                "url": "plikers/ejemplo.mp4"
+                "url": "aplicativos/plikers/ejemplo.mp4"
             }
           
         ]
@@ -49,12 +49,12 @@
     {        
         "nombre": "Kahoot",
         "descripcion": "Crea campeonatos de conocimiento con solo usar tu celular",
-		"urlImagen": "kahoot/previa-kahoot.png", 
+		"urlImagen": "aplicativos/kahoot/previa-kahoot.png", 
         "manuales": [
             {
                 "formato": "pdf",
                 "nombre": "Manual de Kahoot",
-                "url": "kahoot/manual-kahoot.pdf"
+                "url": "aplicativos/kahoot/manual-kahoot.pdf"
             }          
         ]
     },
@@ -62,12 +62,12 @@
 	{        
         "nombre": "Geogebra",
         "descripcion": "Accede al mundo de la matemática de forma práctica y entretenida.",
-		"urlImagen": "geogebra/previa-generica.jpg", 
+		"urlImagen": "aplicativos/geogebra/previa-generica.jpg", 
         "manuales": [
             {
                 "formato": "pdf",
                 "nombre": "Introducción a Geogebra",
-                "url": "geogebra/intro.pdf"
+                "url": "aplicativos/geogebra/intro.pdf"
             }          
         ]
     }

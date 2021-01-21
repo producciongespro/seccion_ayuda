@@ -4,7 +4,7 @@ export default function ContenedorDeManual(props) {
 
     const renderManual=(formato, url)=> {
         let tmpHtml;        
-        const urlRecurso="./manuales/aplicativos/" + url;
+        const urlRecurso="./manuales/" + url;
         //console.log("urlRecurso",urlRecurso);
 
         switch (formato) {

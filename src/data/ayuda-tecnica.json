@@ -7,7 +7,12 @@
             {
                 "formato": "pdf",
                 "nombre": "Este tarro no enciende",                                   
-                "url": "ayuda-tecnica/lorem.pdf"                
+                "url": "ayuda-tecnica/problemas/lorem.pdf"                
+            },
+            {
+                "formato": "mp4",
+                "nombre": "Viajando por el mundo",                                   
+                "url": "ayuda-tecnica/problemas/ejemplo.mp4"                
             }
         ]
     },
@@ -19,7 +24,7 @@
             {
                 "formato": "pdf",
                 "nombre": "Los diferentes usuarios de la compu",                                   
-                "url": "ayuda-tecnica/lorem.pdf"                                
+                "url": "ayuda-tecnica/cuentas/lorem.pdf"                                
             }
         ]
     },
@@ -31,7 +36,7 @@
             {
                 "formato": "pdf",
                 "nombre": "Boleta para llamar",                                   
-                "url": "ayuda-tecnica/lorem.pdf"                             
+                "url": "ayuda-tecnica/servicios/lorem.pdf"                             
             }
         ]
     }
