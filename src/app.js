@@ -5,7 +5,10 @@ import ManualesSoftware from './componentes/ManualesSoftware';
 import ContenedorDeManual from './componentes/ContenedorDeManual';
 import Tarjetas from './componentes/Tarjetas';
 
+import filtrarKey from './_complementos/filtrar-key';
+
 import manuales from './data/manuales.json';
+import preventivo from './data/preventivo.json';
 
 //Objeto con la información de la seleccion del usuario
 var seleccion=null;
@@ -23,6 +26,13 @@ function App() {
       case "problemas":
        console.log("Problemas técnicos");     
       break;
+      case "rendimiento":
+      case "antivirus":
+      case "preventivos":   
+       console.log("RAP");  
+       mostrarManualesGenericos("preventivo", opcion)   
+      break;
+
       case "software":        
         handleMostrarTarjetasSoftware();
       break;
@@ -35,10 +45,30 @@ function App() {
     
   }
 
+  const mostrarManualesGenericos=(categoria, opcion )=> {
+    //manuales que no son software como mantenimiento preventivo o ayuda técnica
+    let tmpArray=null
+    if (categoria=== "preventivo") {
+      tmpArray= preventivo;
+    }
+    if (categoria=== "ayuda") {
+      console.log("ayuda");
+    }
+    seleccion = filtrarKey(tmpArray, "clave", opcion, "mostrarManualesGenericos")[0];
+    console.log("seleccion",seleccion);
+
+    setVisor(  <ManualesSoftware modo="generico" seleccion={seleccion} handleSeleccionarManual={handleSeleccionarManual}  />  )   
+
+
+  }
+
+
+
   const handleMostrarTarjetasSoftware=()=> {
     setVisor ( <Tarjetas handleMostrarListaManuales={handleMostrarListaManuales} array={manuales}  />  )
   }
-  
+
+   
   
   const handleMostrarListaManuales=(e)=> { 
      let item= e.currentTarget.id;
@@ -51,7 +81,7 @@ function App() {
       console.log("Seleccion --->",seleccion);
      }
      //Caso contrario es porque el handler viene del contenedor manual y se mantiene la sescción actual   
-    setVisor(  <ManualesSoftware seleccion={seleccion} handleSeleccionarManual={handleSeleccionarManual} handleMostrarTarjetasSoftware={handleMostrarTarjetasSoftware} />  )   
+    setVisor(  <ManualesSoftware modo="software" seleccion={seleccion} handleSeleccionarManual={handleSeleccionarManual} handleMostrarTarjetasSoftware={handleMostrarTarjetasSoftware} />  )   
   }
 
   const handleSeleccionarManual=(e)=> {    

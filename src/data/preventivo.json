@@ -1,0 +1,38 @@
+[
+    {
+        "clave": "antivirus",
+        "nombre": "Actualización de antivirus",
+        "descripcion": "dsadasdasdasdas",
+        "manuales": [
+            {
+                "formato": "pdf",
+                "nombre": "¿Cómo actualizar el Antivirus?",                                   
+                "url": "antivirus/actualizacion.pdf"                
+            }
+        ]
+    },
+    {
+        "clave": "rendimiento",
+        "nombre": "Optimización del rendimiento",
+        "descripcion": "dsadasdasdasdas",
+        "manuales": [
+            {
+                "formato": "pdf",
+                "nombre": "¿Cómo hago que mi compautadora vuele?",                                   
+                "url": "rendimiento/actualizacion.pdf"                
+            }
+        ]
+    },
+    {
+        "clave": "preventivos",
+        "nombre": "Cuidados preventivos",
+        "descripcion": "dsadasdasdasdas",
+        "manuales": [
+            {
+                "formato": "pdf",
+                "nombre": "¿Cómo no electrocutarse con la pc?",                                   
+                "url": "preventivos/lorem.pdf"                
+            }
+        ]
+    }
+]
