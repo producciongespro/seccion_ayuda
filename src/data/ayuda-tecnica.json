@@ -10,7 +10,7 @@
                 "url": "ayuda-tecnica/problemas/lorem.pdf"                
             },
             {
-                "formato": "mp4",
+                "formato": "video",
                 "nombre": "Viajando por el mundo",                                   
                 "url": "ayuda-tecnica/problemas/ejemplo.mp4"                
             }
@@ -37,6 +37,11 @@
                 "formato": "pdf",
                 "nombre": "Boleta para llamar",                                   
                 "url": "ayuda-tecnica/servicios/lorem.pdf"                             
+            },
+            {
+                "formato": "img",
+                "nombre": "Diagrama de soporte",                                   
+                "url": "ayuda-tecnica/servicios/mi_casa.jpg"                             
             }
         ]
     }

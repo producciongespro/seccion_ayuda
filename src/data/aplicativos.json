@@ -15,7 +15,7 @@
                 "url": "aplicativos/atubecatcher/ejemplos-atubecatcher.pdf"
             },
             {
-                "formato": "mp4",
+                "formato": "video",
                 "nombre": "Ideas creativas para atube",
                 "url": "aplicativos/atubecatcher/video-test.mp4"
             },
@@ -38,7 +38,7 @@
                 "url": "aplicativos/plikers/manual-plikers.pdf"
             },
             {
-                "formato": "mp4",
+                "formato": "video",
                 "nombre": "Ideas con Plickers",
                 "url": "aplicativos/plikers/ejemplo.mp4"
             }
@@ -55,7 +55,18 @@
                 "formato": "pdf",
                 "nombre": "Manual de Kahoot",
                 "url": "aplicativos/kahoot/manual-kahoot.pdf"
-            }          
+            },
+            {
+                "formato": "img",
+                "nombre": "Primera Infografia",
+                "url": "aplicativos/kahoot/img1.jpg"
+            },
+            {
+                "formato": "img",
+                "nombre": "Segunda Infografia",
+                "url": "aplicativos/kahoot/img2.jpg"
+            }
+
         ]
     },
 	

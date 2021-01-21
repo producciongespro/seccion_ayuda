@@ -15,7 +15,7 @@ export default function ContenedorDeManual(props) {
                         src={urlRecurso} />
                 )
             break;
-            case "mp4":
+            case "video":
                 tmpHtml= (
                         <video 
                         className="control-1"
@@ -23,6 +23,11 @@ export default function ContenedorDeManual(props) {
                          controls={true} 
                          autoPlay={true} >                             
                          </video>
+                )
+            break;
+            case "img":
+                tmpHtml= (
+                            <img className="img-fluid" src={urlRecurso}  alt="imagen de infografía" />                       
                 )
             break;
         

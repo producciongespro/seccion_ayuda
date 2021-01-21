@@ -8,10 +8,13 @@ export default function ManualesSoftware(props) {
         switch (tipo) {
             case "pdf":
                 icono = icono + "pdf.svg"
-                break;
-            case "mp4":
+            break;
+            case "video":
                 icono = icono + "video.svg"
-                break;
+            break;
+            case "img":
+                icono = icono + "img.svg"
+            break;
 
             default:
                 console.log("opcion fuera de rango en icono");
