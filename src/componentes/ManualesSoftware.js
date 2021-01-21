@@ -44,6 +44,15 @@ export default function ManualesSoftware(props) {
                     <h2>{props.seleccion.nombre} </h2>
                 </div>
             </div>
+            {
+                props.modo === "generico" &&
+                <div className="row">
+                    <div className="col-12">
+                        {props.seleccion.descripcion}
+                    </div>
+                </div>
+
+            }
             <hr/>
             <div className="row">
                 <div className="col-12">

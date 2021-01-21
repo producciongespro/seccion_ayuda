@@ -2,7 +2,7 @@
     {
         "clave": "antivirus",
         "nombre": "Actualización de antivirus",
-        "descripcion": "dsadasdasdasdas",
+        "descripcion": "Para que no se le infecte el tarro",
         "manuales": [
             {
                 "formato": "pdf",
@@ -14,7 +14,7 @@
     {
         "clave": "rendimiento",
         "nombre": "Optimización del rendimiento",
-        "descripcion": "dsadasdasdasdas",
+        "descripcion": "Préndale fuego a la bombeta",
         "manuales": [
             {
                 "formato": "pdf",
@@ -26,7 +26,7 @@
     {
         "clave": "preventivos",
         "nombre": "Cuidados preventivos",
-        "descripcion": "dsadasdasdasdas",
+        "descripcion": "Pele el ojo, tenga cuidado",
         "manuales": [
             {
                 "formato": "pdf",
