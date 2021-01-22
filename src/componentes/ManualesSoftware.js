@@ -36,7 +36,7 @@ export default function ManualesSoftware(props) {
                             onClick={props.handleMostrarTarjetasSoftware}
                             role="button">
                             <img className="ico-1" src="./assets/png/volver.png" alt="Volver" /> &nbsp;
-                             <span className="badge badge-info text-1 " > Volver a galería de software </span>
+                             <span className="badge badge-info text-1" > Volver a galería de software </span>
                         </span>
                     </div>
                 </div>

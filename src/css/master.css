@@ -198,7 +198,7 @@ color: #3172A1;
 }
 
 .grupoTarjetas  {
-	padding: 4em;
+	padding: 3em;
 }
 
 .botonTarjetas {
@@ -212,6 +212,13 @@ color: #3172A1;
 	width: 3%;
 	height: 3%;
 }
+
+.textseleccione {
+	font-family: 'Oswald', sans-serif;
+	font-size: 22px;
+	margin-top: 4%;
+	}
+
 
 #contenedor{
 	background-color: white;
@@ -260,6 +267,7 @@ footer{
 
 .text-1 {
 	font-size: 1em;
+	background-color: #dd940b;
 }
 
 .text-2 {

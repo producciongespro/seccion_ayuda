@@ -106,10 +106,11 @@ function App() {
         <div className="col-4">         
               <Menu handleMostrarGeneral={handleMostrarGeneral} />
         </div>
-        <div className="col-8">            
+        <div className="col-8 textseleccione  animate__animated animate__backInDown">            
+              
               {
                 !visor ?
-                  <div className="alert alert-warning">Seleccione una opción del menú</div>
+                  <div className="alert alert-warning "> <img src="./assets/png/flecha.png"  alt="Imagen decorativa para señalar el menú"/>Seleccione una opción del menú</div>
                 :
                   visor
               }            

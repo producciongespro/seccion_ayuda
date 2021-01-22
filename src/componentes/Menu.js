@@ -13,7 +13,7 @@ export default function Menu(props) {
                 <Card>
                     <Accordion.Toggle as={Card.Header} eventKey="0">
                         <img src="./assets/png/carpeta.png" alt="Carpeta de ayuda" />
-                        <span className="card-link-1" role="button"> Ayuda Técnica </span>
+                        <span className="card-link-1 animate__animated animate__flash" role="button"> Ayuda Técnica </span>
                     </Accordion.Toggle>
                     <Accordion.Collapse eventKey="0">
                         <Card.Body>
@@ -50,7 +50,7 @@ export default function Menu(props) {
                 <Card>
                     <Accordion.Toggle as={Card.Header} eventKey="1">
                         <img src="./assets/png/carpeta.png" alt="Carpeta de ayuda" />
-                        <span className="card-link-1" role="button"> Mantenimiento Preventivo </span>
+                        <span className="card-link-1 animate__animated animate__flash" role="button"> Mantenimiento Preventivo </span>
                     </Accordion.Toggle>
                     <Accordion.Collapse eventKey="1">
                         <Card.Body>
@@ -87,7 +87,7 @@ export default function Menu(props) {
                 <Card>
                     <Accordion.Toggle as={Card.Header} eventKey="2">
                         <img src="./assets/png/carpeta.png" alt="Carpeta de ayuda" />
-                        <span className="card-link-1" role="button">  Cómo aprovechar este equipo para estudiar y aprender </span>
+                        <span className="card-link-1 animate__animated animate__flash" role="button">  Cómo aprovechar este equipo para estudiar y aprender </span>
                     </Accordion.Toggle>
                     <Accordion.Collapse eventKey="2">
                         <Card.Body>
