@@ -51,7 +51,7 @@ export default function ContenedorDeManual(props) {
             </div>
             <div className="row">
                 <div className="col-12">
-                    <h3>{props.nombreManual}  </h3>
+                    <h3 className="temas">{props.nombreManual}  </h3> <br/>
                 </div>
             </div>
             <div className="row">

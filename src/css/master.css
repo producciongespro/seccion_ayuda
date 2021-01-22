@@ -163,20 +163,30 @@ div.inset {
 .temas {
 font-family: 'Oswald', sans-serif;
 font-size: 22px;
-/*color: #3172A1;*/
-color: #a13185;
+font-weight: 900;
+color: #3172A1;
+/*color: #a13185;*/
 }
 .descripcion-temas{
 font-family: 'Oswald', sans-serif;
-font-size: 20px;
-/*color: #3172A1;*/
-color: #319e28;
+font-size: 15px;
+color: #3172A1;
+/*color: #319e28;*/
 }
+
+.descripcion-temas-tarjetas{
+	font-family: 'Oswald', sans-serif;
+	font-size: 20px;
+	color: #dd940b;
+	font-weight: 900;
+	}
+
 .detalle-temas{
 font-family: 'Oswald', sans-serif;
 font-size: 15px;
-/*color: #3172A1;*/
-color: #040685;
+font-style: italic;
+color: #3172A1;
+/*color: #040685;*/
 }
 /*************************************************************/
 

@@ -6,8 +6,8 @@ export default function Tarjetas(props) {
 
         <React.Fragment>
             <div className="row">
-                <div className="col-12 text-center">                    
-                    <h4>Galería Software</h4>
+                <div className="col-12">                    
+                    <h4 className="temas">Galería Software</h4>
                 </div>
             </div>
             <hr />
@@ -23,8 +23,8 @@ export default function Tarjetas(props) {
                                     src={ "./manuales/" + item.urlImagen}  
                                     alt={"imagen previa de" + item.nombre} />
                                 <div className="card-body ">
-                                    <h5 className="card-title">{item.nombre}</h5>
-                                    <p className="card-text"> {item.descripcion} </p>
+                                    <h5 className="card-title descripcion-temas-tarjetas">{item.nombre}</h5>
+                                    <p className="card-text detalle-temas"> {item.descripcion} </p>
                                         <span
                                             className="btn btn-outline-info btn-block"
                                             id={i}
