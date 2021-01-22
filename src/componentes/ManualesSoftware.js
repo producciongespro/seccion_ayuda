@@ -50,7 +50,8 @@ export default function ManualesSoftware(props) {
             {
                 props.modo === "generico" &&
                 <div className="row">
-                    <div className="col-12 descripcion-temas">
+                    <img className="img-fluid img-atencion px-1" src="./assets/svg/atencion.svg" alt="Imagen de atención a la descripción"/>
+                    <div className="col-10 descripcion-temas">
                         {props.seleccion.descripcion}
                     </div>
                 </div>

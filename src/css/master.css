@@ -208,7 +208,10 @@ color: #3172A1;
 }
 /*************************************************************/
 
-
+.img-atencion{
+	width: 3%;
+	height: 3%;
+}
 
 #contenedor{
 	background-color: white;

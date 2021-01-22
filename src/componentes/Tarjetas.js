@@ -22,8 +22,7 @@ export default function Tarjetas(props) {
                                     className="card-img-top" 
                                     src={ "./manuales/" + item.urlImagen}  
                                     alt={"imagen previa de" + item.nombre} />
-                                <div className="card-body ">
-                                    <i class="fi-rs-exclamation"></i>
+                                <div className="card-body "> 
                                     <h5 className="card-title descripcion-temas-tarjetas">{item.nombre}</h5>
                                     <p className="card-text detalle-temas"> {item.descripcion} </p>
                                         <span
