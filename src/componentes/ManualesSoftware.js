@@ -35,10 +35,10 @@ export default function ManualesSoftware(props) {
                         <span
                             onClick={props.handleMostrarTarjetasSoftware}
                             role="button">
-                            <img className="ico-1" src="./assets/png/volver.png" alt="Volver" /> &nbsp;
-                             <span className="badge badge-info text-1" > Volver a galería de software </span>
+                            <img className="ico-1 animate__animated animate__flash" src="./assets/png/flecha.png" alt="Volver" /> &nbsp;
+                             <span className="badge badge-info text-1" > Volver a galería de software </span> <br/>
                         </span>
-                    </div>
+                    </div><br/> <br/>
                 </div>
             }
 
@@ -50,7 +50,7 @@ export default function ManualesSoftware(props) {
             {
                 props.modo === "generico" &&
                 <div className="row">
-                    <img className="img-fluid img-atencion px-1" src="./assets/svg/atencion.svg" alt="Imagen de atención a la descripción"/>
+                    <img className="img-fluid img-atencion px-1 animate__animated animate__bounceIn" src="./assets/svg/atencion.svg" alt="Imagen de atención a la descripción"/>
                     <div className="col-10 descripcion-temas">
                         {props.seleccion.descripcion}
                     </div>

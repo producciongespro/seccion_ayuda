@@ -266,8 +266,11 @@ footer{
 }
 
 .text-1 {
+	font-family: 'Oswald', sans-serif;
 	font-size: 1em;
-	background-color: #dd940b;
+	color: #dd940b;
+	background-color: #ffffff;
+	letter-spacing: 0.10em;
 }
 
 .text-2 {
