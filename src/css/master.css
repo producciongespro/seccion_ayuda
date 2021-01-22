@@ -162,33 +162,53 @@ div.inset {
 /*************************************************************/
 .temas {
 font-family: 'Oswald', sans-serif;
-font-size: 22px;
+font-size: 23px;
 font-weight: 900;
 color: #3172A1;
 /*color: #a13185;*/
 }
 .descripcion-temas{
 font-family: 'Oswald', sans-serif;
-font-size: 15px;
-color: #3172A1;
+font-size: 16px;
+color: #dd940b;
 /*color: #319e28;*/
 }
 
-.descripcion-temas-tarjetas{
-	font-family: 'Oswald', sans-serif;
-	font-size: 20px;
-	color: #dd940b;
-	font-weight: 900;
-	}
+
 
 .detalle-temas{
 font-family: 'Oswald', sans-serif;
-font-size: 15px;
-font-style: italic;
+font-size: 18px;
 color: #3172A1;
 /*color: #040685;*/
 }
 /*************************************************************/
+
+/****************estilo de tarjetas***************************/
+.descripcion-temas-tarjetas{
+	font-family: 'Oswald', sans-serif;
+	font-size: 22px;
+	color: #dd940b;
+	font-weight: 900;
+	}
+
+.tarjetas {
+	font-family: 'Oswald', sans-serif;
+	min-height: 98%;
+}
+
+.grupoTarjetas  {
+	padding: 4em;
+}
+
+.botonTarjetas {
+	background-color: #adacaa;
+	color: #ffffff;
+	border-color: #bdc2c5;
+}
+/*************************************************************/
+
+
 
 #contenedor{
 	background-color: white;
@@ -225,7 +245,7 @@ footer{
 .card-link-2
 {
 	font-family: 'Oswald', sans-serif;
-	font-size: 14px;
+	font-size: 18px;
 	font-weight: 60;
 	color: #3172a8;	
 }

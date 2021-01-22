@@ -14,19 +14,20 @@ export default function Tarjetas(props) {
             <div className="row">
                 {
                     props.array.map((item, i) => (
-                        <div className="col-6" key={"tarjeta" + i} >                         
+                        <div className="col-6 grupoTarjetas"  key={"tarjeta" + i} >                
 
                             <div 
-                                className="card mb-3">
+                                className="card mb-3 tarjetas">
                                 <img
                                     className="card-img-top" 
                                     src={ "./manuales/" + item.urlImagen}  
                                     alt={"imagen previa de" + item.nombre} />
                                 <div className="card-body ">
+                                    <i class="fi-rs-exclamation"></i>
                                     <h5 className="card-title descripcion-temas-tarjetas">{item.nombre}</h5>
                                     <p className="card-text detalle-temas"> {item.descripcion} </p>
                                         <span
-                                            className="btn btn-outline-info btn-block"
+                                            className="btn btn-outline-info btn-block botonTarjetas"
                                             id={i}
                                             onClick={props.handleMostrarListaManuales}
                                             role="button"
