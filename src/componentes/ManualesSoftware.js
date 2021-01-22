@@ -64,6 +64,7 @@ export default function ManualesSoftware(props) {
                         {
                             props.seleccion.manuales.map((item, i) => (
                                 <li
+                                    type="square"
                                     key={"item" + i}
                                     className="mb-2 detalle-temas"
                                     role="button"

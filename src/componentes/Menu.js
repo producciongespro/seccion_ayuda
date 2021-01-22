@@ -7,7 +7,7 @@ export default function Menu(props) {
     return (
 
         <React.Fragment>
-            <p id="titulo_columna">Manual del estudiante</p>
+            <h2 id="titulo_columna">Manual del estudiante</h2>
 
             <Accordion defaultActiveKey="0">
                 <Card>

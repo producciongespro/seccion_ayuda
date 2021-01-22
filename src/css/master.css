@@ -50,7 +50,7 @@ a{
 	font-family: 'Oswald', sans-serif;
 	font-size: 16px;
 	font-weight: 100; 
-	color: #3172a8;
+	color: #2D699A;
 }
 
 a.enls:link, a.enls:visited{
@@ -206,6 +206,13 @@ color: #3172A1;
 	color: #ffffff;
 	border-color: #bdc2c5;
 }
+
+
+.btn-outline-info:hover {
+    color: #fff;
+    background-color: #dd940b;
+	border-color:  #dd940b;
+}
 /*************************************************************/
 
 .img-atencion{
@@ -249,7 +256,7 @@ footer{
 	font-family: 'Oswald', sans-serif;
 	font-size: 20px;
 	font-weight: 100;
-	color: #3172a8;	
+	color: #2D699A;	
 }
 
 .card-link-2
@@ -257,7 +264,7 @@ footer{
 	font-family: 'Oswald', sans-serif;
 	font-size: 18px;
 	font-weight: 60;
-	color: #3172a8;	
+	color: #2D699A;	
 }
 
 .enls
