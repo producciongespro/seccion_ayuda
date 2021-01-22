@@ -44,13 +44,13 @@ export default function ManualesSoftware(props) {
 
             <div className="row">
                 <div className="col-12">
-                    <h2>{props.seleccion.nombre} </h2>
+                    <h2 className="temas">{props.seleccion.nombre} </h2>
                 </div>
             </div>
             {
                 props.modo === "generico" &&
                 <div className="row">
-                    <div className="col-12">
+                    <div className="col-12 descripcion-temas">
                         {props.seleccion.descripcion}
                     </div>
                 </div>
@@ -64,7 +64,7 @@ export default function ManualesSoftware(props) {
                             props.seleccion.manuales.map((item, i) => (
                                 <li
                                     key={"item" + i}
-                                    className="mb-2"
+                                    className="mb-2 detalle-temas"
                                     role="button"
                                     data-formato={item.formato}
                                     data-url={item.url}

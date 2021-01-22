@@ -159,6 +159,27 @@ div.inset {
     border-bottom-style: none;
 }
 
+/*************************************************************/
+.temas {
+font-family: 'Oswald', sans-serif;
+font-size: 22px;
+/*color: #3172A1;*/
+color: #a13185;
+}
+.descripcion-temas{
+font-family: 'Oswald', sans-serif;
+font-size: 20px;
+/*color: #3172A1;*/
+color: #319e28;
+}
+.detalle-temas{
+font-family: 'Oswald', sans-serif;
+font-size: 15px;
+/*color: #3172A1;*/
+color: #040685;
+}
+/*************************************************************/
+
 #contenedor{
 	background-color: white;
 }
