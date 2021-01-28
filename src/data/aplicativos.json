@@ -1,4 +1,43 @@
 [
+
+    {        
+        "nombre": "Algodoo",
+		"descripcion": "Conoce conceptos de Física, realizando simulaciones 2D.",
+		"urlImagen": "aplicativos/algodoo/previa-algodoo.jpg", 
+        "manuales": [
+            {
+                "formato": "pdf",
+                "nombre": "Cómo empezar con la herramienta Algodoo",
+                "url": "aplicativos/algodoo/1infograma.pdf"
+            },
+            {
+                "formato": "pdf",
+                "nombre": "Conoce la herramienta Algodoo",
+                "url": "aplicativos/algodoo/2infograma.pdf"
+            },
+            {
+                "formato": "video",
+                "nombre": "¿Y qué puedo hacer con Algodoo? Parte 1",
+                "url": "aplicativos/algodoo/3video.mp4"
+            },
+			 {
+                "formato": "video",
+                "nombre": "¿Y qué puedo hacer con Algodoo? Parte 2",
+                "url": "aplicativos/algodoo/4video.mp4"
+            },
+			{
+                "formato": "video",
+                "nombre": "Conociendo las herramientas de Algodoo. Parte 1",
+                "url": "aplicativos/algodoo/5video.mp4"
+            },
+			{
+                "formato": "video",
+                "nombre": "Conociendo las herramientas de Algodoo. Parte 2",
+                "url": "aplicativos/algodoo/6video.mp4"
+            }
+        ]
+    },
+
     {        
         "nombre": "aTubeCatcher",
 		"descripcion": "Entra al mundo de los videos: captura la pantalla para tutoriales y descarga videos de Youtube",

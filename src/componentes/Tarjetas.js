@@ -17,7 +17,7 @@ export default function Tarjetas(props) {
                         <div className="col-6 grupoTarjetas"  key={"tarjeta" + i} >                
 
                             <div 
-                                className="card mb-3 tarjetas">
+                                className="card tarjetas">
                                 <img
                                     className="card-img-top" 
                                     src={ "./manuales/" + item.urlImagen}  

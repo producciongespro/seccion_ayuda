@@ -40,9 +40,10 @@ function App() {
       case "software":        
         handleMostrarTarjetasSoftware();
       break;
+      
     
       default:
-        console.log("Opcion fuera de rango");
+        console.log("Opcion fuera de rango en handleMostrarGeneral");
         break;
     }
 
