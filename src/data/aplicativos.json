@@ -3,7 +3,7 @@
     {        
         "nombre": "Algodoo",
 		"descripcion": "Conoce conceptos de Física, realizando simulaciones 2D.",
-		"urlImagen": "aplicativos/algodoo/previa-algodoo.jpg", 
+		"urlImagen": "aplicativos/algodoo/not_available.jpg", 
         "manuales": [
             {
                 "formato": "pdf",
@@ -17,12 +17,12 @@
             },
             {
                 "formato": "video",
-                "nombre": "¿Y qué puedo hacer con Algodoo? Parte 1",
+                "nombre": "Y qué puedo hacer con Algodoo? Parte 1",
                 "url": "aplicativos/algodoo/3video.mp4"
             },
 			 {
                 "formato": "video",
-                "nombre": "¿Y qué puedo hacer con Algodoo? Parte 2",
+                "nombre": "Y qué puedo hacer con Algodoo? Parte 2",
                 "url": "aplicativos/algodoo/4video.mp4"
             },
 			{
@@ -35,6 +35,46 @@
                 "nombre": "Conociendo las herramientas de Algodoo. Parte 2",
                 "url": "aplicativos/algodoo/6video.mp4"
             }
+        ]
+    },
+
+ {        
+        "nombre": "Cacoo",
+		"descripcion": "Estimula tu ingenio y crea en la web.",
+		"urlImagen": "aplicativos/cacoo/not_available.jpg", 
+        "manuales": [
+            {
+                "formato": "pdf",
+                "nombre": "Cómo empezar con la herramienta Cacoo",
+                "url": "aplicativos/cacoo/1infograma.pdf"
+            },
+            {
+                "formato": "pdf",
+                "nombre": "Conoce la herramienta Cacoo",
+                "url": "aplicativos/cacoo/2infograma.pdf"
+            },
+            {
+                "formato": "video",
+                "nombre": "Y qué puedo hacer con Cacoo? Parte 1",
+                "url": "aplicativos/cacoo/3video.mp4"
+            },
+			 {
+                "formato": "video",
+                "nombre": "Y qué puedo hacer con Cacoo? Parte 2",
+                "url": "aplicativos/Cacoo/4video.mp4"
+            },
+			{
+                "formato": "video",
+                "nombre": " Sumate a la comunidad en Cacoo. Parte 1",
+                "url": "aplicativos/cacoo/5video.mp4"
+            },
+{
+                "formato": "video",
+                "nombre": " Sumate a la comunidad en Cacoo. Parte 2",
+                "url": "aplicativos/cacoo/6video.mp4"
+            }
+
+			
         ]
     },
 
