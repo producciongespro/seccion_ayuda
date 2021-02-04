@@ -11,6 +11,10 @@
 # production
 /build
 
+# Aplicativos
+/public/manuales/aplicativos
+
+
 # misc
 .DS_Store
 .env.local
