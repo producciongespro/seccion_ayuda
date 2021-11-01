@@ -30,6 +30,14 @@ export default function ContenedorDeManual(props) {
                             <img className="img-fluid" src={urlRecurso}  alt="imagen de infografía" />                       
                 )
             break;
+            case "audio":
+                tmpHtml= (
+                    <audio controls>
+                        <source src={urlRecurso} type="audio/mpeg" />
+                        Your browser does not support the audio element.
+                  </audio>                             
+                )
+            break;
         
             default:
                 break;

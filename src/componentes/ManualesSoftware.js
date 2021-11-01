@@ -15,6 +15,9 @@ export default function ManualesSoftware(props) {
             case "img":
                 icono = icono + "img.svg"
             break;
+            case "audio":
+                icono = icono + "audio.png"
+            break;
 
             default:
                 console.log("opcion fuera de rango en icono");

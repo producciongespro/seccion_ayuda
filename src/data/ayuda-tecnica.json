@@ -13,6 +13,11 @@
                 "formato": "video",
                 "nombre": "Viajando por el mundo",                                   
                 "url": "ayuda-tecnica/problemas/ejemplo.mp4"                
+            },
+            {
+                "formato": "audio",
+                "nombre": "Prueba de audio",                                   
+                "url": "ayuda-tecnica/problemas/test.mp3"                
             }
         ]
     },
