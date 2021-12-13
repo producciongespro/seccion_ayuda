@@ -3,7 +3,7 @@
     {        
         "nombre": "Algodoo",
 		"descripcion": "Conoce conceptos de Física, realizando simulaciones 2D.",
-		"urlImagen": "aplicativos/algodoo/not_available.jpg", 
+		"urlImagen": "aplicativos/algodoo/previa-algodoo.jpg", 
         "manuales": [
             {
                 "formato": "pdf",
@@ -41,7 +41,7 @@
  {        
         "nombre": "Cacoo",
 		"descripcion": "Estimula tu ingenio y crea en la web.",
-		"urlImagen": "aplicativos/cacoo/not_available.jpg", 
+		"urlImagen": "aplicativos/cacoo/previa-cacoo.jpg", 
         "manuales": [
             {
                 "formato": "pdf",
