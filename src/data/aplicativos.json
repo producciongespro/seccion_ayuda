@@ -62,7 +62,7 @@
     },
     
     {
-        "nombre": "CMaptools",
+        "nombre": " CMaptools",
         "descripcion": "Conoce la herramienta CMaptools y crea tus mapas conceptuales",
         "urlImagen": "aplicativos/cmaptools/previa-cmaptools.jpg",
         "manuales": [
@@ -85,8 +85,7 @@
                 "formato": "video",
                 "nombre": "Incorporando imágenes en CMaptools ",
                 "url": "aplicativos/cmaptools/4video.mp4"
-            },
-            {}
+            }            
         ]
     },
 
