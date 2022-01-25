@@ -10,6 +10,7 @@ import filtrarKey from './_complementos/filtrar-key';
 import aplicativos from './data/aplicativos.json';
 import preventivo from './data/preventivo.json';
 import ayudaTecnica from './data/ayuda-tecnica.json';
+import ergonomias from "./data/ergonomia.json";
 
 //Objeto con la información de la seleccion del usuario
 var seleccion=null;
@@ -40,6 +41,10 @@ function App() {
       case "software":        
         handleMostrarTarjetasSoftware();
       break;
+
+      case "consejosErgo":        
+        mostrarManualesGenericos("ergonomia", opcion)  
+      break;
       
     
       default:
@@ -60,6 +65,15 @@ function App() {
       console.log("ayudaTecnica");
       tmpArray= ayudaTecnica;
     }
+
+    if (categoria=== "ergonomia") {
+      console.log("ergonomia");
+      tmpArray= ergonomias;
+    }
+
+
+
+
     seleccion = filtrarKey(tmpArray, "clave", opcion, "mostrarManualesGenericos")[0];
     console.log("seleccion",seleccion);
 
@@ -67,7 +81,6 @@ function App() {
 
 
   }
-
 
 
   const handleMostrarTarjetasSoftware=()=> {

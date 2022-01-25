@@ -1,0 +1,19 @@
+[
+    {
+        "clave": "consejosErgo",
+        "nombre": "Consejos de Ergonomía",
+        "descripcion": "Para que no se le tuerza la columna",
+        "manuales": [
+            {
+                "formato": "pdf",
+                "nombre": "Estirar las patas",                                   
+                "url": "ergonomia/consejo1.pdf"                
+            },
+            {
+                "formato": "video",
+                "nombre": "¿Cómo sentare mejor?",
+                "url": "ergonomia/consejo2.mp4"
+            }
+        ]
+    } 
+]
