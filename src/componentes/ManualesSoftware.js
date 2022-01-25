@@ -32,6 +32,9 @@ export default function ManualesSoftware(props) {
     return (
         <React.Fragment>
             {
+                console.log("props.modo", props.modo)
+            }
+            {
                 props.modo === "software" &&
                 <div className="row">
                     <div className="col-12">
@@ -39,7 +42,7 @@ export default function ManualesSoftware(props) {
                             onClick={props.handleMostrarTarjetasSoftware}
                             role="button">
                             <img className="ico-1 animate__animated animate__flash" src="./assets/png/flecha.png" alt="Volver" /> &nbsp;
-                             <span className="badge badge-info text-1" > Volver a galería de software </span> <br/>
+                             <span className="badge badge-info text-1" > Volver a galería </span> <br/>
                         </span>
                     </div><br/> <br/>
                 </div>

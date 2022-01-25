@@ -75,9 +75,9 @@ function App() {
 
 
     seleccion = filtrarKey(tmpArray, "clave", opcion, "mostrarManualesGenericos")[0];
-    console.log("seleccion",seleccion);
+    //console.log("seleccion",seleccion);
 
-    setVisor(  <ManualesSoftware modo="generico" seleccion={seleccion} handleSeleccionarManual={handleSeleccionarManual}  />  )   
+    setVisor(  <ManualesSoftware modo="generico" opcion={opcion} seleccion={seleccion} handleSeleccionarManual={handleSeleccionarManual}  />  )   
 
 
   }
