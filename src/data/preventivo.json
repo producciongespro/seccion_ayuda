@@ -8,6 +8,11 @@
                 "formato": "pdf",
                 "nombre": "¿Cómo actualizar el Antivirus?",                                   
                 "url": "mant-preventivo/antivirus/actualizacion.pdf"                
+            },
+            {
+                "formato": "pdf",
+                "nombre": "¿Cómo saber si el anitvirus es una basura?",                                   
+                "url": "mant-preventivo/antivirus/actualizacion.pdf"                
             }
         ]
     },
@@ -31,6 +36,11 @@
             {
                 "formato": "pdf",
                 "nombre": "¿Cómo no electrocutarse con la pc?",                                   
+                "url": "mant-preventivo/preventivos/lorem.pdf"                
+            },
+            {
+                "formato": "pdf",
+                "nombre": "Este tarro se me está poniendo como una tortuga", 
                 "url": "mant-preventivo/preventivos/lorem.pdf"                
             }
         ]
