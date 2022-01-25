@@ -117,9 +117,9 @@
                 "url": "aplicativos/myabcs/1infograma.pdf"
             },
             {
-                "formato": "pdf",
+                "formato": "img",
                 "nombre": "Conoce la herramienta MyAbcs",
-                "url": "aplicativos/myabcs/2infograma.pdf"
+                "url": "aplicativos/myabcs/2infograma.jpeg"
             },
             {
                 "formato": "video",
@@ -144,14 +144,14 @@
         "urlImagen": "aplicativos/scratch/previa-scratch.jpg",
         "manuales": [
             {
-                "formato": "pdf",
+                "formato": "img",
                 "nombre": "Cómo empezar con la herramienta Scratch ",
-                "url": "aplicativos/scratch/1infograma.pdf"
+                "url": "aplicativos/scratch/1infograma.jpeg"
             },
             {
-                "formato": "pdf",
+                "formato": "img",
                 "nombre": "Conoce la herramienta Scratch",
-                "url": "aplicativos/scratch/2infograma.pdf"
+                "url": "aplicativos/scratch/2infograma.jpg"
             },
             {
                 "formato": "video",
@@ -169,9 +169,9 @@
                 "url": "aplicativos/scratch/5video.mp4"
             },
             {
-                "formato": "manual",
+                "formato": "pdf",
                 "nombre": "Guía basica uso herramientas de Scratch. ",
-                "url": "aplicativos/scratch/6manual.pdf"
+                "url": "aplicativos/scratch/6manual-scratch.pdf"
             }
         ]
     },
