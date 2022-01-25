@@ -5,14 +5,39 @@
         "descripcion": "Para que no se le tuerza la columna",
         "manuales": [
             {
-                "formato": "pdf",
-                "nombre": "Estirar las patas",                                   
-                "url": "ergonomia/consejo1.pdf"                
+                "formato": "video",
+                "nombre": "Ergonomía al utilizar computadoras portátiles",                                   
+                "url": "ergonomia/1video.mp4"                
             },
             {
                 "formato": "video",
-                "nombre": "¿Cómo sentare mejor?",
-                "url": "ergonomia/consejo2.mp4"
+                "nombre": "Beneficios de la ergonomía",                                   
+                "url": "ergonomia/2video.mp4"                
+            },
+            {
+                "formato": "video",
+                "nombre": "Lugar de estudio",                                   
+                "url": "ergonomia/3video.mp4"                
+            },
+            {
+                "formato": "video",
+                "nombre": "Silla y mesa",                                   
+                "url": "ergonomia/4video.mp4"                
+            },
+            {
+                "formato": "video",
+                "nombre": "Pantalla",                                   
+                "url": "ergonomia/5video.mp4"                
+            },
+            {
+                "formato": "video",
+                "nombre": "Posición corporal",                                   
+                "url": "ergonomia/6video.mp4"                
+            },
+            {
+                "formato": "video",
+                "nombre": "Ejercicios recomendados",                                   
+                "url": "ergonomia/7video.mp4"                
             }
         ]
     } 
