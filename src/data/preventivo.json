@@ -6,12 +6,12 @@
         "manuales": [
             {
                 "formato": "pdf",
-                "nombre": "¿Cómo actualizar el Antivirus?",                                   
+                "nombre": "Pendiente",                                   
                 "url": "mant-preventivo/antivirus/actualizacion.pdf"                
             },
             {
                 "formato": "pdf",
-                "nombre": "¿Cómo saber si el anitvirus es una basura?",                                   
+                "nombre": "Pendiente",                                   
                 "url": "mant-preventivo/antivirus/actualizacion.pdf"                
             }
         ]
@@ -22,9 +22,39 @@
         "descripcion": "Préndale fuego a la bombeta",
         "manuales": [
             {
+                "formato": "video",
+                "nombre": "¿Cómo mantener la seguridad de Windows actualizada?",                                   
+                "url": "mant-preventivo/optimizacion-windows/2video.mp4"                
+            },
+            {
+                "formato": "video",
+                "nombre": "¿Qué son los archivos temporales?",                                   
+                "url": "mant-preventivo/optimizacion-windows/3video.mp4"                
+            },
+            {
+                "formato": "video",
+                "nombre": "¿Cómo desfragmentar y optimizar unidades?",                                   
+                "url": "mant-preventivo/optimizacion-windows/4video.mp4"                
+            },
+            {
+                "formato": "video",
+                "nombre": "¿Cómo desinstalar un programa en nuestro dispositivo?",                                   
+                "url": "mant-preventivo/optimizacion-windows/5video.mp4"                
+            },
+            {
+                "formato": "video",
+                "nombre": "¿Cómo eliminar los archivos temporales de Microsoft Teams?",                                   
+                "url": "mant-preventivo/optimizacion-windows/6video.mp4"                
+            },
+            {
+                "formato": "video",
+                "nombre": "¿Cómo mantener actualizado nuestro sistema operativo?",                                   
+                "url": "mant-preventivo/optimizacion-windows/7video.mp4"                
+            },
+            {
                 "formato": "pdf",
-                "nombre": "¿Cómo hago que mi compautadora vuele?",                                   
-                "url": "mant-preventivo/rendimiento/lorem.pdf"                
+                "nombre": "Manual de optimización del rendimiento de Windows 10",                                   
+                "url": "mant-preventivo/optimizacion-windows/Manual-optimizacion-rendimiento-windows10.pdf"                
             }
         ]
     },
@@ -34,14 +64,9 @@
         "descripcion": "Pele el ojo, tenga cuidado",
         "manuales": [
             {
-                "formato": "pdf",
-                "nombre": "¿Cómo no electrocutarse con la pc?",                                   
-                "url": "mant-preventivo/preventivos/lorem.pdf"                
-            },
-            {
-                "formato": "pdf",
-                "nombre": "Este tarro se me está poniendo como una tortuga", 
-                "url": "mant-preventivo/preventivos/lorem.pdf"                
+                "formato": "video",
+                "nombre": "Mantenimiento preventivo de las computadoras portátiles",                                   
+                "url": "mant-preventivo/preventivos/1video.mp4"                
             }
         ]
     }
