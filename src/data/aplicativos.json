@@ -1,166 +1,1071 @@
 [
 
-    {        
-        "nombre": "Algodoo",
-		"descripcion": "Conoce conceptos de Física, realizando simulaciones 2D.",
-		"urlImagen": "aplicativos/algodoo/previa-algodoo.jpg", 
+    {
+        "nombre": "Atube Catcher",
+        "descripcion": "Conoce la herramienta Atube Catcher y crea tus vídeos",
+        "urlImagen": "aplicativos/atube-catcher/previa-atube-catcher.png",
         "manuales": [
             {
                 "formato": "pdf",
-                "nombre": "Cómo empezar con la herramienta Algodoo",
+                "nombre": "Cómo empezar con la herramienta atube catcher",
+                "url": "aplicativos/atube-catcher/1infograma.pdf"
+            },
+            {
+                "formato": "pdf",
+                "nombre": "Conoce la herramienta atube catcher",
+                "url": "aplicativos/atube-catcher/2manual.pdf"
+            },
+            {
+                "formato": "video",
+                "nombre": "Instalando atube catcher",
+                "url": "aplicativos/atube-catcher/3video.mp4"
+            },
+            {
+                "formato": "video",
+                "nombre": "Y qué puedo hacer con Atube Catcher?",
+                "url": "aplicativos/atube-catcher/4video.mp4"
+            }
+        ]
+    },
+
+    {
+        "nombre": "Cantaletras",
+        "descripcion": "Software para el aprendizaje de la escritura en niños ciegos y/o de baja visión de entre 4 y 10 años.",
+        "urlImagen": "aplicativos/cantaletras/previa-cantaletras.jpg",
+        "manuales": [
+            {
+                "formato": "pdf",
+                "nombre": "Presentación de Cantaletras",
+                "url": "aplicativos/cantaletras/1infograma.pdf"
+            },
+            {
+                "formato": "pdf",
+                "nombre": "Uso de Cantaletras",
+                "url": "aplicativos/cantaletras/2infograma.pdf"
+            },
+            {
+                "formato": "video",
+                "nombre": "Presentación de Cantaletras",
+                "url": "aplicativos/cantaletras/3video.mp4"
+            },
+            {
+                "formato": "video",
+                "nombre": "Conoce el Sitio Web de Cantaletras",
+                "url": "aplicativos/cantaletras/4video.mp4"
+            },
+            {
+                "formato": "video",
+                "nombre": "Ejemplo de Cantaletras",
+                "url": "aplicativos/cantaletras/5video.mp4"
+            }
+        ]
+    },
+    
+    {
+        "nombre": "CMaptools",
+        "descripcion": "Conoce la herramienta CMaptools y crea tus mapas conceptuales",
+        "urlImagen": "aplicativos/cmaptools/previa-cmaptools.jpg",
+        "manuales": [
+            {
+                "formato": "pdf",
+                "nombre": "Cómo empezar con la herramienta CMaptools ",
+                "url": "aplicativos/cmaptools/1infograma.pdf"
+            },
+            {
+                "formato": "video",
+                "nombre": "Introducción a CMaptools",
+                "url": "aplicativos/cmaptools/2video.mp4"
+            },
+            {
+                "formato": "video",
+                "nombre": "CMaptools y su formato",
+                "url": "aplicativos/cmaptools/3video.mp4"
+            },
+            {
+                "formato": "video",
+                "nombre": "Incorporando imágenes en CMaptools ",
+                "url": "aplicativos/cmaptools/4video.mp4"
+            },
+            {}
+        ]
+    },
+
+    {
+        "nombre": "Lector QR",
+        "descripcion": "Aprende a leer y utilizar codigos QR.",
+        "urlImagen": "aplicativos/lector-qr/previa-lector-qr.jpg",
+        "manuales": [
+            {
+                "formato": "pdf",
+                "nombre": "Cómo empezar con la herramienta Lector QR",
+                "url": "aplicativos/lector-qr/1infograma.pdf"
+            },
+            {
+                "formato": "video",
+                "nombre": "Utiliza  Lector QR? ",
+                "url": "aplicativos/lector-qr/2video.mp4"
+            }
+        ]
+    },
+    {
+        "nombre": "MyAbcs",
+        "descripcion": "Aprende inglés mientras juegas.",
+        "urlImagen": "aplicativos/myabcs/previa-myabcs.jpg",
+        "manuales": [
+            {
+                "formato": "pdf",
+                "nombre": "Cómo empezar con la herramienta MyAbcs",
+                "url": "aplicativos/myabcs/1infograma.pdf"
+            },
+            {
+                "formato": "pdf",
+                "nombre": "Conoce la herramienta MyAbcs",
+                "url": "aplicativos/myabcs/2infograma.pdf"
+            },
+            {
+                "formato": "video",
+                "nombre": "Y qué puedo hacer con MyAbcs? Parte 1",
+                "url": "aplicativos/myabcs/3video.mp4"
+            },
+            {
+                "formato": "video",
+                "nombre": "Y qué puedo hacer con MyAbcs? Parte 2",
+                "url": "aplicativos/myabcs/4video.mp4"
+            },
+            {
+                "formato": "video",
+                "nombre": "Conociendo las herramientas de MyAbcs. Parte 1",
+                "url": "aplicativos/myabcs/5video.mp4"
+            }
+        ]
+    },
+    {
+        "nombre": "Scratch",
+        "descripcion": "Conoce y programa con Scratch.",
+        "urlImagen": "aplicativos/scratch/previa-scratch.jpg",
+        "manuales": [
+            {
+                "formato": "pdf",
+                "nombre": "Cómo empezar con la herramienta Scratch ",
+                "url": "aplicativos/scratch/1infograma.pdf"
+            },
+            {
+                "formato": "pdf",
+                "nombre": "Conoce la herramienta Scratch",
+                "url": "aplicativos/scratch/2infograma.pdf"
+            },
+            {
+                "formato": "video",
+                "nombre": "Y qué puedo hacer con Scratch? Parte 1",
+                "url": "aplicativos/scratch/3video.mp4"
+            },
+            {
+                "formato": "video",
+                "nombre": "Y qué puedo hacer con Scratch? Parte 2",
+                "url": "aplicativos/scratch/4video.mp4"
+            },
+            {
+                "formato": "video",
+                "nombre": "Conociendo las herramientas de Scratch. Parte 1",
+                "url": "aplicativos/scratch/5video.mp4"
+            },
+            {
+                "formato": "manual",
+                "nombre": "Guía basica uso herramientas de Scratch. ",
+                "url": "aplicativos/scratch/6manual.pdf"
+            }
+        ]
+    },
+    {
+        "nombre": "Sebran",
+        "descripcion": "Juegos divertidos para aprender lenguaje, lógica y matemática.",
+        "urlImagen": "aplicativos/sebran/previa-sebran.jpg",
+        "manuales": [
+            {
+                "formato": "pdf",
+                "nombre": "Introducción a la herramienta Sebran",
+                "url": "aplicativos/sebran/1infograma.pdf"
+            },
+            {
+                "formato": "pdf",
+                "nombre": "Uso de la herramienta Sebran",
+                "url": "aplicativos/sebran/2infograma.pdf"
+            },
+            {
+                "formato": "video",
+                "nombre": "Introducción a la herramienta Sebran",
+                "url": "aplicativos/sebran/3video.mp4"
+            },
+            {
+                "formato": "video",
+                "nombre": "Qué puedo realizar con la herramienta Sebran",
+                "url": "aplicativos/sebran/4video.mp4"
+            },
+            {
+                "formato": "video",
+                "nombre": "Uso de la herramienta Sebran",
+                "url": "aplicativos/sebran/5video.mp4"
+            }
+        ]
+    },
+    {
+        "nombre": "Sueñaletras",
+        "descripcion": "Programa para enseñar a leer y escribir a niños sordos e hipoacúsicos de entre 4 y 10 años.",
+        "urlImagen": "aplicativos/sueña-letras/previa-sueña-letras.jpg",
+        "manuales": [
+            {
+                "formato": "pdf",
+                "nombre": "Manual de Sueñaletras",
+                "url": "aplicativos/sueña-letras/1manual.pdf"
+            },
+            {
+                "formato": "pdf",
+                "nombre": "Introducción a Sueñaletras",
+                "url": "aplicativos/sueña-letras/2infograma.pdf"
+            },
+            {
+                "formato": "pdf",
+                "nombre": "Desarrollo de Sueñaletras",
+                "url": "aplicativos/sueña-letras/3infograma.pdf"
+            }
+        ]
+    },
+    {
+        "nombre": "Tux Paint ",
+        "descripcion": "Crea tu mundo con la Herramienta de dibujo Tux Paint.",
+        "urlImagen": "aplicativos/tux-paint/previa-tux-paint.jpg",
+        "manuales": [
+            {
+                "formato": "pdf",
+                "nombre": "Introducción a Tux Paint",
+                "url": "aplicativos/tux-paint/1infograma.pdf"
+            },
+            {
+                "formato": "pdf",
+                "nombre": "¿Qué podemos hacer dentro de esta Herramienta?",
+                "url": "aplicativos/tux-paint/2infograma.pdf"
+            },
+            {
+                "formato": "video",
+                "nombre": "como encontrar la herramienta Tux Paint?",
+                "url": "aplicativos/tux-paint/3video.mp4"
+            },
+            {
+                "formato": "video",
+                "nombre": "Crea tus dibujos soñados con Tux Paint",
+                "url": "aplicativos/tux-paint/4video.mp4"
+            },
+            {
+                "formato": "video",
+                "nombre": "Ejmplo de un dibujo de a Naturaleza",
+                "url": "aplicativos/tux-paint/5video.mp4"
+            }
+        ]
+    },
+    {
+        "nombre": "Cuadernia",
+        "descripcion": "Crea tus propias actividades.",
+        "urlImagen": "aplicativos/cuadernia/previa-cuadernia.jpg",
+        "manuales": [
+            {
+                "formato": "pdf",
+                "nombre": "Introducción a la herramienta Sebran",
+                "url": "aplicativos/cuadernia/1manual.pdf"
+            },
+            {
+                "formato": "video",
+                "nombre": "Introducción a la herramienta Cuadernia",
+                "url": "aplicativos/cuadernia/2video.mp4"
+            },
+            {
+                "formato": "video",
+                "nombre": "Qué puedo realizar con la herramienta Cuadernia",
+                "url": "aplicativos/cuadernia/3video.mp4"
+            },
+            {
+                "formato": "video",
+                "nombre": "Uso de la herramienta Cuadernia",
+                "url": "aplicativos/cuadernia/4video.mp4"
+            },
+            {
+                "formato": "video",
+                "nombre": "Uso de la herramienta Cuadernia",
+                "url": "aplicativos/cuadernia/5video.mp4"
+            }
+        ]
+    },
+    {
+        "nombre": "Dr. Geo",
+        "descripcion": "Crea, explora, manipula y comparte representaciones geométricas dinámicas.",
+        "urlImagen": "aplicativos/dr-geo/previa-dr-geo.jpg",
+        "manuales": [
+            {
+                "formato": "pdf",
+                "nombre": "Introducción a DR.Geo",
+                "url": "aplicativos/dr-geo/1infograma.pdf"
+            },
+            {
+                "formato": "pdf",
+                "nombre": "Qué se puede contruir con DR. Geo",
+                "url": "aplicativos/dr-geo/2infograma.pdf"
+            },
+            {
+                "formato": "video",
+                "nombre": "Introducción a la herramienta Dr. Geo",
+                "url": "aplicativos/dr-geo/3video.mp4"
+            },
+            {
+                "formato": "video",
+                "nombre": "Construcciones básicas en Dr. Geo",
+                "url": "aplicativos/dr-geo/4video.mp4"
+            },
+            {
+                "formato": "video",
+                "nombre": "Construcciones básicas 2 en Dr. Geo",
+                "url": "aplicativos/dr-geo/5video.mp4"
+            }
+        ]
+    },
+    {
+        "nombre": "Algodoo",
+        "descripcion": "Herramienta simuladora 2D de física.",
+        "urlImagen": "aplicativos/algodoo/previa-algodoo.jpg",
+        "manuales": [
+            {
+                "formato": "pdf",
+                "nombre": "Conociendo la herramienta Algodoo parte1",
                 "url": "aplicativos/algodoo/1infograma.pdf"
             },
             {
                 "formato": "pdf",
-                "nombre": "Conoce la herramienta Algodoo",
+                "nombre": "Conociendo la herramienta Algodoo parte2",
                 "url": "aplicativos/algodoo/2infograma.pdf"
             },
             {
                 "formato": "video",
-                "nombre": "Y qué puedo hacer con Algodoo? Parte 1",
+                "nombre": "Introducción a la herramienta Algodoo",
                 "url": "aplicativos/algodoo/3video.mp4"
             },
-			 {
+            {
                 "formato": "video",
-                "nombre": "Y qué puedo hacer con Algodoo? Parte 2",
+                "nombre": "Qué puedo realizar con la herramienta Algodoo",
                 "url": "aplicativos/algodoo/4video.mp4"
             },
-			{
+            {
                 "formato": "video",
-                "nombre": "Conociendo las herramientas de Algodoo. Parte 1",
+                "nombre": "Uso de la herramienta Algodoo",
                 "url": "aplicativos/algodoo/5video.mp4"
             },
-			{
+            {
                 "formato": "video",
-                "nombre": "Conociendo las herramientas de Algodoo. Parte 2",
+                "nombre": "Uso de la herramienta Algodoo",
                 "url": "aplicativos/algodoo/6video.mp4"
             }
-        ]
-    },
+            ]
+        },
+        {
+            "nombre": "Adobe Air",
+            "descripcion": "Aplicaciones web llegan al escritorio.",
+            "urlImagen": "aplicativos/adobe-air/previa-adobe-air.jpg",
+            "manuales": [
+                {
+                    "formato": "pdf",
+                    "nombre": "Conociendo Adobe Air",
+                    "url": "aplicativos/adobe-air/1infograma.pdf"
+                },
+                {
+                    "formato": "video",
+                    "nombre": "Introducción a Adobe Air",
+                    "url": "aplicativos/adobe-air/2video.mp4"
+                }
+            ]
+        },
+        {
+            "nombre": "Adobe Acrobat Reader",
+            "descripcion": "Lee documentos que tienen formato PDF.",
+            "urlImagen": "aplicativos/adobe-acrobat-reader/previa-adobea-acrobat-reader.jpg",
+            "manuales": [
+                {
+                    "formato": "pdf",
+                    "nombre": "¿Por qué utilizar Adobe Acrobat Reader?",
+                    "url": "aplicativos/adobe-acrobat-reader/1infograma.pdf"
+                },
+                {
+                    "formato": "pdf",
+                    "nombre": "¿Qué puedo realizar con la herramienta Adobe Acrobat Reader?",
+                    "url": "aplicativos/adobe-acrobat-reader/2infograma.pdf"
+                },
+                {
+                    "formato": "video",
+                    "nombre": "Introducción a la utilización de Adobe Acrobat Reader.",
+                    "url": "aplicativos/adobe-acrobat-reader/3video.mp4"
+                },
+                {
+                    "formato": "video",
+                    "nombre": "Utilidad de Adobe Acrobat Reader.",
+                    "url": "aplicativos/adobe-acrobat-reader/4video.mp4"
+                },
+                {
+                    "formato": "video",
+                    "nombre": "Funcionalidad de Adobe Acrobat Reader.",
+                    "url": "aplicativos/adobe-acrobat-reader/5video.mp4"
+                }
+            ]
+        },
+        {
+            "nombre": "Adobe Spark",
+            "descripcion": "Crea y comparte historias visuales, videos y contenido digital para redes sociales.",
+            "urlImagen": "aplicativos/adobe-spark/previa-adobe-spark.jpg",
+            "manuales": [
+                {
+                    "formato": "pdf",
+                    "nombre": "Introducción a la herramienta Adobe Spark",
+                    "url": "aplicativos/adobe-spark/1infograma.pdf"
+                },
+                {
+                    "formato": "pdf",
+                    "nombre": "Introducción 2 a la herramienta Adobe Spark",
+                    "url": "aplicativos/adobe-spark/2infograma.pdf"
+                },
+                {
+                    "formato": "video",
+                    "nombre": "Introducción a Adobe Spark",
+                    "url": "aplicativos/adobe-spark/3video.mp4"
+                },
+                {
+                    "formato": "video",
+                    "nombre": "Creación de un diseño con Adobe Spark",
+                    "url": "aplicativos/adobe-spark/4video.mp4"
+                },
+                {
+                    "formato": "video",
+                    "nombre": "Edición de un diseño",
+                    "url": "aplicativos/adobe-spark/5video.mp4"
+                },
+                {
+                    "formato": "video",
+                    "nombre": "Proyectos recientes y exportación",
+                    "url": "aplicativos/adobe-spark/6video.mp4"
+                }
+            ]
+        },
+        {
+            "nombre": "Arduino",
+            "descripcion": "Utiliza robótica en placas electrónicas programables.",
+            "urlImagen": "aplicativos/arduino/previa-arduino.jpg",
+            "manuales": [
+                {
+                    "formato": "pdf",
+                    "nombre": "Introducción a Arduino",
+                    "url": "aplicativos/arduino/1infograma.pdf"
+                },
+                {
+                    "formato": "pdf",
+                    "nombre": "Ejemplos de uso de Arduino",
+                    "url": "aplicativos/arduino/2infograma.pdf"
+                },
+                {
+                    "formato": "video",
+                    "nombre": "Introducción a Arduino",
+                    "url": "aplicativos/arduino/3video.mp4"
+                },
+                {
+                    "formato": "video",
+                    "nombre": "El menú de Arduino. Parte 1",
+                    "url": "aplicativos/arduino/4video.mp4"
+                },
+                {
+                    "formato": "video",
+                    "nombre": "El menú de Arduino. Parte 2",
+                    "url": "aplicativos/arduino/5video.mp4"
+                },
+                {
+                    "formato": "video",
+                    "nombre": "El menú de Arduino. Parte 3",
+                    "url": "aplicativos/arduino/6video.mp4"
+                }
+            ]
+        },
+        {
+            "nombre": "Audacity",
+            "descripcion": "Software para grabar, digitalizar, importar, exportar, editar y combinar sonido",
+            "urlImagen": "aplicativos/audacity/previa-audacity.jpg",
+            "manuales": [
+                {
+                    "formato": "pdf",
+                    "nombre": "Manual uso Audacity",
+                    "url": "aplicativos/audacity/1manual.pdf"
+                },
+                {
+                    "formato": "pdf",
+                    "nombre": "Manual entorno de Audacity",
+                    "url": "aplicativos/audacity/2manual.pdf"
+                },
+                {
+                    "formato": "pdf",
+                    "nombre": "Manual creando mi proyecto con de Audacity",
+                    "url": "aplicativos/audacity/3manual.pdf"
+                },
+                {
+                    "formato": "video",
+                    "nombre": "El menú de Audacity",
+                    "url": "aplicativos/audacity/4video.mp4"
+                },
+                {
+                    "formato": "video",
+                    "nombre": "Ajustes al grabar con Audacity",
+                    "url": "aplicativos/audacity/5video.mp4"
+                },
+                {
+                    "formato": "video",
+                    "nombre": "Creando con Audacity",
+                    "url": "aplicativos/audacity/6video.mp4"
+                }
+            ]
+        },
+        {
+            "nombre": "Cacoo",
+            "descripcion": "Crear gráficos, esquemas de manera colaborativa con Cacoo",
+            "urlImagen": "aplicativos/cacoo/previa-cacoo.jpg",
+            "manuales": [
+                {
+                    "formato": "pdf",
+                    "nombre": "Introducción a Cacoo",
+                    "url": "aplicativos/cacoo/1infograma.pdf"
+                },
+                {
+                    "formato": "pdf",
+                    "nombre": "Ejemplos de uso de Cacoo",
+                    "url": "aplicativos/cacoo/2infograma.pdf"
+                },
+                {
+                    "formato": "video",
+                    "nombre": "Introducción a Cacoo",
+                    "url": "aplicativos/cacoo/3video.mp4"
+                },
+                {
+                    "formato": "video",
+                    "nombre": "Para que sirve Cacoo",
+                    "url": "aplicativos/cacoo/4video.mp4"
+                },
+                {
+                    "formato": "video",
+                    "nombre": "Usando Cacoo. Parte 1",
+                    "url": "aplicativos/cacoo/5video.mp4"
+                },
+                {
+                    "formato": "video",
+                    "nombre": "Usando Cacoo. Parte 2",
+                    "url": "aplicativos/cacoo/6video.mp4"
+                }
+            ]
+        },
+        {
+            "nombre": "Cliente MS Teams",
+            "descripcion": "Cliente MS Teams, es para todo y para todos.",
+            "urlImagen": "aplicativos/cliente-ms-teams/previa-cliente-ms-teams.jpg",
+            "manuales": [
+                {
+                    "formato": "pdf",
+                    "nombre": "Cómo empezar con la herramienta Cliente MS Teams",
+                    "url": "aplicativos/cliente-ms-teams/1infograma.pdf"
+                },
+                {
+                    "formato": "pdf",
+                    "nombre": "Usos  Cliente MS Teams",
+                    "url": "aplicativos/cliente-ms-teams/2infograma.pdf"
+                },
+                {
+                    "formato": "video",
+                    "nombre": "Como ingresar y navegar en Cliente MS Teams? Parte 1",
+                    "url": "aplicativos/cliente-ms-teams/3video.mp4"
+                },
+                {
+                    "formato": "video",
+                    "nombre": "Como descargar y subir un trabajo en MS Teams? Parte 2",
+                    "url": "aplicativos/cliente-ms-teams/4video.mp4"
+                },
+                {
+                    "formato": "video",
+                    "nombre": "Unirse a una reunión y usar la plataforma de MS Teams. Parte 3",
+                    "url": "aplicativos/cliente-ms-teams/5video.mp4"
+                },
+                {
+                    "formato": "video",
+                    "nombre": "Unirse a una reunión y usar la plataforma de MS Teams. Parte 4",
+                    "url": "aplicativos/cliente-ms-teams/6video.mp4"
+                }
+            ]
+        },
 
- {        
-        "nombre": "Cacoo",
-		"descripcion": "Estimula tu ingenio y crea en la web.",
-		"urlImagen": "aplicativos/cacoo/previa-cacoo.jpg", 
-        "manuales": [
-            {
-                "formato": "pdf",
-                "nombre": "Cómo empezar con la herramienta Cacoo",
-                "url": "aplicativos/cacoo/1infograma.pdf"
-            },
-            {
-                "formato": "pdf",
-                "nombre": "Conoce la herramienta Cacoo",
-                "url": "aplicativos/cacoo/2infograma.pdf"
-            },
-            {
-                "formato": "video",
-                "nombre": "Y qué puedo hacer con Cacoo? Parte 1",
-                "url": "aplicativos/cacoo/3video.mp4"
-            },
-			 {
-                "formato": "video",
-                "nombre": "Y qué puedo hacer con Cacoo? Parte 2",
-                "url": "aplicativos/Cacoo/4video.mp4"
-            },
-			{
-                "formato": "video",
-                "nombre": " Sumate a la comunidad en Cacoo. Parte 1",
-                "url": "aplicativos/cacoo/5video.mp4"
-            },
+        {
+            "nombre": "Google Chrome",
+            "descripcion": "Navega por Internet de forma ágil y sencilla",
+            "urlImagen": "aplicativos/google-chrome/previa-google-chrome.jpg",
+            "manuales": [
+                {
+                    "formato": "pdf",
+                    "nombre": "Cómo empezar con la herramienta Google Chrome",
+                    "url": "aplicativos/google-chrome/1infograma.pdf"
+                },
+                {
+                    "formato": "pdf",
+                    "nombre": "Conoce la herramienta Google Chrome",
+                    "url": "aplicativos/google-chrome/2infograma.pdf"
+                },
+                {
+                    "formato": "video",
+                    "nombre": "Introducción a Google Chrome",
+                    "url": "aplicativos/google-chrome/3video.mp4"
+                },
+                {
+                    "formato": "video",
+                    "nombre": "Empecemos a utilizar Google Chrome",
+                    "url": "aplicativos/google-chrome/4video.mp4"
+                },
+                {
+                    "formato": "video",
+                    "nombre": "Conociendo las herramientas de Google Chrome. Parte 1",
+                    "url": "aplicativos/google-chrome/5video.mp4"
+                },
+                {
+                    "formato": "video",
+                    "nombre": "Conociendo las herramientas de Google Chrome. Parte 2",
+                    "url": "aplicativos/google-chrome/6video.mp4"
+                }
+            ]
+        },
+
+        {
+            "nombre": "Geogebra",
+            "descripcion": "Representa datos e inserta Círculos, Triángulos, Ángulos y otros.",
+            "urlImagen": "aplicativos/geogebra/previa-geogebra.jpg",
+            "manuales": [
+                {
+                    "formato": "pdf",
+                    "nombre": "Descripción de la herramienta Geogebra",
+                    "url": "aplicativos/geogebra/1infograma.pdf"
+                },
+                {
+                    "formato": "pdf",
+                    "nombre": "Ejemplo como crear un Triángulo Equilátero en Geogebra",
+                    "url": "aplicativos/geogebra/2infograma.pdf"
+                },
+                {
+                    "formato": "video",
+                    "nombre": "Conociendo las herramientas de Geogebra. Parte 1",
+                    "url": "aplicativos/geogebra/3video.mp4"
+                },
+                {
+                    "formato": "video",
+                    "nombre": "Conociendo las herramientas de Geogebra. Parte 2",
+                    "url": "aplicativos/geogebra/4video.mp4"
+                },
+                {
+                    "formato": "video",
+                    "nombre": "¿Como crear un Triángulo Equilátero en Geogebra?",
+                    "url": "aplicativos/geogebra/5video.mp4"
+                }
+            ]
+        },
+        {
+            "nombre": "Google Earth",
+            "descripcion": "Navega por Internet de forma ágil y sencilla",
+            "urlImagen": "aplicativos/google-earth/previa-google-earth.jpg",
+            "manuales": [
+                {
+                    "formato": "pdf",
+                    "nombre": "Cómo empezar con la herramienta Google Earth",
+                    "url": "aplicativos/google-earth/1infograma.pdf"
+                },
+                {
+                    "formato": "pdf",
+                    "nombre": "Conoce la herramienta Google Earth",
+                    "url": "aplicativos/google-earth/2infograma.pdf"
+                },
+                {
+                    "formato": "video",
+                    "nombre": "Introducción a Google Earth",
+                    "url": "aplicativos/google-earth/3video.mp4"
+                },
+                {
+                    "formato": "video",
+                    "nombre": "Empecemos a utilizar Google Earth",
+                    "url": "aplicativos/google-earth/4video.mp4"
+                },
+                {
+                    "formato": "video",
+                    "nombre": "Conociendo las herramientas de Google Earth",
+                    "url": "aplicativos/google-earth/5video.mp4"
+                }
+            ]
+        },
+
+        {
+            "nombre": "Hot Potatoes",
+            "descripcion": "Crear ejercicios educativos para poder utilizarlos a través de la web.",
+            "urlImagen": "aplicativos/hot-potatoes/previa-hot-potatoes.jpg",
+            "manuales": [
+                {
+                    "formato": "pdf",
+                    "nombre": "Guía de uso básico herramienta Hot Potatoes Versión 7",
+                    "url": "aplicativos/hot-potatoes/1Guía-Hotpotatoes.pdf"
+                },
+                {
+                    "formato": "video",
+                    "nombre": "Conociendo las herramientas que componen Hot Potatoes.",
+                    "url": "aplicativos/hot-potatoes/2video.mp4"
+                },
+                {
+                    "formato": "video",
+                    "nombre": "Conociendo la interfaz de JQuiz.",
+                    "url": "aplicativos/hot-potatoes/3video.mp4"
+                },
+                {
+                    "formato": "video",
+                    "nombre": "¿Como crear un Quiz con Hot Potatoes. Parte 1?",
+                    "url": "aplicativos/hot-potatoes/4video.mp4"
+                },
+                {
+                    "formato": "video",
+                    "nombre": "¿Como crear un Quiz con Hot Potatoes. Parte 2?",
+                    "url": "aplicativos/hot-potatoes/4video.mp4"
+                }
+            ]
+        },
+
+        {
+            "nombre": "Kahoot",
+            "descripcion": "Aprende de forma divertida.",
+            "urlImagen": "aplicativos/kahoot/previa-kahoot.jpg",
+            "manuales": [
+                {
+                    "formato": "pdf",
+                    "nombre": "Introducción a Kahoot",
+                    "url": "aplicativos/kahoot/1infograma.pdf"
+                },
+                {
+                    "formato": "pdf",
+                    "nombre": "¿Cómo puedo utilizar Kahoot?",
+                    "url": "aplicativos/kahoot/2infograma.pdf"
+                },
+                {
+                    "formato": "video",
+                    "nombre": "Introducción a Kahoot",
+                    "url": "aplicativos/kahoot/3video.mp4"
+                },
+                {
+                    "formato": "video",
+                    "nombre": "¿Cómo crear cuestionarios con Kahoot?",
+                    "url": "aplicativos/kahoot/4video.mp4"
+                },
+                {
+                    "formato": "video",
+                    "nombre": "¿Cómo ejecutar cuestionarios con Kahoot?",
+                    "url": "aplicativos/kahoot/5video.mp4"
+                }
+            ]
+        },
+
+        {
+            "nombre": "Len Mus Phonascus",
+            "descripcion": "Hagamos Música.",
+            "urlImagen": "aplicativos/len-mus-phonascus/previa-len-mus-phonascus.jpg",
+            "manuales": [
+                {
+                    "formato": "pdf",
+                    "nombre": "Cómo empezar con la herramienta Len Mus Phonascus",
+                    "url": "aplicativos/len-mus-phonascus/1infograma.pdf"
+                },
+                {
+                    "formato": "pdf",
+                    "nombre": "Conoce la herramienta Len Mus Phonascus",
+                    "url": "aplicativos/len-mus-phonascus/2infograma.pdf"
+                },
+                {
+                    "formato": "video",
+                    "nombre": "Trabajando en Len Mus Phonascus",
+                    "url": "aplicativos/len-mus-phonascus/3video.mp4"
+                },
+                {
+                    "formato": "video",
+                    "nombre": "Y qué puedo hacer con Len Mus Phonascus?",
+                    "url": "aplicativos/len-mus-phonascus/4video.mp4"
+                }
+            ]
+        },
+
+        {
+            "nombre": "Malted",
+            "descripcion": "Te invitamos a crear y resolver divertidas actividades con Malted.",
+            "urlImagen": "aplicativos/malted/previa-malted.jpg",
+            "manuales": [
+                {
+                    "formato": "pdf",
+                    "nombre": "Cómo empezar con la herramienta Malted",
+                    "url": "aplicativos/malted/1infograma.pdf"
+                },
+                {
+                    "formato": "pdf",
+                    "nombre": "Conoce la herramienta Malted",
+                    "url": "aplicativos/malted/2infograma.pdf"
+                },
+                {
+                    "formato": "video",
+                    "nombre": "Introducción a la herramienta Malted",
+                    "url": "aplicativos/malted/3video.mp4"
+                },
+                {
+                    "formato": "video",
+                    "nombre": "Trabajando con Malted",
+                    "url": "aplicativos/malted/4video.mp4"
+                },
+                {
+                    "formato": "video",
+                    "nombre": "¿Qué puedo hacer con Malted?",
+                    "url": "aplicativos/malted/5video.mp4"
+                }
+            ]
+        },
+
+        {
+            "nombre": "Mozilla Firefox",
+            "descripcion": "Navegando en Internet con Mozilla Firefox",
+            "urlImagen": "aplicativos/mozilla-firefox/previa-mozilla-firefox.jpg",
+            "manuales": [
+                {
+                    "formato": "pdf",
+                    "nombre": "Cómo empezar con la herramienta Mozilla Firefox",
+                    "url": "aplicativos/mozilla-firefox/1infograma.pdf"
+                },
+                {
+                    "formato": "pdf",
+                    "nombre": "Conoce la herramienta Mozilla Firefox",
+                    "url": "aplicativos/mozilla-firefox/2infograma.pdf"
+                },
+                {
+                    "formato": "video",
+                    "nombre": "Navegando con Mozilla Firefox",
+                    "url": "aplicativos/mozilla-firefox/3video.mp4"
+                },
+                {
+                    "formato": "video",
+                    "nombre": "Y qué puedo hacer con Mozilla Firefox",
+                    "url": "aplicativos/mozilla-firefox/4video.mp4"
+                }
+            ]
+        },
+
+        {
+            "nombre": "Nearpod",
+            "descripcion": "Sus clases organizadas en la web.",
+            "urlImagen": "aplicativos/nearpod/previa-nearpod.jpg",
+            "manuales": [
+                {
+                    "formato": "pdf",
+                    "nombre": "Introducción a la utilización de Nearpod.",
+                    "url": "aplicativos/nearpod/1infograma.pdf"
+                },
+                {
+                    "formato": "pdf",
+                    "nombre": "Uso de la herramienta Nearpod",
+                    "url": "aplicativos/nearpod/2infograma.pdf"
+                },
+                {
+                    "formato": "video",
+                    "nombre": "Los invito a utilizar Nearpod.",
+                    "url": "aplicativos/nearpod/3video.mp4"
+                },
+                {
+                    "formato": "video",
+                    "nombre": "Lo que podemos realizar con Nearpod.",
+                    "url": "aplicativos/nearpod/4video.mp4"
+                },
+                {
+                    "formato": "video",
+                    "nombre": "Tutorial de práctica de Nearpod.",
+                    "url": "aplicativos/nearpod/5video.mp4"
+                }
+            ]
+        },
+
+        {
+            "nombre": "OneDrive",
+            "descripcion": "Servicio de alojamiento en la nube.",
+            "urlImagen": "aplicativos/one-drive/previa-one-drive.jpg",
+            "manuales": [
+                {
+                    "formato": "pdf",
+                    "nombre": "Conceptos importantes de One Drive",
+                    "url": "aplicativos/one-drive/1infograma.pdf"
+                },
+                {
+                    "formato": "pdf",
+                    "nombre": "¿Qué es One Drive y para qué sirve?",
+                    "url": "aplicativos/one-drive/2infograma.pdf"
+                },			
+			    {
+                    "formato": "video",
+                    "nombre": "Usando One Drive",
+                    "url": "aplicativos/one-drive/3video.mp4"
+                }
+            ]
+        },
+
+        {
+            "nombre": "Ptable",
+            "descripcion": "Te invitamos a conocer una tabla períodica interactiva.",
+            "urlImagen": "aplicativos/ptable/previa-ptable.jpg",
+            "manuales": [
+                {
+                    "formato": "pdf",
+                    "nombre": "Cómo empezar con la herramienta Ptable",
+                    "url": "aplicativos/ptablet/1infograma.pdf"
+                },
+                {
+                    "formato": "pdf",
+                    "nombre": "Conoce la herramienta Ptable",
+                    "url": "aplicativos/ptable/2infograma.pdf"
+                },
+                {
+                    "formato": "video",
+                    "nombre": "Introducción a la herramienta Ptable",
+                    "url": "aplicativos/ptable/3video.mp4"
+                },
+                {
+                    "formato": "video",
+                    "nombre": "Trabajando con Ptable",
+                    "url": "aplicativos/ptable/4video.mp4"
+                },
+                {
+                    "formato": "video",
+                    "nombre": "¿Qué puedo hacer con Ptable?",
+                    "url": "aplicativos/ptable/5video.mp4"
+                }
+            ]
+        },
+
+        {
+            "nombre": "Stellarium",
+            "descripcion": "Aplicación de planetas.",
+            "urlImagen": "aplicativos/stellarium/previa-stellarium.jpg",
+            "manuales": [
+                {
+                    "formato": "pdf",
+                    "nombre": "Cómo utilizar Stellarium",
+                    "url": "aplicativos/algodoo/1infograma.pdf"
+                },
+                {
+                    "formato": "pdf",
+                    "nombre": "Instalación de Stellarium",
+                    "url": "aplicativos/stellarium/2infograma.pdf"
+                },
+                {
+                    "formato": "video",
+                    "nombre": "Que puedo hacer con Stellarium",
+                    "url": "aplicativos/stellarium/3video.mp4"
+                }
+            ]
+        },
+
+        {
+            "nombre": "Virtual Piano",
+            "descripcion": "Te invitamos aprender a tocar piano.",
+            "urlImagen": "aplicativos/virtual-piano/previa-virtual-piano.jng",
+            "manuales": [
+                {
+                    "formato": "pdf",
+                    "nombre": "Cómo empezar con la herramienta Virtual Piano",
+                    "url": "aplicativos/ptablet/1infograma.pdf"
+                },
+                {
+                    "formato": "pdf",
+                    "nombre": "Conoce la herramienta Virtual Piano",
+                    "url": "aplicativos/virtual-piano/2infograma.pdf"
+                },
+                {
+                    "formato": "video",
+                    "nombre": "Introducción a la herramienta Virtual Piano",
+                    "url": "aplicativos/virtual-piano/3video.mp4"
+                },
+                {
+                    "formato": "video",
+                    "nombre": "¿Qué puedo hacer con Virtual Piano",
+                    "url": "aplicativos/virtual-piano/4video.mp4"
+                },
+                {
+                    "formato": "video",
+                    "nombre": " Mis interpretaciones con Virtual Piano",
+                    "url": "aplicativos/virtual-piano/5video.mp4"
+                }
+            ]
+        },
+
+        {
+            "nombre": "GIMP",
+            "descripcion": "Edita imágenes, fotografías y dibujos en diferentes formatos digitales.",
+            "urlImagen": "aplicativos/gimp/previa-gimp.jpg",
+            "manuales": [
+                {
+                    "formato": "pdf",
+                    "nombre": "Conociendo la herramienta Gimp",
+                    "url": "aplicativos/gimp/1infograma.pdf"
+                },
+                {
+                    "formato": "pdf",
+                    "nombre": "¿Para qué se utiliza la Herramienta Gimp?",
+                    "url": "aplicativos/gimp/2infograma.pdf"
+                },
+                {
+                    "formato": "video",
+                    "nombre": "Conociendo los componentes de la herramienta Gimp.",
+                    "url": "aplicativos/gimp/3video.mp4"
+                }
+            ]
+        },
+
+
 {
-                "formato": "video",
-                "nombre": " Sumate a la comunidad en Cacoo. Parte 2",
-                "url": "aplicativos/cacoo/6video.mp4"
-            }
+                    "nombre": "Gcompris",
+                    "descripcion": "Aprender jugando es más divertido",
+                    "urlImagen": "aplicativos/gcompris/previa-gcompris.jpg",
+                    "manuales": [
+                        {
+                            "formato": "pdf",
+                            "nombre": "Cómo empezar con la herramienta Gcompris",
+                            "url": "aplicativos/gcompris/1infograma.pdf"
+                        },
+                        {
+                            "formato": "pdf",
+                            "nombre": "Conoce la herramienta Gcompris",
+                            "url": "aplicativos/gcompris/2infograma.pdf"
+                        },
+                        {
+                            "formato": "pdf",
+                            "nombre": "Uso de la herramienta  Gcompris?",
+                            "url": "aplicativos/gcompris/3guia.pdf"
+                        }
+                    ]
+                },
 
-			
-        ]
-    },
-
-    {        
-        "nombre": "aTubeCatcher",
-		"descripcion": "Entra al mundo de los videos: captura la pantalla para tutoriales y descarga videos de Youtube",
-		"urlImagen": "aplicativos/atubecatcher/previa-atube.jpg", 
-        "manuales": [
-            {
-                "formato": "pdf",
-                "nombre": "Introduccion",
-                "url": "aplicativos/atubecatcher/intro-atubecatcher.pdf"
-            },
-            {
-                "formato": "pdf",
-                "nombre": "Ejemplos bonitos para atubecatcher",
-                "url": "aplicativos/atubecatcher/ejemplos-atubecatcher.pdf"
-            },
-            {
-                "formato": "video",
-                "nombre": "Ideas creativas para atube",
-                "url": "aplicativos/atubecatcher/video-test.mp4"
-            },
-			 {
-                "formato": "pdf",
-                "nombre": "Fechas de activación de la herramienta",
-                "url": "aplicativos/atubecatcher/calendario-1.pdf"
-            }
-        ]
-    },
-
-    {        
-        "nombre": "Plikers",
-        "descripcion": "Dinamiza los Qr de forma entretenida para crear compoetencias.",
-		"urlImagen": "aplicativos/plikers/previa-plikers.png", 
-        "manuales": [
-            {
-                "formato": "pdf",
-                "nombre": "Manual de Plikers",
-                "url": "aplicativos/plikers/manual-plikers.pdf"
-            },
-            {
-                "formato": "video",
-                "nombre": "Ideas con Plickers",
-                "url": "aplicativos/plikers/ejemplo.mp4"
-            }
-          
-        ]
-    },
-
-    {        
-        "nombre": "Kahoot",
-        "descripcion": "Crea campeonatos de conocimiento con solo usar tu celular",
-		"urlImagen": "aplicativos/kahoot/previa-kahoot.png", 
-        "manuales": [
-            {
-                "formato": "pdf",
-                "nombre": "Manual de Kahoot",
-                "url": "aplicativos/kahoot/manual-kahoot.pdf"
-            },
-            {
-                "formato": "img",
-                "nombre": "Primera Infografia",
-                "url": "aplicativos/kahoot/img1.jpg"
-            },
-            {
-                "formato": "img",
-                "nombre": "Segunda Infografia",
-                "url": "aplicativos/kahoot/img2.jpg"
-            }
-
-        ]
-    },
-	
-	{        
-        "nombre": "Geogebra",
-        "descripcion": "Accede al mundo de la matemática de forma práctica y entretenida.",
-		"urlImagen": "aplicativos/geogebra/previa-generica.jpg", 
-        "manuales": [
-            {
-                "formato": "pdf",
-                "nombre": "Introducción a Geogebra",
-                "url": "aplicativos/geogebra/intro.pdf"
-            }          
-        ]
-    }
-
-
+{
+                    "nombre": "VLC",
+                    "descripcion": "Aprende a reproducir multimedia con VLC.",
+                    "urlImagen": "aplicativos/vlc/previa-vlc.jpg",
+                    "manuales": [
+                        {
+                            "formato": "pdf",
+                            "nombre": "Reproductor VLC",
+                            "url": "aplicativos/vlc/1infograma.pdf"
+                        },
+                        {
+                            "formato": "video",
+                            "nombre": "Como reproducir y convertir un formato multimedia con VLC?",
+                            "url": "aplicativos/vlc/2video.mp4"
+                        }
+                    ]
+                }
+            
 ]
+
+

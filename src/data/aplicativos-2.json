@@ -1,0 +1,166 @@
+[
+
+    {        
+        "nombre": "Algodoo",
+		"descripcion": "Conoce conceptos de Física, realizando simulaciones 2D.",
+		"urlImagen": "aplicativos/algodoo/previa-algodoo.jpg", 
+        "manuales": [
+            {
+                "formato": "pdf",
+                "nombre": "Cómo empezar con la herramienta Algodoo",
+                "url": "aplicativos/algodoo/1infograma.pdf"
+            },
+            {
+                "formato": "pdf",
+                "nombre": "Conoce la herramienta Algodoo",
+                "url": "aplicativos/algodoo/2infograma.pdf"
+            },
+            {
+                "formato": "video",
+                "nombre": "Y qué puedo hacer con Algodoo? Parte 1",
+                "url": "aplicativos/algodoo/3video.mp4"
+            },
+			 {
+                "formato": "video",
+                "nombre": "Y qué puedo hacer con Algodoo? Parte 2",
+                "url": "aplicativos/algodoo/4video.mp4"
+            },
+			{
+                "formato": "video",
+                "nombre": "Conociendo las herramientas de Algodoo. Parte 1",
+                "url": "aplicativos/algodoo/5video.mp4"
+            },
+			{
+                "formato": "video",
+                "nombre": "Conociendo las herramientas de Algodoo. Parte 2",
+                "url": "aplicativos/algodoo/6video.mp4"
+            }
+        ]
+    },
+
+ {        
+        "nombre": "Cacoo",
+		"descripcion": "Estimula tu ingenio y crea en la web.",
+		"urlImagen": "aplicativos/cacoo/previa-cacoo.jpg", 
+        "manuales": [
+            {
+                "formato": "pdf",
+                "nombre": "Cómo empezar con la herramienta Cacoo",
+                "url": "aplicativos/cacoo/1infograma.pdf"
+            },
+            {
+                "formato": "pdf",
+                "nombre": "Conoce la herramienta Cacoo",
+                "url": "aplicativos/cacoo/2infograma.pdf"
+            },
+            {
+                "formato": "video",
+                "nombre": "Y qué puedo hacer con Cacoo? Parte 1",
+                "url": "aplicativos/cacoo/3video.mp4"
+            },
+			 {
+                "formato": "video",
+                "nombre": "Y qué puedo hacer con Cacoo? Parte 2",
+                "url": "aplicativos/Cacoo/4video.mp4"
+            },
+			{
+                "formato": "video",
+                "nombre": " Sumate a la comunidad en Cacoo. Parte 1",
+                "url": "aplicativos/cacoo/5video.mp4"
+            },
+{
+                "formato": "video",
+                "nombre": " Sumate a la comunidad en Cacoo. Parte 2",
+                "url": "aplicativos/cacoo/6video.mp4"
+            }
+
+			
+        ]
+    },
+
+    {        
+        "nombre": "aTubeCatcher",
+		"descripcion": "Entra al mundo de los videos: captura la pantalla para tutoriales y descarga videos de Youtube",
+		"urlImagen": "aplicativos/atubecatcher/previa-atube.jpg", 
+        "manuales": [
+            {
+                "formato": "pdf",
+                "nombre": "Introduccion",
+                "url": "aplicativos/atubecatcher/intro-atubecatcher.pdf"
+            },
+            {
+                "formato": "pdf",
+                "nombre": "Ejemplos bonitos para atubecatcher",
+                "url": "aplicativos/atubecatcher/ejemplos-atubecatcher.pdf"
+            },
+            {
+                "formato": "video",
+                "nombre": "Ideas creativas para atube",
+                "url": "aplicativos/atubecatcher/video-test.mp4"
+            },
+			 {
+                "formato": "pdf",
+                "nombre": "Fechas de activación de la herramienta",
+                "url": "aplicativos/atubecatcher/calendario-1.pdf"
+            }
+        ]
+    },
+
+    {        
+        "nombre": "Plikers",
+        "descripcion": "Dinamiza los Qr de forma entretenida para crear compoetencias.",
+		"urlImagen": "aplicativos/plikers/previa-plikers.png", 
+        "manuales": [
+            {
+                "formato": "pdf",
+                "nombre": "Manual de Plikers",
+                "url": "aplicativos/plikers/manual-plikers.pdf"
+            },
+            {
+                "formato": "video",
+                "nombre": "Ideas con Plickers",
+                "url": "aplicativos/plikers/ejemplo.mp4"
+            }
+          
+        ]
+    },
+
+    {        
+        "nombre": "Kahoot",
+        "descripcion": "Crea campeonatos de conocimiento con solo usar tu celular",
+		"urlImagen": "aplicativos/kahoot/previa-kahoot.png", 
+        "manuales": [
+            {
+                "formato": "pdf",
+                "nombre": "Manual de Kahoot",
+                "url": "aplicativos/kahoot/manual-kahoot.pdf"
+            },
+            {
+                "formato": "img",
+                "nombre": "Primera Infografia",
+                "url": "aplicativos/kahoot/img1.jpg"
+            },
+            {
+                "formato": "img",
+                "nombre": "Segunda Infografia",
+                "url": "aplicativos/kahoot/img2.jpg"
+            }
+
+        ]
+    },
+	
+	{        
+        "nombre": "Geogebra",
+        "descripcion": "Accede al mundo de la matemática de forma práctica y entretenida.",
+		"urlImagen": "aplicativos/geogebra/previa-generica.jpg", 
+        "manuales": [
+            {
+                "formato": "pdf",
+                "nombre": "Introducción a Geogebra",
+                "url": "aplicativos/geogebra/intro.pdf"
+            }          
+        ]
+    }
+
+
+]
