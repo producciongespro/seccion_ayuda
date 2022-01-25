@@ -914,7 +914,7 @@
         {
             "nombre": "Ptable",
             "descripcion": "Te invitamos a conocer una tabla períodica interactiva.",
-            "urlImagen": "aplicativos/ptable/previa-ptable.jpg",
+            "urlImagen": "aplicativos/ptable/previa-ptable.png",
             "manuales": [
                 {
                     "formato": "pdf",
@@ -947,7 +947,7 @@
         {
             "nombre": "Stellarium",
             "descripcion": "Aplicación de planetas.",
-            "urlImagen": "aplicativos/stellarium/previa-stellarium.jpg",
+            "urlImagen": "aplicativos/stellarium/previa-stellarium.png",
             "manuales": [
                 {
                     "formato": "pdf",
@@ -970,32 +970,32 @@
         {
             "nombre": "Virtual Piano",
             "descripcion": "Te invitamos aprender a tocar piano.",
-            "urlImagen": "aplicativos/virtual-piano/previa-virtual-piano.jng",
+            "urlImagen": "aplicativos/virtualpiano-net/previa-virtual-piano.png",
             "manuales": [
                 {
                     "formato": "pdf",
                     "nombre": "Cómo empezar con la herramienta Virtual Piano",
-                    "url": "aplicativos/ptablet/1infograma.pdf"
+                    "url": "aplicativos/virtualpiano-net/1infograma.pdf"
                 },
                 {
                     "formato": "pdf",
                     "nombre": "Conoce la herramienta Virtual Piano",
-                    "url": "aplicativos/virtual-piano/2infograma.pdf"
+                    "url": "aplicativos/virtualpiano-net/2infograma.pdf"
                 },
                 {
                     "formato": "video",
                     "nombre": "Introducción a la herramienta Virtual Piano",
-                    "url": "aplicativos/virtual-piano/3video.mp4"
+                    "url": "aplicativos/virtualpiano-net/3video.mp4"
                 },
                 {
                     "formato": "video",
                     "nombre": "¿Qué puedo hacer con Virtual Piano",
-                    "url": "aplicativos/virtual-piano/4video.mp4"
+                    "url": "aplicativos/virtualpiano-net/4video.mp4"
                 },
                 {
                     "formato": "video",
                     "nombre": " Mis interpretaciones con Virtual Piano",
-                    "url": "aplicativos/virtual-piano/5video.mp4"
+                    "url": "aplicativos/virtualpiano-net/5video.mp4"
                 }
             ]
         },
@@ -1027,7 +1027,7 @@
 {
                     "nombre": "Gcompris",
                     "descripcion": "Aprender jugando es más divertido",
-                    "urlImagen": "aplicativos/gcompris/previa-gcompris.jpg",
+                    "urlImagen": "aplicativos/gcompris/previa-gcpompris.jpg",
                     "manuales": [
                         {
                             "formato": "pdf",
