@@ -6,17 +6,17 @@
         "manuales": [
             {
                 "formato": "pdf",
-                "nombre": "Este tarro no enciende",                                   
+                "nombre": "Pendiente",                                   
                 "url": "ayuda-tecnica/problemas/lorem.pdf"                
             },
             {
                 "formato": "video",
-                "nombre": "Viajando por el mundo",                                   
+                "nombre": "Pendiente",                                   
                 "url": "ayuda-tecnica/problemas/ejemplo.mp4"                
             },
             {
                 "formato": "audio",
-                "nombre": "Prueba de audio",                                   
+                "nombre": "Pendiente",                                   
                 "url": "ayuda-tecnica/problemas/test.mp3"                
             }
         ]
@@ -28,7 +28,7 @@
         "manuales": [
             {
                 "formato": "pdf",
-                "nombre": "Los diferentes usuarios de la compu",                                   
+                "nombre": "Pendiente",                                   
                 "url": "ayuda-tecnica/cuentas/lorem.pdf"                                
             }
         ]
@@ -40,12 +40,12 @@
         "manuales": [
             {
                 "formato": "pdf",
-                "nombre": "Boleta para llamar",                                   
+                "nombre": "Pendiente",                                   
                 "url": "ayuda-tecnica/servicios/lorem.pdf"                             
             },
             {
                 "formato": "img",
-                "nombre": "Diagrama de soporte",                                   
+                "nombre": "Pendiente",                                   
                 "url": "ayuda-tecnica/servicios/mi_casa.jpg"                             
             }
         ]
