@@ -129,7 +129,7 @@ export default function Menu(props) {
 
                 <Card>
                     <Accordion.Toggle as={Card.Header} eventKey="3">
-                        <img src="./assets/png/carpeta.png" alt="Carpeta de ayuda" />
+                        <img src="./assets/png/carpeta.png" alt="Carpeta de ergonomía" />
                         <span className="card-link-1 animate__animated animate__flash" role="button"> Ergonomía computacional </span>
                     </Accordion.Toggle>
                     <Accordion.Collapse eventKey="3">
@@ -137,7 +137,7 @@ export default function Menu(props) {
                             <span
                                 role="button"
                                 className="card-link-2"
-                                data-tar="problemas"
+                                data-tar="consejosErgo"
                                 onClick={props.handleMostrarGeneral}
                             >Consejos de ergonomía</span>
                         </Card.Body>
