@@ -11,6 +11,7 @@ export default function ContenedorDeManual(props) {
             case "pdf":
                 tmpHtml= (
                     <iframe 
+                        title='manual pdf'
                         className="control-2"
                         src={urlRecurso} />
                 )
