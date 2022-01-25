@@ -46,7 +46,8 @@ export default function Menu(props) {
                         </Card.Body>
                     </Accordion.Collapse>
                 </Card>
-                <br />
+                
+
                 <Card>
                     <Accordion.Toggle as={Card.Header} eventKey="1">
                         <img src="./assets/png/carpeta.png" alt="Carpeta de ayuda" />
@@ -83,7 +84,8 @@ export default function Menu(props) {
                         </Card.Body>
                     </Accordion.Collapse>
                 </Card>
-                <br />
+                
+
                 <Card>
                     <Accordion.Toggle as={Card.Header} eventKey="2">
                         <img src="./assets/png/carpeta.png" alt="Carpeta de ayuda" />
@@ -123,6 +125,29 @@ export default function Menu(props) {
                     </Accordion.Collapse>
 
                 </Card>
+
+
+                <Card>
+                    <Accordion.Toggle as={Card.Header} eventKey="3">
+                        <img src="./assets/png/carpeta.png" alt="Carpeta de ayuda" />
+                        <span className="card-link-1 animate__animated animate__flash" role="button"> Ergonomía computacional </span>
+                    </Accordion.Toggle>
+                    <Accordion.Collapse eventKey="3">
+                        <Card.Body>
+                            <span
+                                role="button"
+                                className="card-link-2"
+                                data-tar="problemas"
+                                onClick={props.handleMostrarGeneral}
+                            >Consejos de ergonomía</span>
+                        </Card.Body>
+                    </Accordion.Collapse>
+
+                   
+
+                </Card>
+
+
 
 
             </Accordion>
