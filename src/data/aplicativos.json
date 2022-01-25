@@ -382,7 +382,7 @@
         {
             "nombre": "Adobe Acrobat Reader",
             "descripcion": "Lee documentos que tienen formato PDF.",
-            "urlImagen": "aplicativos/adobe-acrobat-reader/previa-adobea-acrobat-reader.jpg",
+            "urlImagen": "aplicativos/adobe-acrobat-reader/previa-adobe-reader.jpg",
             "manuales": [
                 {
                     "formato": "pdf",
@@ -562,7 +562,7 @@
         {
             "nombre": "Cliente MS Teams",
             "descripcion": "Cliente MS Teams, es para todo y para todos.",
-            "urlImagen": "aplicativos/cliente-ms-teams/previa-cliente-ms-teams.jpg",
+            "urlImagen": "aplicativos/cliente-msteams/previa-cliente-ms-teams.jpg",
             "manuales": [
                 {
                     "formato": "pdf",
@@ -670,7 +670,7 @@
         {
             "nombre": "Google Earth",
             "descripcion": "Navega por Internet de forma ágil y sencilla",
-            "urlImagen": "aplicativos/google-earth/previa-google-earth.jpg",
+            "urlImagen": "aplicativos/google-earth/previa-google-earth.png",
             "manuales": [
                 {
                     "formato": "pdf",
@@ -769,7 +769,7 @@
         {
             "nombre": "Len Mus Phonascus",
             "descripcion": "Hagamos Música.",
-            "urlImagen": "aplicativos/len-mus-phonascus/previa-len-mus-phonascus.jpg",
+            "urlImagen": "aplicativos/len-mus-phonascus/previa.len-mus-phonascus.jpeg",
             "manuales": [
                 {
                     "formato": "pdf",
@@ -830,7 +830,7 @@
         {
             "nombre": "Mozilla Firefox",
             "descripcion": "Navegando en Internet con Mozilla Firefox",
-            "urlImagen": "aplicativos/mozilla-firefox/previa-mozilla-firefox.jpg",
+            "urlImagen": "aplicativos/mozilla-firefox/previa-mozilla-firefox.jpeg",
             "manuales": [
                 {
                     "formato": "pdf",
