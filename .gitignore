@@ -13,6 +13,7 @@
 
 # Aplicativos
 /public/manuales/aplicativos
+/public/manuales/
 
 # Archivos multimedia
 *.mp4
