@@ -59,7 +59,9 @@ export default function ContenedorDeManual(props) {
                     className="col-12"
                     data-tar={data.opcion}
                     //onClick={props.handleMostrarListaManuales}
-                    onClick={props.handleMostrarGeneral}                    
+                    onClick={
+                        data.modo === "generico" ? props.handleMostrarGeneral : props.handleMostrarListaManuales
+                        }                    
                     role="button"                  
                 >
                     <img className="ico-1 animate__animated animate__flash" src="./assets/png/flecha.png" alt="Volver" /> &nbsp;

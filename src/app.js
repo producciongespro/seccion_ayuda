@@ -13,7 +13,7 @@ import ayudaTecnica from './data/ayuda-tecnica.json';
 import ergonomias from "./data/ergonomia.json";
 
 //gespro utilis
-import {stIns, stDel} from "gespro-utils";
+import {stIns} from "gespro-utils";
 
 //Objeto con la información de la seleccion del usuario
 var seleccion=null;
@@ -24,7 +24,7 @@ function App() {
   
 
   const handleMostrarGeneral=(e)=> {
-    console.log("e target---->", e.target);
+    console.log(" GENERAL ///////  e target---->", e.target);
     let opcion= e.currentTarget.dataset.tar;
     let categoria;    
     console.log("opcion",opcion);
@@ -89,11 +89,11 @@ function App() {
 
     //Elimina primero la data almacenada anteriormente
     localStorage.clear();
-
-
     stIns("data", {
       categoria,
-      opcion      
+      opcion,
+      modo: "generico"
+
     })
 
     setVisor(  
@@ -119,7 +119,7 @@ function App() {
        //si item es válido es poruqe se selecciona de la tarjeta
        //y se genera una nueva seleccion
       let indice = parseInt(e.currentTarget.id);
-      console.log("opcion sub",indice);
+      console.log(" Mostrando lista de manuales ************** opcion sub",indice);
       seleccion = aplicativos[indice];
       console.log("Seleccion --->",seleccion);
      }
