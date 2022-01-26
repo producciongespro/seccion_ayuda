@@ -12,6 +12,9 @@ import preventivo from './data/preventivo.json';
 import ayudaTecnica from './data/ayuda-tecnica.json';
 import ergonomias from "./data/ergonomia.json";
 
+//gespro utilis
+import {stIns, stDel} from "gespro-utils";
+
 //Objeto con la información de la seleccion del usuario
 var seleccion=null;
 
@@ -21,29 +24,34 @@ function App() {
   
 
   const handleMostrarGeneral=(e)=> {
-    let opcion= e.target.dataset.tar;    
+    let opcion= e.target.dataset.tar;
+    let categoria;    
     console.log("opcion",opcion);
 
     switch (opcion) {
       case "problemas":
       case "cuentas":
-      case "servicio":      
-       console.log(">>> categoria: Ayuda técncia");    
-       mostrarManualesGenericos("ayudaTecnica", opcion)   
+      case "servicio":    
+      categoria = "ayudaTecnica";  
+       console.log(">>> categoria:", categoria );    
+       mostrarManualesGenericos(categoria, opcion);
       break;
       case "rendimiento":
       case "antivirus":
-      case "preventivos":   
-       console.log(">>> categoria: preventivo");  
-       mostrarManualesGenericos("preventivo", opcion)   
+      case "preventivos":          
+       categoria = "preventivo";  
+       console.log(">>> categoria:", categoria );    
+       mostrarManualesGenericos(categoria, opcion); 
       break;
 
       case "software":        
         handleMostrarTarjetasSoftware();
       break;
 
-      case "consejosErgo":        
-        mostrarManualesGenericos("ergonomia", opcion)  
+      case "consejosErgo":  
+      categoria = "ergonomia";  
+      console.log(">>> categoria:", categoria );    
+      mostrarManualesGenericos(categoria, opcion);         
       break;
       
     
@@ -71,13 +79,29 @@ function App() {
       tmpArray= ergonomias;
     }
 
-
-
-
     seleccion = filtrarKey(tmpArray, "clave", opcion, "mostrarManualesGenericos")[0];
     //console.log("seleccion",seleccion);
 
-    setVisor(  <ManualesSoftware modo="generico" opcion={opcion} seleccion={seleccion} handleSeleccionarManual={handleSeleccionarManual}  />  )   
+
+    //Alamacenamiento de datos en localsotrage para que
+    //puedan ser accedidas desde contenedor manual
+
+    //Elimina primero la data almacenada anteriormente
+    localStorage.clear();
+
+
+    stIns("data", {
+      categoria,
+      opcion      
+    })
+
+    setVisor(  
+      <ManualesSoftware 
+      modo="generico"       
+      seleccion={seleccion} 
+      handleMostrarGeneral={handleMostrarGeneral}
+      handleSeleccionarManual={handleSeleccionarManual} 
+       />  )   
 
 
   }

@@ -42,7 +42,7 @@ export default function ManualesSoftware(props) {
                             onClick={props.handleMostrarTarjetasSoftware}
                             role="button">
                             <img className="ico-1 animate__animated animate__flash" src="./assets/png/flecha.png" alt="Volver" /> &nbsp;
-                             <span className="badge badge-info text-1" > Volver a galería </span> <br/>
+                             <span className="badge badge-info text-1" > Volver a galería software </span> <br/>
                         </span>
                     </div><br/> <br/>
                 </div>
