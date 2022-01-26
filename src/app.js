@@ -24,7 +24,8 @@ function App() {
   
 
   const handleMostrarGeneral=(e)=> {
-    let opcion= e.target.dataset.tar;
+    console.log("e target---->", e.target);
+    let opcion= e.currentTarget.dataset.tar;
     let categoria;    
     console.log("opcion",opcion);
 
@@ -98,8 +99,7 @@ function App() {
     setVisor(  
       <ManualesSoftware 
       modo="generico"       
-      seleccion={seleccion} 
-      handleMostrarGeneral={handleMostrarGeneral}
+      seleccion={seleccion}       
       handleSeleccionarManual={handleSeleccionarManual} 
        />  )   
 
@@ -133,7 +133,15 @@ function App() {
     let formato= item.dataset.formato;
     let nombreManual= item.dataset.nombremanual;
     //console.log(nombreManual);    
-    setVisor( <ContenedorDeManual formato={formato} url={url} nombreSoftwre={seleccion.nombre} nombreManual={nombreManual} handleMostrarListaManuales={handleMostrarListaManuales} />  )
+    setVisor( 
+      <ContenedorDeManual 
+        formato={formato} 
+        url={url} 
+        nombreSoftwre={seleccion.nombre} 
+        nombreManual={nombreManual}         
+        handleMostrarGeneral={handleMostrarGeneral}
+        handleMostrarListaManuales={handleMostrarListaManuales} 
+        />  )
   }
 
 

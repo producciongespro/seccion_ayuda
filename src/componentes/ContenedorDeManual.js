@@ -1,5 +1,11 @@
 import React from 'react';
+import {stGet} from "gespro-utils";
+
+
 export default function ContenedorDeManual(props) {
+
+    const data = stGet("data")[0];
+    console.log("data", data);
 
 
     const renderManual=(formato, url)=> {
@@ -51,11 +57,13 @@ export default function ContenedorDeManual(props) {
             <div className="row">
                 <div
                     className="col-12"
-                    onClick={props.handleMostrarListaManuales}
+                    data-tar={data.opcion}
+                    //onClick={props.handleMostrarListaManuales}
+                    onClick={props.handleMostrarGeneral}                    
                     role="button"                  
                 >
                     <img className="ico-1 animate__animated animate__flash" src="./assets/png/flecha.png" alt="Volver" /> &nbsp;
-                    <span   className="badge badge-info text-1 " >Regresar a otra ayuda de {props.nombreSoftwre}</span><br/>
+                    <span   className="badge badge-info text-1 " >Regresar a más de {props.nombreSoftwre}</span><br/>
                 </div>
             </div> <br/>
 
