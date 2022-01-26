@@ -1,7 +1,8 @@
 import React, { useState } from 'react';
 import Encabezado from './componentes/Encabezado';
 import Menu from './componentes/Menu';
-import ManualesSoftware from './componentes/ManualesSoftware';
+import ListaManuales from './componentes/ListaManuales';
+import ListaSoftware from './componentes/ListaSoftware';
 import ContenedorDeManual from './componentes/ContenedorDeManual';
 import Tarjetas from './componentes/Tarjetas';
 
@@ -13,7 +14,8 @@ import ayudaTecnica from './data/ayuda-tecnica.json';
 import ergonomias from "./data/ergonomia.json";
 
 //gespro utilis
-import {stIns} from "gespro-utils";
+
+
 
 //Objeto con la información de la seleccion del usuario
 var seleccion=null;
@@ -35,7 +37,7 @@ function App() {
       case "servicio":    
       categoria = "ayudaTecnica";  
        console.log(">>> categoria:", categoria );    
-       mostrarManualesGenericos(categoria, opcion);
+       mostrarManualesGenericos(categoria, opcion );
       break;
       case "rendimiento":
       case "antivirus":
@@ -64,6 +66,13 @@ function App() {
     
   }
 
+
+  /**
+   * 
+   * @param {*} categoria 
+   * @param {*} opcion    
+   * Abre manuales genéricos (ayda técnica, mantenimiento y ergonomía )
+   */
   const mostrarManualesGenericos=(categoria, opcion )=> {
     //manuales que no son software como mantenimiento preventivo o ayuda técnica
     let tmpArray=null
@@ -89,16 +98,13 @@ function App() {
 
     //Elimina primero la data almacenada anteriormente
     localStorage.clear();
-    stIns("data", {
-      categoria,
-      opcion,
-      modo: "generico"
+    localStorage.setItem("categoria", categoria);
+    localStorage.setItem("opcion", opcion);
+    localStorage.setItem("modo", "generico");
 
-    })
-
+  
     setVisor(  
-      <ManualesSoftware 
-      modo="generico"       
+      <ListaManuales            
       seleccion={seleccion}       
       handleSeleccionarManual={handleSeleccionarManual} 
        />  )   
@@ -108,8 +114,35 @@ function App() {
 
 
   const handleMostrarTarjetasSoftware=()=> {
-    setVisor ( <Tarjetas handleMostrarListaManuales={handleMostrarListaManuales} array={aplicativos}  />  )
+    localStorage.setItem("modo", "software");
+    setVisor ( 
+      <Tarjetas 
+        handleMostrarListaManuales={handleMostrarListaSoftware} 
+        array={aplicativos}  />  )
   }
+
+
+  const handleMostrarListaSoftware =(e)=> {
+
+    let item= e.currentTarget.id;
+    if (item) {
+      //si item es válido es poruqe se selecciona de la tarjeta
+      //y se genera una nueva seleccion
+     let indice = parseInt(e.currentTarget.id);
+     console.log(" Mostrando lista de software ************** opcion sub",indice);
+     seleccion = aplicativos[indice];
+     //console.log("Seleccion --->",seleccion);
+    }
+
+    setVisor(
+      <ListaSoftware        
+        seleccion={seleccion} 
+        handleSeleccionarManual={handleSeleccionarManual} 
+        handleMostrarTarjetasSoftware={handleMostrarTarjetasSoftware} 
+       />
+    )
+  }
+
 
    
   
@@ -124,7 +157,12 @@ function App() {
       console.log("Seleccion --->",seleccion);
      }
      //Caso contrario es porque el handler viene del contenedor manual y se mantiene la sescción actual   
-    setVisor(  <ManualesSoftware modo="software" seleccion={seleccion} handleSeleccionarManual={handleSeleccionarManual} handleMostrarTarjetasSoftware={handleMostrarTarjetasSoftware} />  )   
+    setVisor(  
+      <ListaManuales         
+        seleccion={seleccion} 
+        handleSeleccionarManual={handleSeleccionarManual} 
+        handleMostrarTarjetasSoftware={handleMostrarTarjetasSoftware} 
+        />  )   
   }
 
   const handleSeleccionarManual=(e)=> {    
@@ -141,6 +179,7 @@ function App() {
         nombreManual={nombreManual}         
         handleMostrarGeneral={handleMostrarGeneral}
         handleMostrarListaManuales={handleMostrarListaManuales} 
+        handleMostrarListaSoftware= {handleMostrarListaSoftware}
         />  )
   }
 

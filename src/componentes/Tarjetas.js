@@ -1,7 +1,7 @@
 import React from 'react';
 export default function Tarjetas(props) {
 
-    console.log(props.array);
+    //console.log(props.array);
     return (
 
         <React.Fragment>

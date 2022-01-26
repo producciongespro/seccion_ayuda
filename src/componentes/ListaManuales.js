@@ -1,6 +1,7 @@
 import React from 'react';
 
-export default function ManualesSoftware(props) {
+
+export default function ListaManuales (props) {
 
 
     const iconoFormato = (tipo) => {
@@ -30,23 +31,8 @@ export default function ManualesSoftware(props) {
 
     console.log(props.seleccion);
     return (
-        <React.Fragment>
-            {
-                console.log("props.modo", props.modo)
-            }
-            {
-                props.modo === "software" &&
-                <div className="row">
-                    <div className="col-12">
-                        <span
-                            onClick={props.handleMostrarTarjetasSoftware}
-                            role="button">
-                            <img className="ico-1 animate__animated animate__flash" src="./assets/png/flecha.png" alt="Volver" /> &nbsp;
-                             <span className="badge badge-info text-1" > Volver a galería software </span> <br/>
-                        </span>
-                    </div><br/> <br/>
-                </div>
-            }
+        <React.Fragment>          
+      
 
             <div className="row">
                 <div className="col-12">

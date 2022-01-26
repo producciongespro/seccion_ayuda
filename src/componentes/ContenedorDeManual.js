@@ -1,11 +1,12 @@
 import React from 'react';
-import {stGet} from "gespro-utils";
+
 
 
 export default function ContenedorDeManual(props) {
 
-    const data = stGet("data")[0];
-    console.log("data", data);
+    const opcion = localStorage.getItem("opcion");
+    const modo = localStorage.getItem("modo");
+    console.log("modo ----xxxxx------>", modo);
 
 
     const renderManual=(formato, url)=> {
@@ -55,12 +56,12 @@ export default function ContenedorDeManual(props) {
     return (
         <React.Fragment>
             <div className="row">
-                <div
+                <div                
                     className="col-12"
-                    data-tar={data.opcion}
+                    data-tar={opcion}
                     //onClick={props.handleMostrarListaManuales}
                     onClick={
-                        data.modo === "generico" ? props.handleMostrarGeneral : props.handleMostrarListaManuales
+                        modo === "generico" ? props.handleMostrarGeneral : props.handleMostrarListaSoftware
                         }                    
                     role="button"                  
                 >
