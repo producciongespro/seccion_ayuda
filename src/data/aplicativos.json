@@ -22,7 +22,7 @@
             },
             {
                 "formato": "video",
-                "nombre": "Y qué puedo hacer con Atube Catcher?",
+                "nombre": "¿Y qué puedo hacer con Atube Catcher?",
                 "url": "aplicativos/atube-catcher/4video.mp4"
             }
         ]
@@ -68,7 +68,7 @@
         "manuales": [
             {
                 "formato": "pdf",
-                "nombre": "Cómo empezar con la herramienta CMaptools ",
+                "nombre": "¿Cómo empezar con la herramienta CMaptools? ",
                 "url": "aplicativos/cmaptools/1infograma.pdf"
             },
             {
@@ -96,12 +96,12 @@
         "manuales": [
             {
                 "formato": "pdf",
-                "nombre": "Cómo empezar con la herramienta Lector QR",
+                "nombre": "¿Cómo empezar con la herramienta Lector QR?",
                 "url": "aplicativos/lector-qr/1infograma.pdf"
             },
             {
                 "formato": "video",
-                "nombre": "Utiliza  Lector QR? ",
+                "nombre": "Utiliza  Lector QR",
                 "url": "aplicativos/lector-qr/2video.mp4"
             }
         ]
@@ -113,7 +113,7 @@
         "manuales": [
             {
                 "formato": "pdf",
-                "nombre": "Cómo empezar con la herramienta MyAbcs",
+                "nombre": "¿Cómo empezar con la herramienta MyAbcs?",
                 "url": "aplicativos/myabcs/1infograma.pdf"
             },
             {
@@ -123,12 +123,12 @@
             },
             {
                 "formato": "video",
-                "nombre": "Y qué puedo hacer con MyAbcs? Parte 1",
+                "nombre": "¿Y qué puedo hacer con MyAbcs? Parte 1",
                 "url": "aplicativos/myabcs/3video.mp4"
             },
             {
                 "formato": "video",
-                "nombre": "Y qué puedo hacer con MyAbcs? Parte 2",
+                "nombre": "¿Y qué puedo hacer con MyAbcs? Parte 2",
                 "url": "aplicativos/myabcs/4video.mp4"
             },
             {
@@ -145,7 +145,7 @@
         "manuales": [
             {
                 "formato": "img",
-                "nombre": "Cómo empezar con la herramienta Scratch",
+                "nombre": "¿Cómo empezar con la herramienta Scratch?",
                 "url": "aplicativos/scratch/1infograma.jpeg"
             },
             {
@@ -155,12 +155,12 @@
             },
             {
                 "formato": "video",
-                "nombre": "Y qué puedo hacer con Scratch? Parte 1",
+                "nombre": "¿Y qué puedo hacer con Scratch? Parte 1",
                 "url": "aplicativos/scratch/3video.mp4"
             },
             {
                 "formato": "video",
-                "nombre": "Y qué puedo hacer con Scratch? Parte 2",
+                "nombre": "¿Y qué puedo hacer con Scratch? Parte 2",
                 "url": "aplicativos/scratch/4video.mp4"
             },
             {
@@ -197,7 +197,7 @@
             },
             {
                 "formato": "video",
-                "nombre": "Qué puedo realizar con la herramienta Sebran",
+                "nombre": "¿Qué puedo realizar con la herramienta Sebran?",
                 "url": "aplicativos/sebran/4video.mp4"
             },
             {
@@ -241,7 +241,7 @@
             },
             {
                 "formato": "pdf",
-                "nombre": "¿Qué podemos hacer dentro de esta Herramienta?",
+                "nombre": "¿Qué podemos hacer dentro de esta herramienta?",
                 "url": "aplicativos/tux-paint/2infograma.pdf"
             },
             {
@@ -256,7 +256,7 @@
             },
             {
                 "formato": "video",
-                "nombre": "Ejmplo de un dibujo de a Naturaleza",
+                "nombre": "Ejemplo de un dibujo de la Naturaleza",
                 "url": "aplicativos/tux-paint/5video.mp4"
             }
         ]
@@ -268,7 +268,7 @@
         "manuales": [
             {
                 "formato": "pdf",
-                "nombre": "Introducción a la herramienta Sebran",
+                "nombre": "Introducción a la herramienta Cuadernia",
                 "url": "aplicativos/cuadernia/1manual.pdf"
             },
             {
@@ -278,17 +278,17 @@
             },
             {
                 "formato": "video",
-                "nombre": "Qué puedo realizar con la herramienta Cuadernia",
+                "nombre": "¿Qué puedo realizar con la herramienta Cuadernia?",
                 "url": "aplicativos/cuadernia/3video.mp4"
             },
             {
                 "formato": "video",
-                "nombre": "Uso de la herramienta Cuadernia",
+                "nombre": "Uso de la herramienta Cuadernia. Parte 1",
                 "url": "aplicativos/cuadernia/4video.mp4"
             },
             {
                 "formato": "video",
-                "nombre": "Uso de la herramienta Cuadernia",
+                "nombre": "Uso de la herramienta Cuadernia. Parte 2",
                 "url": "aplicativos/cuadernia/5video.mp4"
             }
         ]
@@ -305,7 +305,7 @@
             },
             {
                 "formato": "pdf",
-                "nombre": "Qué se puede contruir con DR. Geo",
+                "nombre": "¿Qué se puede contruir con DR. Geo?",
                 "url": "aplicativos/dr-geo/2infograma.pdf"
             },
             {
@@ -315,7 +315,7 @@
             },
             {
                 "formato": "video",
-                "nombre": "Construcciones básicas en Dr. Geo",
+                "nombre": "Construcciones básicas 1 en Dr. Geo",
                 "url": "aplicativos/dr-geo/4video.mp4"
             },
             {
@@ -332,12 +332,12 @@
         "manuales": [
             {
                 "formato": "pdf",
-                "nombre": "Conociendo la herramienta Algodoo parte1",
+                "nombre": "Conociendo la herramienta Algodoo. Parte1",
                 "url": "aplicativos/algodoo/1infograma.pdf"
             },
             {
                 "formato": "pdf",
-                "nombre": "Conociendo la herramienta Algodoo parte2",
+                "nombre": "Conociendo la herramienta Algodoo. Parte2",
                 "url": "aplicativos/algodoo/2infograma.pdf"
             },
             {
@@ -347,17 +347,17 @@
             },
             {
                 "formato": "video",
-                "nombre": "Qué puedo realizar con la herramienta Algodoo",
+                "nombre": "¿Qué puedo realizar con la herramienta Algodoo?",
                 "url": "aplicativos/algodoo/4video.mp4"
             },
             {
                 "formato": "video",
-                "nombre": "Uso de la herramienta Algodoo",
+                "nombre": "Uso de la herramienta Algodoo. Parte 1",
                 "url": "aplicativos/algodoo/5video.mp4"
             },
             {
                 "formato": "video",
-                "nombre": "Uso de la herramienta Algodoo",
+                "nombre": "Uso de la herramienta Algodoo. Parte 2",
                 "url": "aplicativos/algodoo/6video.mp4"
             }
             ]
@@ -418,7 +418,7 @@
             "manuales": [
                 {
                     "formato": "pdf",
-                    "nombre": "Introducción a la herramienta Adobe Spark",
+                    "nombre": "Introducción 1 a la herramienta Adobe Spark",
                     "url": "aplicativos/adobe-spark/1infograma.pdf"
                 },
                 {
@@ -460,7 +460,7 @@
                 },
                 {
                     "formato": "pdf",
-                    "nombre": "Ejemplos de uso de Arduino",
+                    "nombre": "Ejemplos del uso de la herramienta Arduino",
                     "url": "aplicativos/arduino/2infograma.pdf"
                 },
                 {
@@ -502,7 +502,7 @@
                 },
                 {
                     "formato": "pdf",
-                    "nombre": "Manual creando mi proyecto con de Audacity",
+                    "nombre": "Manual creando mi proyecto con Audacity",
                     "url": "aplicativos/audacity/3manual.pdf"
                 },
                 {
@@ -534,7 +534,7 @@
                 },
                 {
                     "formato": "pdf",
-                    "nombre": "Ejemplos de uso de Cacoo",
+                    "nombre": "Ejemplos de los uso de la herramienta Cacoo",
                     "url": "aplicativos/cacoo/2infograma.pdf"
                 },
                 {
@@ -544,7 +544,7 @@
                 },
                 {
                     "formato": "video",
-                    "nombre": "Para que sirve Cacoo",
+                    "nombre": "¿Para que sirve Cacoo?",
                     "url": "aplicativos/cacoo/4video.mp4"
                 },
                 {
@@ -566,7 +566,7 @@
             "manuales": [
                 {
                     "formato": "pdf",
-                    "nombre": "Cómo empezar con la herramienta Cliente MS Teams",
+                    "nombre": "¿Cómo empezar con la herramienta Cliente MS Teams?",
                     "url": "aplicativos/cliente-ms-teams/1infograma.pdf"
                 },
                 {
@@ -576,17 +576,17 @@
                 },
                 {
                     "formato": "video",
-                    "nombre": "Como ingresar y navegar en Cliente MS Teams? Parte 1",
+                    "nombre": "¿Cómo ingresar y navegar en Cliente MS Teams? Parte 1",
                     "url": "aplicativos/cliente-ms-teams/3video.mp4"
                 },
                 {
                     "formato": "video",
-                    "nombre": "Como descargar y subir un trabajo en MS Teams? Parte 2",
+                    "nombre": "¿Cómo descargar y subir un trabajo en MS Teams? Parte 2",
                     "url": "aplicativos/cliente-ms-teams/4video.mp4"
                 },
                 {
                     "formato": "video",
-                    "nombre": "Unirse a una reunión y usar la plataforma de MS Teams. Parte 3",
+                    "nombre": "¿Cómo unirse a una reunión y usar la plataforma de MS Teams? Parte 3",
                     "url": "aplicativos/cliente-ms-teams/5video.mp4"
                 },
                 {
@@ -604,7 +604,7 @@
             "manuales": [
                 {
                     "formato": "pdf",
-                    "nombre": "Cómo empezar con la herramienta Google Chrome",
+                    "nombre": "¿Cómo empezar con la herramienta Google Chrome?",
                     "url": "aplicativos/google-chrome/1infograma.pdf"
                 },
                 {
@@ -647,7 +647,7 @@
                 },
                 {
                     "formato": "pdf",
-                    "nombre": "Ejemplo como crear un Triángulo Equilátero en Geogebra",
+                    "nombre": "Ejemplo de la creación de un triángulo equilátero en Geogebra",
                     "url": "aplicativos/geogebra/2infograma.pdf"
                 },
                 {
@@ -662,19 +662,19 @@
                 },
                 {
                     "formato": "video",
-                    "nombre": "¿Como crear un Triángulo Equilátero en Geogebra?",
+                    "nombre": "¿Cómo crear un triángulo equilátero en Geogebra?",
                     "url": "aplicativos/geogebra/5video.mp4"
                 }
             ]
         },
         {
             "nombre": "Google Earth",
-            "descripcion": "Navega por Internet de forma ágil y sencilla.",
+            "descripcion": "Navega por internet de forma ágil y sencilla.",
             "urlImagen": "aplicativos/google-earth/previa-google-earth.png",
             "manuales": [
                 {
                     "formato": "pdf",
-                    "nombre": "Cómo empezar con la herramienta Google Earth",
+                    "nombre": "¿Cómo empezar con la herramienta Google Earth?",
                     "url": "aplicativos/google-earth/1infograma.pdf"
                 },
                 {
@@ -707,12 +707,12 @@
             "manuales": [
                 {
                     "formato": "pdf",
-                    "nombre": "Guía de uso básico herramienta Hot Potatoes Versión 7",
+                    "nombre": "Guía del uso básico de la herramienta Hot Potatoes Versión 7",
                     "url": "aplicativos/hot-potatoes/1Guía-Hotpotatoes.pdf"
                 },
                 {
                     "formato": "video",
-                    "nombre": "Conociendo las herramientas que componen Hot Potatoes.",
+                    "nombre": "Conociendo las herramientas que componen Hot Potatoes",
                     "url": "aplicativos/hot-potatoes/2video.mp4"
                 },
                 {
@@ -722,12 +722,12 @@
                 },
                 {
                     "formato": "video",
-                    "nombre": "¿Como crear un Quiz con Hot Potatoes. Parte 1?",
+                    "nombre": "¿Cómo crear un quiz con Hot Potatoes. Parte 1?",
                     "url": "aplicativos/hot-potatoes/4video.mp4"
                 },
                 {
                     "formato": "video",
-                    "nombre": "¿Como crear un Quiz con Hot Potatoes. Parte 2?",
+                    "nombre": "¿Cómo crear un quiz con Hot Potatoes. Parte 2?",
                     "url": "aplicativos/hot-potatoes/4video.mp4"
                 }
             ]
@@ -773,7 +773,7 @@
             "manuales": [
                 {
                     "formato": "pdf",
-                    "nombre": "Cómo empezar con la herramienta Len Mus Phonascus",
+                    "nombre": "¿Cómo empezar con la herramienta Len Mus Phonascus?",
                     "url": "aplicativos/len-mus-phonascus/1infograma.pdf"
                 },
                 {
@@ -788,7 +788,7 @@
                 },
                 {
                     "formato": "video",
-                    "nombre": "Y qué puedo hacer con Len Mus Phonascus?",
+                    "nombre": "¿Y qué puedo hacer con Len Mus Phonascus?",
                     "url": "aplicativos/len-mus-phonascus/4video.mp4"
                 }
             ]
@@ -801,7 +801,7 @@
             "manuales": [
                 {
                     "formato": "pdf",
-                    "nombre": "Cómo empezar con la herramienta Malted",
+                    "nombre": "¿Cómo empezar con la herramienta Malted?",
                     "url": "aplicativos/malted/1infograma.pdf"
                 },
                 {
@@ -834,7 +834,7 @@
             "manuales": [
                 {
                     "formato": "pdf",
-                    "nombre": "Cómo empezar con la herramienta Mozilla Firefox",
+                    "nombre": "¿Cómo empezar con la herramienta Mozilla Firefox?",
                     "url": "aplicativos/mozilla-firefox/1infograma.pdf"
                 },
                 {
@@ -849,7 +849,7 @@
                 },
                 {
                     "formato": "video",
-                    "nombre": "Y qué puedo hacer con Mozilla Firefox",
+                    "nombre": "¿Y qué puedo hacer con Mozilla Firefox?",
                     "url": "aplicativos/mozilla-firefox/4video.mp4"
                 }
             ]
@@ -918,7 +918,7 @@
             "manuales": [
                 {
                     "formato": "pdf",
-                    "nombre": "Cómo empezar con la herramienta Ptable",
+                    "nombre": "¿Cómo empezar con la herramienta Ptable?",
                     "url": "aplicativos/ptablet/1infograma.pdf"
                 },
                 {
@@ -951,7 +951,7 @@
             "manuales": [
                 {
                     "formato": "pdf",
-                    "nombre": "Cómo utilizar Stellarium",
+                    "nombre": "¿Cómo utilizar Stellarium?",
                     "url": "aplicativos/algodoo/1infograma.pdf"
                 },
                 {
@@ -961,7 +961,7 @@
                 },
                 {
                     "formato": "video",
-                    "nombre": "Que puedo hacer con Stellarium",
+                    "nombre": "¿Qué puedo hacer con Stellarium?",
                     "url": "aplicativos/stellarium/3video.mp4"
                 }
             ]
@@ -969,12 +969,12 @@
 
         {
             "nombre": "Virtual Piano",
-            "descripcion": "Te invitamos aprender a tocar piano.",
+            "descripcion": "Te invitamos a aprender a tocar piano.",
             "urlImagen": "aplicativos/virtualpiano-net/previa-virtual-piano.png",
             "manuales": [
                 {
                     "formato": "pdf",
-                    "nombre": "Cómo empezar con la herramienta Virtual Piano",
+                    "nombre": "¿Cómo empezar con la herramienta Virtual Piano?",
                     "url": "aplicativos/virtualpiano-net/1infograma.pdf"
                 },
                 {
@@ -989,7 +989,7 @@
                 },
                 {
                     "formato": "video",
-                    "nombre": "¿Qué puedo hacer con Virtual Piano",
+                    "nombre": "¿Qué puedo hacer con Virtual Piano?",
                     "url": "aplicativos/virtualpiano-net/4video.mp4"
                 },
                 {
@@ -1031,7 +1031,7 @@
                     "manuales": [
                         {
                             "formato": "pdf",
-                            "nombre": "Cómo empezar con la herramienta Gcompris",
+                            "nombre": "¿Cómo empezar con la herramienta Gcompris?",
                             "url": "aplicativos/gcompris/1infograma.pdf"
                         },
                         {
@@ -1041,7 +1041,7 @@
                         },
                         {
                             "formato": "pdf",
-                            "nombre": "Uso de la herramienta  Gcompris?",
+                            "nombre": "Uso de la herramienta  Gcompris",
                             "url": "aplicativos/gcompris/3guia.pdf"
                         }
                     ]
@@ -1059,7 +1059,7 @@
                         },
                         {
                             "formato": "video",
-                            "nombre": "Como reproducir y convertir un formato multimedia con VLC?",
+                            "nombre": "¿Cómo reproducir y convertir un formato multimedia con VLC?",
                             "url": "aplicativos/vlc/2video.mp4"
                         }
                     ]
