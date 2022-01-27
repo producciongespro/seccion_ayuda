@@ -3,7 +3,7 @@
     {
         "nombre": "Atube Catcher",
         "descripcion": "Conoce la herramienta Atube Catcher y crea tus vídeos.",
-        "urlImagen": "aplicativos/atube-catcher/previa-atube-catcher.png",
+        "urlImagen": "aplicativos/atube-catcher/previa-atube-catcher1.png",
         "manuales": [
             {
                 "formato": "pdf",
@@ -64,7 +64,7 @@
     {
         "nombre": " CMaptools",
         "descripcion": "Conoce la herramienta CMaptools y crea tus mapas conceptuales.",
-        "urlImagen": "aplicativos/cmaptools/previa-cmaptools.jpg",
+        "urlImagen": "aplicativos/cmaptools/previa-cmaptools1.jpg",
         "manuales": [
             {
                 "formato": "pdf",
@@ -92,7 +92,7 @@
     {
         "nombre": "Lector QR",
         "descripcion": "Aprende a leer y utilizar codigos QR.",
-        "urlImagen": "aplicativos/lector-qr/previa-lector-qr.jpg",
+        "urlImagen": "aplicativos/lector-qr/previa-lector-qr1.jpg",
         "manuales": [
             {
                 "formato": "pdf",
@@ -975,12 +975,12 @@
                 {
                     "formato": "pdf",
                     "nombre": "¿Cómo empezar con la herramienta Virtual Piano?",
-                    "url": "aplicativos/virtualpiano-net/1infografia.png"
+                    "url": "aplicativos/virtualpiano-net/1infograma.png"
                 },
                 {
                     "formato": "pdf",
                     "nombre": "Conoce la herramienta Virtual Piano",
-                    "url": "aplicativos/virtualpiano-net/2infografia.jpg"
+                    "url": "aplicativos/virtualpiano-net/2infograma.jpg"
                 },
                 {
                     "formato": "video",
