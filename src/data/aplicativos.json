@@ -2,12 +2,12 @@
 
     {
         "nombre": "Atube Catcher",
-        "descripcion": "Conoce la herramienta Atube Catcher y crea tus vídeos",
+        "descripcion": "Conoce la herramienta Atube Catcher y crea tus vídeos.",
         "urlImagen": "aplicativos/atube-catcher/previa-atube-catcher.png",
         "manuales": [
             {
                 "formato": "pdf",
-                "nombre": "Cómo empezar con la herramienta atube catcher",
+                "nombre": "¿Cómo empezar con la herramienta atube catcher?",
                 "url": "aplicativos/atube-catcher/1infograma.pdf"
             },
             {
@@ -63,7 +63,7 @@
     
     {
         "nombre": " CMaptools",
-        "descripcion": "Conoce la herramienta CMaptools y crea tus mapas conceptuales",
+        "descripcion": "Conoce la herramienta CMaptools y crea tus mapas conceptuales.",
         "urlImagen": "aplicativos/cmaptools/previa-cmaptools.jpg",
         "manuales": [
             {
@@ -487,7 +487,7 @@
         },
         {
             "nombre": "Audacity",
-            "descripcion": "Software para grabar, digitalizar, importar, exportar, editar y combinar sonido",
+            "descripcion": "Software para grabar, digitalizar, importar, exportar, editar y combinar sonido.",
             "urlImagen": "aplicativos/audacity/previa-audacity.jpg",
             "manuales": [
                 {
@@ -524,7 +524,7 @@
         },
         {
             "nombre": "Cacoo",
-            "descripcion": "Crear gráficos, esquemas de manera colaborativa con Cacoo",
+            "descripcion": "Crear gráficos, esquemas de manera colaborativa con Cacoo.",
             "urlImagen": "aplicativos/cacoo/previa-cacoo.jpg",
             "manuales": [
                 {
@@ -599,7 +599,7 @@
 
         {
             "nombre": "Google Chrome",
-            "descripcion": "Navega por Internet de forma ágil y sencilla",
+            "descripcion": "Navega por Internet de forma ágil y sencilla.",
             "urlImagen": "aplicativos/google-chrome/previa-google-chrome.jpg",
             "manuales": [
                 {
@@ -669,7 +669,7 @@
         },
         {
             "nombre": "Google Earth",
-            "descripcion": "Navega por Internet de forma ágil y sencilla",
+            "descripcion": "Navega por Internet de forma ágil y sencilla.",
             "urlImagen": "aplicativos/google-earth/previa-google-earth.png",
             "manuales": [
                 {
@@ -829,7 +829,7 @@
 
         {
             "nombre": "Mozilla Firefox",
-            "descripcion": "Navegando en Internet con Mozilla Firefox",
+            "descripcion": "Navegando en Internet con Mozilla Firefox.",
             "urlImagen": "aplicativos/mozilla-firefox/previa-mozilla-firefox.jpeg",
             "manuales": [
                 {
@@ -1026,7 +1026,7 @@
 
 {
                     "nombre": "Gcompris",
-                    "descripcion": "Aprender jugando es más divertido",
+                    "descripcion": "Aprender jugando es más divertido.",
                     "urlImagen": "aplicativos/gcompris/previa-gcpompris.jpg",
                     "manuales": [
                         {
