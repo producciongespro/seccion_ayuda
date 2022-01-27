@@ -83,7 +83,7 @@
             },
             {
                 "formato": "video",
-                "nombre": "Incorporando imágenes en CMaptools ",
+                "nombre": "Incorporando imágenes en CMaptools",
                 "url": "aplicativos/cmaptools/4video.mp4"
             }            
         ]
@@ -145,7 +145,7 @@
         "manuales": [
             {
                 "formato": "img",
-                "nombre": "Cómo empezar con la herramienta Scratch ",
+                "nombre": "Cómo empezar con la herramienta Scratch",
                 "url": "aplicativos/scratch/1infograma.jpeg"
             },
             {
@@ -170,7 +170,7 @@
             },
             {
                 "formato": "pdf",
-                "nombre": "Guía basica uso herramientas de Scratch. ",
+                "nombre": "Guía basica uso herramientas de Scratch.",
                 "url": "aplicativos/scratch/6manual-scratch.pdf"
             }
         ]
@@ -396,17 +396,17 @@
                 },
                 {
                     "formato": "video",
-                    "nombre": "Introducción a la utilización de Adobe Acrobat Reader.",
+                    "nombre": "Introducción a la utilización de Adobe Acrobat Reader",
                     "url": "aplicativos/adobe-acrobat-reader/3video.mp4"
                 },
                 {
                     "formato": "video",
-                    "nombre": "Utilidad de Adobe Acrobat Reader.",
+                    "nombre": "Utilidad de Adobe Acrobat Reader",
                     "url": "aplicativos/adobe-acrobat-reader/4video.mp4"
                 },
                 {
                     "formato": "video",
-                    "nombre": "Funcionalidad de Adobe Acrobat Reader.",
+                    "nombre": "Funcionalidad de Adobe Acrobat Reader",
                     "url": "aplicativos/adobe-acrobat-reader/5video.mp4"
                 }
             ]
@@ -717,7 +717,7 @@
                 },
                 {
                     "formato": "video",
-                    "nombre": "Conociendo la interfaz de JQuiz.",
+                    "nombre": "Conociendo la interfaz de JQuiz",
                     "url": "aplicativos/hot-potatoes/3video.mp4"
                 },
                 {
@@ -862,7 +862,7 @@
             "manuales": [
                 {
                     "formato": "pdf",
-                    "nombre": "Introducción a la utilización de Nearpod.",
+                    "nombre": "Introducción a la utilización de Nearpod",
                     "url": "aplicativos/nearpod/1infograma.pdf"
                 },
                 {
@@ -872,17 +872,17 @@
                 },
                 {
                     "formato": "video",
-                    "nombre": "Los invito a utilizar Nearpod.",
+                    "nombre": "Los invito a utilizar Nearpod",
                     "url": "aplicativos/nearpod/3video.mp4"
                 },
                 {
                     "formato": "video",
-                    "nombre": "Lo que podemos realizar con Nearpod.",
+                    "nombre": "Lo que podemos realizar con Nearpod",
                     "url": "aplicativos/nearpod/4video.mp4"
                 },
                 {
                     "formato": "video",
-                    "nombre": "Tutorial de práctica de Nearpod.",
+                    "nombre": "Tutorial de práctica de Nearpod",
                     "url": "aplicativos/nearpod/5video.mp4"
                 }
             ]
@@ -1017,7 +1017,7 @@
                 },
                 {
                     "formato": "video",
-                    "nombre": "Conociendo los componentes de la herramienta Gimp.",
+                    "nombre": "Conociendo los componentes de la herramienta Gimp",
                     "url": "aplicativos/gimp/3video.mp4"
                 }
             ]
