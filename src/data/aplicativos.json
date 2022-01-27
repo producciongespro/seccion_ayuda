@@ -170,7 +170,7 @@
             },
             {
                 "formato": "pdf",
-                "nombre": "Guía basica uso herramientas de Scratch.",
+                "nombre": "Guía basica uso herramientas de Scratch",
                 "url": "aplicativos/scratch/6manual-scratch.pdf"
             }
         ]
@@ -231,7 +231,7 @@
     },
     {
         "nombre": "Tux Paint ",
-        "descripcion": "Crea tu mundo con la Herramienta de dibujo Tux Paint.",
+        "descripcion": "Crea tu mundo con la herramienta de dibujo Tux Paint.",
         "urlImagen": "aplicativos/tux-paint/previa-tux-paint.jpg",
         "manuales": [
             {
@@ -246,7 +246,7 @@
             },
             {
                 "formato": "video",
-                "nombre": "como encontrar la herramienta Tux Paint?",
+                "nombre": "¿Cómo encontrar la herramienta Tux Paint?",
                 "url": "aplicativos/tux-paint/3video.mp4"
             },
             {
@@ -305,7 +305,7 @@
             },
             {
                 "formato": "pdf",
-                "nombre": "¿Qué se puede contruir con DR. Geo?",
+                "nombre": "¿Qué se puede construir con DR. Geo?",
                 "url": "aplicativos/dr-geo/2infograma.pdf"
             },
             {
@@ -387,12 +387,12 @@
                 {
                     "formato": "pdf",
                     "nombre": "¿Por qué utilizar Adobe Acrobat Reader?",
-                    "url": "aplicativos/adobe-acrobat-reader/1infograma.pdf"
+                    "url": "aplicativos/adobe-acrobat-reader/1infograma.png"
                 },
                 {
                     "formato": "pdf",
                     "nombre": "¿Qué puedo realizar con la herramienta Adobe Acrobat Reader?",
-                    "url": "aplicativos/adobe-acrobat-reader/2infograma.pdf"
+                    "url": "aplicativos/adobe-acrobat-reader/2infograma.png"
                 },
                 {
                     "formato": "video",
@@ -544,7 +544,7 @@
                 },
                 {
                     "formato": "video",
-                    "nombre": "¿Para que sirve Cacoo?",
+                    "nombre": "¿Para qué sirve Cacoo?",
                     "url": "aplicativos/cacoo/4video.mp4"
                 },
                 {
@@ -572,27 +572,27 @@
                 {
                     "formato": "pdf",
                     "nombre": "Usos  Cliente MS Teams",
-                    "url": "aplicativos/cliente-ms-teams/2infograma.pdf"
+                    "url": "aplicativos/cliente-msteams/2infograma.pdf"
                 },
                 {
                     "formato": "video",
                     "nombre": "¿Cómo ingresar y navegar en Cliente MS Teams? Parte 1",
-                    "url": "aplicativos/cliente-ms-teams/3video.mp4"
+                    "url": "aplicativos/cliente-msteams/3video.mp4"
                 },
                 {
                     "formato": "video",
                     "nombre": "¿Cómo descargar y subir un trabajo en MS Teams? Parte 2",
-                    "url": "aplicativos/cliente-ms-teams/4video.mp4"
+                    "url": "aplicativos/cliente-msteams/4video.mp4"
                 },
                 {
                     "formato": "video",
                     "nombre": "¿Cómo unirse a una reunión y usar la plataforma de MS Teams? Parte 3",
-                    "url": "aplicativos/cliente-ms-teams/5video.mp4"
+                    "url": "aplicativos/cliente-msteams/5video.mp4"
                 },
                 {
                     "formato": "video",
                     "nombre": "Unirse a una reunión y usar la plataforma de MS Teams. Parte 4",
-                    "url": "aplicativos/cliente-ms-teams/6video.mp4"
+                    "url": "aplicativos/cliente-msteams/6video.mp4"
                 }
             ]
         },
@@ -637,7 +637,7 @@
 
         {
             "nombre": "Geogebra",
-            "descripcion": "Representa datos e inserta Círculos, Triángulos, Ángulos y otros.",
+            "descripcion": "Representa datos e inserta círculos, triángulos, ángulos y otros.",
             "urlImagen": "aplicativos/geogebra/previa-geogebra.jpg",
             "manuales": [
                 {
@@ -768,7 +768,7 @@
 
         {
             "nombre": "Len Mus Phonascus",
-            "descripcion": "Hagamos Música.",
+            "descripcion": "Hagamos música.",
             "urlImagen": "aplicativos/len-mus-phonascus/previa.len-mus-phonascus.jpeg",
             "manuales": [
                 {
@@ -863,12 +863,12 @@
                 {
                     "formato": "pdf",
                     "nombre": "Introducción a la utilización de Nearpod",
-                    "url": "aplicativos/nearpod/1infograma.pdf"
+                    "url": "aplicativos/nearpod/1infograma.jpg"
                 },
                 {
                     "formato": "pdf",
                     "nombre": "Uso de la herramienta Nearpod",
-                    "url": "aplicativos/nearpod/2infograma.pdf"
+                    "url": "aplicativos/nearpod/2infograma.jpg"
                 },
                 {
                     "formato": "video",
@@ -896,12 +896,12 @@
                 {
                     "formato": "pdf",
                     "nombre": "Conceptos importantes de One Drive",
-                    "url": "aplicativos/one-drive/1infograma.pdf"
+                    "url": "aplicativos/one-drive/1infograma.png"
                 },
                 {
                     "formato": "pdf",
                     "nombre": "¿Qué es One Drive y para qué sirve?",
-                    "url": "aplicativos/one-drive/2infograma.pdf"
+                    "url": "aplicativos/one-drive/2infograma.png"
                 },			
 			    {
                     "formato": "video",
@@ -919,12 +919,12 @@
                 {
                     "formato": "pdf",
                     "nombre": "¿Cómo empezar con la herramienta Ptable?",
-                    "url": "aplicativos/ptablet/1infograma.pdf"
+                    "url": "aplicativos/ptablet/1infograma.png"
                 },
                 {
                     "formato": "pdf",
                     "nombre": "Conoce la herramienta Ptable",
-                    "url": "aplicativos/ptable/2infograma.pdf"
+                    "url": "aplicativos/ptable/2infograma.png"
                 },
                 {
                     "formato": "video",
@@ -934,12 +934,12 @@
                 {
                     "formato": "video",
                     "nombre": "Trabajando con Ptable",
-                    "url": "aplicativos/ptable/4video.mp4"
+                    "url": "aplicativos/ptable/5video.mp4"
                 },
                 {
                     "formato": "video",
                     "nombre": "¿Qué puedo hacer con Ptable?",
-                    "url": "aplicativos/ptable/5video.mp4"
+                    "url": "aplicativos/ptable/6video.mp4"
                 }
             ]
         },
@@ -952,7 +952,7 @@
                 {
                     "formato": "pdf",
                     "nombre": "¿Cómo utilizar Stellarium?",
-                    "url": "aplicativos/algodoo/1infograma.pdf"
+                    "url": "aplicativos/stellarium/1infograma.pdf"
                 },
                 {
                     "formato": "pdf",
@@ -975,12 +975,12 @@
                 {
                     "formato": "pdf",
                     "nombre": "¿Cómo empezar con la herramienta Virtual Piano?",
-                    "url": "aplicativos/virtualpiano-net/1infograma.pdf"
+                    "url": "aplicativos/virtualpiano-net/1infografia.png"
                 },
                 {
                     "formato": "pdf",
                     "nombre": "Conoce la herramienta Virtual Piano",
-                    "url": "aplicativos/virtualpiano-net/2infograma.pdf"
+                    "url": "aplicativos/virtualpiano-net/2infografia.jpg"
                 },
                 {
                     "formato": "video",
@@ -1012,7 +1012,7 @@
                 },
                 {
                     "formato": "pdf",
-                    "nombre": "¿Para qué se utiliza la Herramienta Gimp?",
+                    "nombre": "¿Para qué se utiliza la herramienta Gimp?",
                     "url": "aplicativos/gimp/2infograma.pdf"
                 },
                 {
