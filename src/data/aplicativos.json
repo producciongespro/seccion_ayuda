@@ -175,38 +175,7 @@
             }
         ]
     },
-    {
-        "nombre": "Sebran",
-        "descripcion": "Juegos divertidos para aprender lenguaje, lógica y matemática.",
-        "urlImagen": "aplicativos/sebran/previa-sebran1.jpg",
-        "manuales": [
-            {
-                "formato": "pdf",
-                "nombre": "Introducción a la herramienta Sebran",
-                "url": "aplicativos/sebran/1infograma.pdf"
-            },
-            {
-                "formato": "pdf",
-                "nombre": "Uso de la herramienta Sebran",
-                "url": "aplicativos/sebran/2infograma.pdf"
-            },
-            {
-                "formato": "video",
-                "nombre": "Introducción a la herramienta Sebran",
-                "url": "aplicativos/sebran/3video.mp4"
-            },
-            {
-                "formato": "video",
-                "nombre": "¿Qué puedo realizar con la herramienta Sebran?",
-                "url": "aplicativos/sebran/4video.mp4"
-            },
-            {
-                "formato": "video",
-                "nombre": "Uso de la herramienta Sebran",
-                "url": "aplicativos/sebran/5video.mp4"
-            }
-        ]
-    },
+    
     {
         "nombre": "Sueñaletras",
         "descripcion": "Programa para enseñar a leer y escribir a niños sordos e hipoacúsicos de entre 4 y 10 años.",
@@ -449,6 +418,38 @@
             ]
         },
         {
+            "nombre": "Sebran",
+            "descripcion": "Juegos divertidos para aprender lenguaje, lógica y matemática.",
+            "urlImagen": "aplicativos/sebran/previa-sebran1.jpg",
+            "manuales": [
+                {
+                    "formato": "pdf",
+                    "nombre": "Introducción a la herramienta Sebran",
+                    "url": "aplicativos/sebran/1infograma.pdf"
+                },
+                {
+                    "formato": "pdf",
+                    "nombre": "Uso de la herramienta Sebran",
+                    "url": "aplicativos/sebran/2infograma.pdf"
+                },
+                {
+                    "formato": "video",
+                    "nombre": "Introducción a la herramienta Sebran",
+                    "url": "aplicativos/sebran/3video.mp4"
+                },
+                {
+                    "formato": "video",
+                    "nombre": "¿Qué puedo realizar con la herramienta Sebran?",
+                    "url": "aplicativos/sebran/4video.mp4"
+                },
+                {
+                    "formato": "video",
+                    "nombre": "Uso de la herramienta Sebran",
+                    "url": "aplicativos/sebran/5video.mp4"
+                }
+            ]
+        },
+        {
             "nombre": "Arduino",
             "descripcion": "Utiliza robótica en placas electrónicas programables.",
             "urlImagen": "aplicativos/arduino/previa-arduino1.jpg",
@@ -638,7 +639,7 @@
         {
             "nombre": "Geogebra",
             "descripcion": "Representa datos e inserta círculos, triángulos, ángulos y otros.",
-            "urlImagen": "aplicativos/geogebra/previa-geogebra.jpg",
+            "urlImagen": "aplicativos/geogebra/previa-geogebra1.jpg",
             "manuales": [
                 {
                     "formato": "pdf",
@@ -736,7 +737,7 @@
         {
             "nombre": "Kahoot",
             "descripcion": "Aprende de forma divertida.",
-            "urlImagen": "aplicativos/kahoot/previa-kahoot.jpg",
+            "urlImagen": "aplicativos/kahoot/previa-kahoot1.jpg",
             "manuales": [
                 {
                     "formato": "pdf",
@@ -797,7 +798,7 @@
         {
             "nombre": "Malted",
             "descripcion": "Te invitamos a crear y resolver divertidas actividades con Malted.",
-            "urlImagen": "aplicativos/malted/previa-malted.jpg",
+            "urlImagen": "aplicativos/malted/previa-malted1.jpg",
             "manuales": [
                 {
                     "formato": "pdf",
@@ -830,7 +831,7 @@
         {
             "nombre": "Mozilla Firefox",
             "descripcion": "Navegando en Internet con Mozilla Firefox.",
-            "urlImagen": "aplicativos/mozilla-firefox/previa-mozilla-firefox.jpeg",
+            "urlImagen": "aplicativos/mozilla-firefox/previa-mozilla-firefox1.jpg",
             "manuales": [
                 {
                     "formato": "pdf",
@@ -858,7 +859,7 @@
         {
             "nombre": "Nearpod",
             "descripcion": "Sus clases organizadas en la web.",
-            "urlImagen": "aplicativos/nearpod/previa-nearpod.jpg",
+            "urlImagen": "aplicativos/nearpod/previa-nearpod1.jpg",
             "manuales": [
                 {
                     "formato": "pdf",
@@ -891,7 +892,7 @@
         {
             "nombre": "OneDrive",
             "descripcion": "Servicio de alojamiento en la nube.",
-            "urlImagen": "aplicativos/one-drive/previa-one-drive.jpg",
+            "urlImagen": "aplicativos/one-drive/previa-one-drive1.jpg",
             "manuales": [
                 {
                     "formato": "pdf",
