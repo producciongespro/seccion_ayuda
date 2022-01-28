@@ -382,7 +382,7 @@
         {
             "nombre": "Adobe Acrobat Reader",
             "descripcion": "Lee documentos que tienen formato PDF.",
-            "urlImagen": "aplicativos/adobe-acrobat-reader/previa-adobe-reader.jpg",
+            "urlImagen": "aplicativos/adobe-acrobat-reader/previa-adobe-reader1.jpg",
             "manuales": [
                 {
                     "formato": "pdf",
@@ -562,7 +562,7 @@
         {
             "nombre": "Cliente MS Teams",
             "descripcion": "Cliente MS Teams, es para todo y para todos.",
-            "urlImagen": "aplicativos/cliente-msteams/previa-cliente-ms-teams.jpg",
+            "urlImagen": "aplicativos/cliente-msteams/previa-cliente-ms-teams1.jpg",
             "manuales": [
                 {
                     "formato": "pdf",
@@ -600,7 +600,7 @@
         {
             "nombre": "Google Chrome",
             "descripcion": "Navega por Internet de forma ágil y sencilla.",
-            "urlImagen": "aplicativos/google-chrome/previa-google-chrome.jpg",
+            "urlImagen": "aplicativos/google-chrome/previa-google-chrome1.jpg",
             "manuales": [
                 {
                     "formato": "pdf",
@@ -670,7 +670,7 @@
         {
             "nombre": "Google Earth",
             "descripcion": "Navega por internet de forma ágil y sencilla.",
-            "urlImagen": "aplicativos/google-earth/previa-google-earth.png",
+            "urlImagen": "aplicativos/google-earth/previa-google-earth1.jpg",
             "manuales": [
                 {
                     "formato": "pdf",
@@ -703,7 +703,7 @@
         {
             "nombre": "Hot Potatoes",
             "descripcion": "Crear ejercicios educativos para poder utilizarlos a través de la web.",
-            "urlImagen": "aplicativos/hot-potatoes/previa-hot-potatoes.jpg",
+            "urlImagen": "aplicativos/hot-potatoes/previa-hot-potatoes1.jpg",
             "manuales": [
                 {
                     "formato": "pdf",
@@ -914,7 +914,7 @@
         {
             "nombre": "Ptable",
             "descripcion": "Te invitamos a conocer una tabla períodica interactiva.",
-            "urlImagen": "aplicativos/ptable/previa-ptable.png",
+            "urlImagen": "aplicativos/ptable/previa-ptable1.jpg",
             "manuales": [
                 {
                     "formato": "pdf",
@@ -947,7 +947,7 @@
         {
             "nombre": "Stellarium",
             "descripcion": "Aplicación de planetas.",
-            "urlImagen": "aplicativos/stellarium/previa-stellarium.png",
+            "urlImagen": "aplicativos/stellarium/previa-stellarium1.jpg",
             "manuales": [
                 {
                     "formato": "pdf",
@@ -970,7 +970,7 @@
         {
             "nombre": "Virtual Piano",
             "descripcion": "Te invitamos a aprender a tocar piano.",
-            "urlImagen": "aplicativos/virtualpiano-net/previa-virtual-piano.png",
+            "urlImagen": "aplicativos/virtualpiano-net/previa-virtual-piano1.jpg",
             "manuales": [
                 {
                     "formato": "pdf",
@@ -1003,7 +1003,7 @@
         {
             "nombre": "GIMP",
             "descripcion": "Edita imágenes, fotografías y dibujos en diferentes formatos digitales.",
-            "urlImagen": "aplicativos/gimp/previa-gimp.jpg",
+            "urlImagen": "aplicativos/gimp/previa-gimp1.jpg",
             "manuales": [
                 {
                     "formato": "pdf",
@@ -1027,7 +1027,7 @@
 {
                     "nombre": "Gcompris",
                     "descripcion": "Aprender jugando es más divertido.",
-                    "urlImagen": "aplicativos/gcompris/previa-gcpompris.jpg",
+                    "urlImagen": "aplicativos/gcompris/previa-gcpompris1.jpg",
                     "manuales": [
                         {
                             "formato": "pdf",
