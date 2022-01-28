@@ -89,7 +89,7 @@ export default function Menu(props) {
                 <Card>
                     <Accordion.Toggle as={Card.Header} eventKey="2">
                         <img src="./assets/png/carpeta.png" alt="Carpeta de ayuda" />
-                        <span className="card-link-1 animate__animated animate__flash" role="button">  Cómo aprovechar este equipo para estudiar y aprender </span>
+                        <span className="card-link-1 animate__animated animate__flash" role="button">  ¿Cómo aprovechar este equipo para estudiar y aprender? </span>
                     </Accordion.Toggle>
                     <Accordion.Collapse eventKey="2">
                         <Card.Body>

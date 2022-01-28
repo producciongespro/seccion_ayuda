@@ -3,7 +3,7 @@
     {
         "nombre": "Atube Catcher",
         "descripcion": "Conoce la herramienta Atube Catcher y crea tus vídeos.",
-        "urlImagen": "aplicativos/atube-catcher/previa-atube-catcher1.png",
+        "urlImagen": "aplicativos/atube-catcher/previa-atube-catcher1.jpg",
         "manuales": [
             {
                 "formato": "pdf",
@@ -109,7 +109,7 @@
     {
         "nombre": "MyAbcs",
         "descripcion": "Aprende inglés mientras juegas.",
-        "urlImagen": "aplicativos/myabcs/previa-myabcs.jpg",
+        "urlImagen": "aplicativos/myabcs/previa-myabcs1.jpg",
         "manuales": [
             {
                 "formato": "pdf",
@@ -141,7 +141,7 @@
     {
         "nombre": "Scratch",
         "descripcion": "Conoce y programa con Scratch.",
-        "urlImagen": "aplicativos/scratch/previa-scratch.jpg",
+        "urlImagen": "aplicativos/scratch/previa-scratch1.jpg",
         "manuales": [
             {
                 "formato": "img",
@@ -178,7 +178,7 @@
     {
         "nombre": "Sebran",
         "descripcion": "Juegos divertidos para aprender lenguaje, lógica y matemática.",
-        "urlImagen": "aplicativos/sebran/previa-sebran.jpg",
+        "urlImagen": "aplicativos/sebran/previa-sebran1.jpg",
         "manuales": [
             {
                 "formato": "pdf",
@@ -210,7 +210,7 @@
     {
         "nombre": "Sueñaletras",
         "descripcion": "Programa para enseñar a leer y escribir a niños sordos e hipoacúsicos de entre 4 y 10 años.",
-        "urlImagen": "aplicativos/sueña-letras/previa-sueña-letras.jpg",
+        "urlImagen": "aplicativos/sueña-letras/previa-sueña-letras1.jpg",
         "manuales": [
             {
                 "formato": "pdf",
@@ -232,7 +232,7 @@
     {
         "nombre": "Tux Paint ",
         "descripcion": "Crea tu mundo con la herramienta de dibujo Tux Paint.",
-        "urlImagen": "aplicativos/tux-paint/previa-tux-paint.jpg",
+        "urlImagen": "aplicativos/tux-paint/previa-tux-paint1.jpg",
         "manuales": [
             {
                 "formato": "pdf",
@@ -264,7 +264,7 @@
     {
         "nombre": "Cuadernia",
         "descripcion": "Crea tus propias actividades.",
-        "urlImagen": "aplicativos/cuadernia/previa-cuadernia.jpg",
+        "urlImagen": "aplicativos/cuadernia/previa-cuadernia1.jpg",
         "manuales": [
             {
                 "formato": "pdf",
@@ -296,7 +296,7 @@
     {
         "nombre": "Dr. Geo",
         "descripcion": "Crea, explora, manipula y comparte representaciones geométricas dinámicas.",
-        "urlImagen": "aplicativos/dr-geo/previa-dr-geo.jpg",
+        "urlImagen": "aplicativos/dr-geo/previa-dr-geo1.jpg",
         "manuales": [
             {
                 "formato": "pdf",
@@ -328,7 +328,7 @@
     {
         "nombre": "Algodoo",
         "descripcion": "Herramienta simuladora 2D de física.",
-        "urlImagen": "aplicativos/algodoo/previa-algodoo.jpg",
+        "urlImagen": "aplicativos/algodoo/previa-algodoo1.jpg",
         "manuales": [
             {
                 "formato": "pdf",
@@ -365,7 +365,7 @@
         {
             "nombre": "Adobe Air",
             "descripcion": "Aplicaciones web llegan al escritorio.",
-            "urlImagen": "aplicativos/adobe-air/previa-adobe-air.jpg",
+            "urlImagen": "aplicativos/adobe-air/previa-adobe-air1.jpg",
             "manuales": [
                 {
                     "formato": "pdf",
@@ -414,7 +414,7 @@
         {
             "nombre": "Adobe Spark",
             "descripcion": "Crea y comparte historias visuales, videos y contenido digital para redes sociales.",
-            "urlImagen": "aplicativos/adobe-spark/previa-adobe-spark.jpg",
+            "urlImagen": "aplicativos/adobe-spark/previa-adobe-spark1.jpg",
             "manuales": [
                 {
                     "formato": "pdf",
@@ -451,7 +451,7 @@
         {
             "nombre": "Arduino",
             "descripcion": "Utiliza robótica en placas electrónicas programables.",
-            "urlImagen": "aplicativos/arduino/previa-arduino.jpg",
+            "urlImagen": "aplicativos/arduino/previa-arduino1.jpg",
             "manuales": [
                 {
                     "formato": "pdf",
@@ -488,7 +488,7 @@
         {
             "nombre": "Audacity",
             "descripcion": "Software para grabar, digitalizar, importar, exportar, editar y combinar sonido.",
-            "urlImagen": "aplicativos/audacity/previa-audacity.jpg",
+            "urlImagen": "aplicativos/audacity/previa-audacity1.jpg",
             "manuales": [
                 {
                     "formato": "pdf",
@@ -525,7 +525,7 @@
         {
             "nombre": "Cacoo",
             "descripcion": "Crear gráficos, esquemas de manera colaborativa con Cacoo.",
-            "urlImagen": "aplicativos/cacoo/previa-cacoo.jpg",
+            "urlImagen": "aplicativos/cacoo/previa-cacoo1.jpg",
             "manuales": [
                 {
                     "formato": "pdf",
@@ -769,7 +769,7 @@
         {
             "nombre": "Len Mus Phonascus",
             "descripcion": "Hagamos música.",
-            "urlImagen": "aplicativos/len-mus-phonascus/previa.len-mus-phonascus.jpeg",
+            "urlImagen": "aplicativos/len-mus-phonascus/previa.len-mus-phonascus1.jpg",
             "manuales": [
                 {
                     "formato": "pdf",
@@ -1050,7 +1050,7 @@
 {
                     "nombre": "VLC",
                     "descripcion": "Aprende a reproducir multimedia con VLC.",
-                    "urlImagen": "aplicativos/vlc/previa-vlc.jpg",
+                    "urlImagen": "aplicativos/vlc/previa-vlc1.jpg",
                     "manuales": [
                         {
                             "formato": "pdf",
