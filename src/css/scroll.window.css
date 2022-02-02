@@ -1,0 +1,33 @@
+/*
+http://jsfiddle.net/timburgess/ZTt5M/
+*/
+
+
+.sidebar-nav-fixed {
+    padding: 9px 0;
+    position: fixed;
+    left: 20px;
+    top: 78px;
+    width: 250px;
+  }
+  
+  .row-fluid > .span-fixed-sidebar {
+    margin-left: 290px;
+  }
+  
+  .sidebar-header {
+   margin-left: 10px;   
+  }
+  
+   
+  
+  .threadwindow {
+    position: absolute;
+    left: 0;
+    top: 1px;
+    padding-top: 10px;
+    right: 0;
+    bottom: 0;
+    overflow-y: auto;
+    border: none;
+  }

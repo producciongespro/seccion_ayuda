@@ -5,6 +5,7 @@ import App from './app';
 import './css/bootstrap.min.css';
 import './css/master.css';
 import './css/animate.min.css';
+import './css/scroll.window.css';
 import reportWebVitals from './reportWebVitals';
 
 ReactDOM.render(

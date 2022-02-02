@@ -4,7 +4,7 @@ export default function Tarjetas(props) {
     //console.log(props.array);
     return (
 
-        <React.Fragment>
+        <div className='container threadwindow'>
             <div className="row">
                 <div className="col-12">                    
                     <h4 className="temas">Galería Software</h4>
@@ -43,6 +43,6 @@ export default function Tarjetas(props) {
                     ))
                 }
             </div>
-        </React.Fragment>
+        </div>
     )
 }
