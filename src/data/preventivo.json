@@ -6,13 +6,8 @@
         "manuales": [
             {
                 "formato": "pdf",
-                "nombre": "Pendiente",                                   
-                "url": "mant-preventivo/antivirus/actualizacion.pdf"                
-            },
-            {
-                "formato": "pdf",
-                "nombre": "Pendiente",                                   
-                "url": "mant-preventivo/antivirus/actualizacion.pdf"                
+                "nombre": "Actualización de antivirus McAfee",                                   
+                "url": "mant-preventivo/antivirus/Actualizacion_antivirus_McAfee.pdf"                
             }
         ]
     },
