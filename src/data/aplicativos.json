@@ -12,12 +12,12 @@
             },
             {
                 "formato": "pdf",
-                "nombre": "Conoce la herramienta atube catcher",
+                "nombre": "¿Cómo funciona la herramienta Atube Catcher?",
                 "url": "aplicativos/atube-catcher/2manual.pdf"
             },
             {
                 "formato": "video",
-                "nombre": "Instalando atube catcher",
+                "nombre": "¿Cómo se instala la herramienta Atube Catcher?",
                 "url": "aplicativos/atube-catcher/3video.mp4"
             },
             {
@@ -73,7 +73,7 @@
             },
             {
                 "formato": "video",
-                "nombre": "Introducción a CMaptools",
+                "nombre": "¿Cómo crear mapas con CMaptools?",
                 "url": "aplicativos/cmaptools/2video.mp4"
             },
             {
@@ -83,7 +83,7 @@
             },
             {
                 "formato": "video",
-                "nombre": "Incorporando imágenes en CMaptools",
+                "nombre": "¿Cómo se incorporan las imágenes en esta herramienta?",
                 "url": "aplicativos/cmaptools/4video.mp4"
             }            
         ]
@@ -101,7 +101,7 @@
             },
             {
                 "formato": "video",
-                "nombre": "Utiliza  Lector QR",
+                "nombre": "“¿Cómo utilizar el código QR?",
                 "url": "aplicativos/lector-qr/2video.mp4"
             }
         ]
@@ -118,22 +118,22 @@
             },
             {
                 "formato": "img",
-                "nombre": "Conoce la herramienta MyAbcs",
+                "nombre": "¿Cómo conocer la herramienta My Abcs?",
                 "url": "aplicativos/myabcs/2infograma.jpeg"
             },
             {
                 "formato": "video",
-                "nombre": "¿Y qué puedo hacer con MyAbcs? Parte 1",
+                "nombre": "¿Cómo funciona la herramienta MyAbcs?  Parte 1",
                 "url": "aplicativos/myabcs/3video.mp4"
             },
             {
                 "formato": "video",
-                "nombre": "¿Y qué puedo hacer con MyAbcs? Parte 2",
+                "nombre": "¿Cómo funciona la herramienta MyAbcs?  Parte 2",
                 "url": "aplicativos/myabcs/4video.mp4"
             },
             {
                 "formato": "video",
-                "nombre": "Conociendo las herramientas de MyAbcs. Parte 1",
+                "nombre": "Conociendo las herramientas de MyAbcs",
                 "url": "aplicativos/myabcs/5video.mp4"
             }
         ]

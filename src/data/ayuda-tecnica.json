@@ -6,18 +6,8 @@
         "manuales": [
             {
                 "formato": "pdf",
-                "nombre": "Pendiente",                                   
-                "url": "ayuda-tecnica/problemas/lorem.pdf"                
-            },
-            {
-                "formato": "video",
-                "nombre": "Pendiente",                                   
-                "url": "ayuda-tecnica/problemas/ejemplo.mp4"                
-            },
-            {
-                "formato": "audio",
-                "nombre": "Pendiente",                                   
-                "url": "ayuda-tecnica/problemas/test.mp3"                
+                "nombre": "Manual de preguntas frecuentes sobre los Equipos de FONATEL",                                   
+                "url": "ayuda-tecnica/problemas/Manual_Preguntas_Frecuentes.pdf"                
             }
         ]
     },
@@ -28,8 +18,8 @@
         "manuales": [
             {
                 "formato": "pdf",
-                "nombre": "Pendiente",                                   
-                "url": "ayuda-tecnica/cuentas/lorem.pdf"                                
+                "nombre": "Contraseñas Dispositivos",                                   
+                "url": "ayuda-tecnica/cuentas/Cuentas_Dispositivos.pdf"                                
             }
         ]
     },
@@ -40,13 +30,8 @@
         "manuales": [
             {
                 "formato": "pdf",
-                "nombre": "Pendiente",                                   
+                "nombre": "Protocolo Aplicación de Garantía",                                   
                 "url": "ayuda-tecnica/servicios/lorem.pdf"                             
-            },
-            {
-                "formato": "img",
-                "nombre": "Pendiente",                                   
-                "url": "ayuda-tecnica/servicios/mi_casa.jpg"                             
             }
         ]
     }

@@ -16,7 +16,7 @@ export default function Encabezado() {
 
                 </div>
                 <div className="col-7 text-right">
-                    <h3 id="texto_ayuda">¿Acerca de que desea ayuda?</h3>
+                    <h3 id="texto_ayuda"></h3>
                 </div>
             </div>
         </React.Fragment>
