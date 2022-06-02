@@ -17,7 +17,7 @@ color:#3172A1;
 }
 
 .card{
-	background-color: rgb(219, 219, 219);
+	background-color: #eff3f9;
 	border: none;
 }
   
@@ -137,7 +137,7 @@ background-color: #eeeeee;
 }
 /* Atenci�n, evitar alterar la clase .subMe */
 body {
-	background-color: rgb(238, 243, 250);
+	background-color: #eff3f9;
 	font-family: verdana, tahoma, arial, sans serif;
 	font-size: 12px;
 }

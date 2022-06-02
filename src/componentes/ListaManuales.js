@@ -8,10 +8,10 @@ export default function ListaManuales (props) {
         let icono = "./assets/svg/";
         switch (tipo) {
             case "pdf":
-                icono = icono + "pdf.svg"
+                icono = icono + "pdf.png"
             break;
             case "video":
-                icono = icono + "video.svg"
+                icono = icono + "video.png"
             break;
             case "img":
                 icono = icono + "img.svg"
