@@ -204,8 +204,9 @@ function App() {
             <div className="alert alert-warning ">
               {" "}
               <img
-                src="./assets/png/flecha.png"
+                src="./assets/png/menu.png"
                 alt="Imagen decorativa para señalar el menú"
+                className="menu-senala"
               />
               Seleccione una opción del menú
             </div>

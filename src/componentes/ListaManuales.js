@@ -35,8 +35,13 @@ export default function ListaManuales (props) {
       
 
             <div className="row">
-                <div className="col-12">
+                <div className="col-1">
+                    <img className="img-fluid px-1 animate__animated animate__bounceIn" src="./assets/png/icono_comoaprovechar.png" alt="iconodecorativo"/>
+                </div>
+
+                <div className="col-11">
                     <h2 className="temas">{props.seleccion.nombre} </h2>
+                    <img className="img-fluid px-1 animate__animated animate__bounceIn" src="./assets/png/linea_comoaprovechar.png" alt="lineadecorativa"/>
                 </div>
             </div>
             {
@@ -49,7 +54,7 @@ export default function ListaManuales (props) {
                 </div>
 
             }
-            <hr/>
+           
             <div className="row">
                 <div className="col-12">
                     <ul>
