@@ -65,7 +65,7 @@ export default function ContenedorDeManual(props) {
                         }                    
                     role="button"                  
                 >
-                    <img className="ico-1 animate__animated animate__flash" src="./assets/png/flecha.png" alt="Volver" /> &nbsp;
+                    <img className="ico-1 animate__animated animate__flash" src="./assets/png/volver.png" alt="Volver" /> &nbsp;
                     <span   className="badge badge-info text-1 " >Regresar a más de {props.nombreSoftwre}</span><br/>
                 </div>
             </div> <br/>

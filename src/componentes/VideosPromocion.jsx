@@ -1,15 +1,24 @@
 export default function VideosPromocion(props) {
   return (
     <div className="container">
+      
       <div className="row">
-        <div className="col-12">
+        <div className="col-1">
+        <img className="img-fluid px-1 animate__animated animate__bounceIn" src="./assets/png/icono_comoaprovechar.png" alt="iconodecorativo"/>
+        </div>
+
+        <div className="col-11">
           {props.opcion === "educatico" && (
-            <h3>Educatico: un mundo de recursos.</h3>
+            <h3 className="temas">Educatico: un mundo de recursos.</h3>
           )}
           {props.opcion === "coleccion" && (
-            <h3>Accede al catálogo de recursos en línea.</h3>
+            <h3 className="temas">Accede al catálogo de recursos en línea.</h3>
           )}
+          
+          <img className="img-fluid px-1 animate__animated animate__bounceIn" src="./assets/png/linea_comoaprovechar.png" alt="iconodecorativo"/>
+
         </div>
+
       </div>
 
       <div className="row">

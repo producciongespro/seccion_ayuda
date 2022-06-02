@@ -47,6 +47,7 @@ export default function ListaSoftware (props) {
             <div className="row">
                 <div className="col-12">
                     <h2 className="temas">{props.seleccion.nombre} </h2>
+
                 </div>
             </div>         
             <hr/>

@@ -6,9 +6,15 @@ export default function Tarjetas(props) {
 
         <div className='container threadwindow'>
             <div className="row">
-                <div className="col-12">                    
-                    <h4 className="temas">Galería Software</h4>
+                <div className="col-1">                    
+                    <img className="img-fluid px-1 animate__animated animate__bounceIn" src="./assets/png/icono_comoaprovechar.png" alt="iconodecorativo"/>
                 </div>
+
+                <div className="col-111">                    
+                    <h4 className="temas">Galería Software</h4>
+                    <img className="img-fluid px-1 animate__animated animate__bounceIn" src="./assets/png/linea_comoaprovechar.png" alt="iconodecorativo"/>
+                </div>
+
             </div>
             <hr />
             <div className="row">
