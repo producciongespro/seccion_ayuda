@@ -7,15 +7,16 @@ export default function Menu(props) {
     return (
 
         <React.Fragment>
+            <img className="img-fluid  icoManual px-1 animate__animated animate__bounceIn" src="./assets/png/est.png" alt="icono decorativo"/>
             <h2 id="titulo_columna">Manual del estudiante</h2>
 
             <Accordion defaultActiveKey="0">
                 <Card>
                     <Accordion.Toggle as={Card.Header} eventKey="0">
-                        <img src=".\assets\png\btn_ayuda.png" alt="ayuda técnica" />
+                        <img  src=".\assets\png\btn_ayuda.png" alt="ayuda técnica" />
                         <span className="card-link-1 animate__animated animate__flash" role="button">  </span>
                     </Accordion.Toggle>
-                    <Accordion.Collapse eventKey="0">
+                    <Accordion.Collapse className="relleno" eventKey="0">
                         <Card.Body>
                             <span
                                 role="button"
@@ -35,7 +36,7 @@ export default function Menu(props) {
                             > Cuentas de usuario </span>
                         </Card.Body>
                     </Accordion.Collapse>
-                    <Accordion.Collapse eventKey="0">
+                    <Accordion.Collapse className="relleno" eventKey="0">
                         <Card.Body>
                             <span
                                 role="button"
@@ -63,7 +64,7 @@ export default function Menu(props) {
                             > Actualización del antivirus</span>
                         </Card.Body>
                     </Accordion.Collapse>
-                    <Accordion.Collapse eventKey="1">
+                    <Accordion.Collapse className="relleno" eventKey="1">
                         <Card.Body>
                             <span
                                 role="button"
@@ -91,7 +92,7 @@ export default function Menu(props) {
                         <img src="./assets/png/btn_comoaprovechar.png" alt="Aprovechamiento de equipo" />
                         <span className="card-link-1 animate__animated animate__flash" role="button">   </span>
                     </Accordion.Toggle>
-                    <Accordion.Collapse eventKey="2">
+                    <Accordion.Collapse className="relleno" eventKey="2">
                         <Card.Body>
                             <span
                                 role="button"
@@ -113,7 +114,7 @@ export default function Menu(props) {
                         </Card.Body>
                     </Accordion.Collapse>
 
-                    <Accordion.Collapse eventKey="2">
+                    <Accordion.Collapse className="relleno" eventKey="2">
                         <Card.Body>
                             <span
                                 role="button"
