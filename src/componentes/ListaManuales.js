@@ -35,19 +35,22 @@ export default function ListaManuales (props) {
       
 
             <div className="row">
-                <div className="col-1">
-                    <img className="img-fluid px-1 animate__animated animate__bounceIn" src={"./assets/png/" + props.seleccion.categoria + ".png" } alt="iconodecorativo"/>
+                <div className="col-2 text-right">
+                    <img className="img-fluid animate__animated animate__bounceIn" src={"./assets/png/ico_" + props.seleccion.categoria + ".png" } alt="iconodecorativo"/>
                 </div>
 
-                <div className="col-11">
+                <div className="col-10">
                     <h2 className="temas">{props.seleccion.nombre} </h2>
-                    <img className="img-fluid px-1 animate__animated animate__bounceIn" src="./assets/png/linea_ayuda.png" alt="lineadecorativa"/>
+                    <img className="img-fluid animate__animated animate__bounceIn" src={"./assets/png/linea_" + props.seleccion.categoria + ".png" } alt="lineadecorativa"/>
                 </div>
             </div>
             {
                 props.modo === "generico" &&
                 <div className="row">
-                    <img className="img-fluid img-atencion px-1 animate__animated animate__bounceIn" src="./assets/svg/atencion.svg" alt="Imagen de atención a la descripción"/>
+                    <div className="col-2">
+                        <img className="img-fluid animate__animated animate__bounceIn" src="./assets/svg/atencion.svg" alt="Imagen de atención a la descripción"/>
+                    </div>
+                    
                     <div className="col-10 descripcion-temas">
                         {props.seleccion.descripcion}
                     </div>
