@@ -24,7 +24,7 @@ function App() {
   const [visor, setVisor] = useState(null);
 
   const handleMostrarGeneral = (e) => {
-    console.log(" GENERAL ///////  e target---->", e.target);
+    // console.log(" GENERAL ///////  e target---->", e.target);
     let opcion = e.currentTarget.dataset.tar;
     let categoria;
     console.log("opcion", opcion);

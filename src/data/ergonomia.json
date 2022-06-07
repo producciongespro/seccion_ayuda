@@ -1,6 +1,7 @@
 [
     {
         "clave": "consejosErgo",
+        "categoria": "ergonomia",
         "nombre": "Consejos de Ergonomía",
         "descripcion": "Para que no se le tuerza la columna",
         "manuales": [

@@ -36,7 +36,7 @@ export default function ListaManuales (props) {
 
             <div className="row">
                 <div className="col-1">
-                    <img className="img-fluid px-1 animate__animated animate__bounceIn" src="./assets/png/icono_ayuda.png" alt="iconodecorativo"/>
+                    <img className="img-fluid px-1 animate__animated animate__bounceIn" src={"./assets/png/" + props.seleccion.categoria + ".png" } alt="iconodecorativo"/>
                 </div>
 
                 <div className="col-11">

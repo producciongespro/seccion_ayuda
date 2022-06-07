@@ -1,6 +1,7 @@
 [
     {
         "clave": "antivirus",
+        "categoria": "preventivo",
         "nombre": "Actualización de antivirus",
         "descripcion": "Para que no se le infecte el tarro",
         "manuales": [
@@ -13,6 +14,7 @@
     },
     {
         "clave": "rendimiento",
+        "categoria": "preventivo",
         "nombre": "Optimización del rendimiento",
         "descripcion": "Préndale fuego a la bombeta",
         "manuales": [
@@ -55,6 +57,7 @@
     },
     {
         "clave": "preventivos",
+        "categoria": "preventivo",
         "nombre": "Cuidados preventivos",
         "descripcion": "Pele el ojo, tenga cuidado",
         "manuales": [
