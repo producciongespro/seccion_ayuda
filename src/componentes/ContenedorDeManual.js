@@ -6,7 +6,7 @@ export default function ContenedorDeManual(props) {
 
     const opcion = localStorage.getItem("opcion");
     const modo = localStorage.getItem("modo");
-    console.log("modo ----xxxxx------>", modo);
+    //console.log("modo ----xxxxx------>", modo);
 
 
     const renderManual=(formato, url)=> {

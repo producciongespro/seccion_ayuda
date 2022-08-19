@@ -29,7 +29,7 @@ export default function ListaManuales (props) {
     }
 
 
-    console.log(props.seleccion);
+//    console.log(props.seleccion);
     return (
         <React.Fragment>          
       

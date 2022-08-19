@@ -27,21 +27,21 @@ function App() {
     // console.log(" GENERAL ///////  e target---->", e.target);
     let opcion = e.currentTarget.dataset.tar;
     let categoria;
-    console.log("opcion", opcion);
+    //console.log("opcion", opcion);
 
     switch (opcion) {
       case "problemas":
       case "cuentas":
       case "servicio":
         categoria = "ayudaTecnica";
-        console.log(">>> categoria:", categoria);
+        //console.log(">>> categoria:", categoria);
         mostrarManualesGenericos(categoria, opcion);
         break;
       case "rendimiento":
       case "antivirus":
       case "preventivos":
         categoria = "preventivo";
-        console.log(">>> categoria:", categoria);
+        //console.log(">>> categoria:", categoria);
         mostrarManualesGenericos(categoria, opcion);
         break;
 
@@ -56,7 +56,7 @@ function App() {
 
       case "consejosErgo":
         categoria = "ergonomia";
-        console.log(">>> categoria:", categoria);
+        //console.log(">>> categoria:", categoria);
         mostrarManualesGenericos(categoria, opcion);
         break;
 
@@ -79,12 +79,12 @@ function App() {
       tmpArray = preventivo;
     }
     if (categoria === "ayudaTecnica") {
-      console.log("ayudaTecnica");
+      //console.log("ayudaTecnica");
       tmpArray = ayudaTecnica;
     }
 
     if (categoria === "ergonomia") {
-      console.log("ergonomia");
+      //console.log("ergonomia");
       tmpArray = ergonomias;
     }
 
@@ -133,10 +133,7 @@ function App() {
       //si item es válido es poruqe se selecciona de la tarjeta
       //y se genera una nueva seleccion
       let indice = parseInt(e.currentTarget.id);
-      console.log(
-        " Mostrando lista de software ************** opcion sub",
-        indice
-      );
+      //console.log(        " Mostrando lista de software ************** opcion sub",        indice      );
       seleccion = aplicativos[indice];
       //console.log("Seleccion --->",seleccion);
     }

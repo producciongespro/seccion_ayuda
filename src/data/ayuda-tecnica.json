@@ -16,7 +16,7 @@
         "clave": "cuentas",
         "categoria": "ayuda_tecnica",
         "nombre": "Cuentas de usuario",
-        "descripcion": "Pa que pueda entrar",
+        "descripcion": "Manual de cuentas de usuario",
         "manuales": [
             {
                 "formato": "pdf",
@@ -29,7 +29,7 @@
         "clave": "servicio",
         "categoria": "ayuda_tecnica",
         "nombre": "Servicio Técnico",
-        "descripcion": "A ver si los de soporte le ayudan",
+        "descripcion": "Instrucciones para el proceso de soporte técnico",
         "manuales": [
             {
                 "formato": "pdf",

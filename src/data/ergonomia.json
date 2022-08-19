@@ -3,7 +3,7 @@
         "clave": "consejosErgo",
         "categoria": "ergonomia",
         "nombre": "Consejos de Ergonomía",
-        "descripcion": "Para que no se le tuerza la columna",
+        "descripcion": "Se recomienda seguir los consejos de ergonomía para evitar daños en su salud.",
         "manuales": [
             {
                 "formato": "video",
